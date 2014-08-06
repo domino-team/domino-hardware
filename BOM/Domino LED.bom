@@ -1,0 +1,12 @@
+BOM-EX v1.30 exported from /home/mstempin/eagle/Domino/Domino LED.sch at 23/07/14 14:37
+
+Qty Value  Part Num            Package    Parts                  Mfg Name VID Vendor Part Num     Description                                              
+6   270R   R0603_270R_5%_125mW R0603      R1, R2, R3, R4, R5, R6 ANY      *   R0603_270R_5%_125mW RES 270 OHM 1/8W 5% 0603 SMD                             
+3   330R   R0603_330R_5%_125mW R0603      R7, R8, R9             ANY      *   R0603_330R_5%_125mW RES 330 OHM 1/8W 5% 0603 SMD                             
+1   BLUE   LED0603-BLUE        LED0603    D1                     ANY      *   LED0603-BLUE        LED BLUE CLEAR 0603 SMD                                  
+4   GREEN  LED0603-GREEN       LED0603    D3, D4, D5, D6         ANY      *   LED0603-GREEN       LED GREEN CLEAR 0603 SMD                                 
+1   MH11-1 MH11-1-0.1          MH11-1-0.1 J1                     ANY      *   MH11-1-0.1          CONN HEADER VERT .100 1ROW 11POS 8.08 HEAD 3.05 TAIL 15AU
+1   ORANGE LED0603-ORANGE      LED0603    D8                     ANY      *   LED0603-ORANGE      LED ORANGE CLEAR 0603 SMD                                
+1   RED    LED0603-RED         LED0603    D7                     ANY      *   LED0603-RED         LED RED CLEAR 0603 SMD                                   
+1   WHITE  LED0603-WHITE       LED0603    D2                     ANY      *   LED0603-WHITE       LED WHITE CLEAR 0603 SMD                                 
+1   YELLOW LED0603-YELLOW      LED0603    D9                     ANY      *   LED0603-YELLOW      LED YELLOW CLEAR 0603 SMD                                

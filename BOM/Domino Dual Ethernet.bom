@@ -1,0 +1,10 @@
+BOM-EX v1.30 exported from /home/mstempin/eagle/Domino/Domino Dual Ethernet.sch at 20/07/14 11:13
+
+Qty Value                      Part Num                   Package                    Parts                          Mfg Name            VID Vendor Part Num            Description                                              
+1   2n2                        C1210_2n2_X7R_10%_CER_2kV  C1210                      C1                             ANY                 *   C1210_2n2_X7R_10%_CER_2kV  CAP CER 2200PF 1KV 10% X7R 1210                          
+8   49R9                       R0402_49R9_1%_62.5mW       R0402                      R1, R2, R3, R4, R5, R6, R7, R8 ANY                 *   R0402_49R9_1%_62.5mW       RES 49.9 OHM 1/16W 1% 0402 SMD                           
+6   100n                       C0402_100n_X7R_10%_CER_50V C0402                      C2, C3, C4, C5, C6, C7         ANY                 *   C0402_100n_X7R_10%_CER_50V CAP CER 0.1UF 50V 10% X7R 0402                           
+2   B50(27-51)FP4-151-A613-B12 B50(27-51)FP4-151-A613-B12 B50(27-51)FP4-151-A613-B12 J2, J3                         BROADTOP ELECTRONIC *   B50(27-51)FP4-151-A613-B12 CONN MAGJACK 1PORT 100 BASE-T                            
+1   FR04-1                     FR04-1-0.1                 FR04-1-0.1                 J5                             ANY                 *   FR04-1-0.1                 CONN RECEPT VERT .100 1ROW 4POS 2.92 TAIL 8.64 BODY 15AU 
+1   FR04-2                     FR04-2-0.1                 FR04-2-0.1                 J4                             ANY                 *   FR04-2-0.1                 CONN RECEPT VERT .100 2ROWS 4POS 2.92 TAIL 8.64 BODY 15AU
+1   MH10-1                     MH10-1-0.1                 MH10-1-0.1                 J1                             ANY                 *   MH10-1-0.1                 CONN HEADER VERT .100 1ROW 10POS 8.08 HEAD 3.05 TAIL 15AU
