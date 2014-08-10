@@ -109,12 +109,12 @@
 Attribution-Share-Alike Unported License.
 See creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="52.07" y="-38.1" size="0.8128" layer="48" ratio="20">Reference designs are provided "AS IS" and "WITH ALL FAULTS".
-Michel Stempin disclaims all other warranties express or implied,
+The Domino Team disclaims all other warranties express or implied,
 regarding this product, including but not limited to, any implied warranties of
 merchantibility or fitness for any particular application.</text>
-<text x="52.07" y="-41.91" size="0.8128" layer="48" ratio="20">Michel Stempin may make changes to specifications and product descriptions
+<text x="52.07" y="-41.91" size="0.8128" layer="48" ratio="20">The Domino Team may make changes to specifications and product descriptions
 at any time, without notice.</text>
-<text x="92.71" y="-27.94" size="1.27" layer="48" ratio="20">© 2014, Michel Stempin.
+<text x="92.71" y="-27.94" size="1.27" layer="48" ratio="20">© 2014, The Domino Team.
 All rights reserved.</text>
 <text x="97.79" y="10.16" size="1.27" layer="48" ratio="10">NOTES:</text>
 <text x="97.79" y="3.81" size="0.8128" layer="48" ratio="10">2.  ALL DIMENSIONS ARE GIVEN IN MILLIMETERS EXCEPT TRACE WIDTH/SPACE.</text>
@@ -2332,14 +2332,14 @@ BOTTOM</text>
 <wire x1="1.778" y1="2.032" x2="1.778" y2="-2.032" width="0.0508" layer="39"/>
 <wire x1="1.778" y1="-2.032" x2="-1.778" y2="-2.032" width="0.0508" layer="39"/>
 <wire x1="-1.778" y1="-2.032" x2="-1.778" y2="2.032" width="0.0508" layer="39"/>
-<wire x1="-1.7526" y1="2.032" x2="1.778" y2="2.032" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="2.032" x2="1.778" y2="2.032" width="0.127" layer="21"/>
 <wire x1="1.778" y1="2.032" x2="1.778" y2="-2.032" width="0.127" layer="21"/>
-<wire x1="1.778" y1="-2.032" x2="-1.7526" y2="-2.032" width="0.127" layer="21"/>
-<wire x1="-1.7526" y1="-2.032" x2="-1.7526" y2="2.0066" width="0.127" layer="21"/>
+<wire x1="1.778" y1="-2.032" x2="-1.778" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="-2.032" x2="-1.778" y2="2.032" width="0.127" layer="21"/>
 <polygon width="0.127" layer="21">
-<vertex x="-1.4478" y="-2.032"/>
-<vertex x="-1.7526" y="-1.7272"/>
-<vertex x="-1.7526" y="-2.032"/>
+<vertex x="-1.778" y="-2.032"/>
+<vertex x="-1.2192" y="-2.032"/>
+<vertex x="-1.778" y="-1.4732"/>
 </polygon>
 </package>
 <package name="FB1206">
@@ -2833,68 +2833,96 @@ BOTTOM</text>
 <wire x1="2.2" y1="0.3" x2="2.6" y2="0.3" width="0.127" layer="51"/>
 <hole x="-2" y="2.15" drill="0.55"/>
 <hole x="2" y="2.15" drill="0.55"/>
-<pad name="S$2" x="2.825" y="0" drill="0.35"/>
-<wire x1="2.65" y1="-0.5" x2="2.827" y2="-0.675" width="0" layer="46" curve="90"/>
-<wire x1="2.827" y1="-0.675" x2="3" y2="-0.5" width="0" layer="46" curve="90"/>
-<wire x1="3" y1="0.5" x2="2.825" y2="0.675" width="0" layer="46" curve="90"/>
-<wire x1="2.825" y1="0.675" x2="2.65" y2="0.5" width="0" layer="46" curve="90"/>
+<pad name="S$2" x="2.825" y="0" drill="0.5" diameter="1.5"/>
+<wire x1="2.575" y1="-0.375" x2="2.827" y2="-0.65" width="0" layer="46" curve="90"/>
+<wire x1="2.827" y1="-0.65" x2="3.075" y2="-0.375" width="0" layer="46" curve="90"/>
+<wire x1="3.075" y1="0.375" x2="2.825" y2="0.65" width="0" layer="46" curve="90"/>
+<wire x1="2.825" y1="0.65" x2="2.575" y2="0.375" width="0" layer="46" curve="90"/>
 <polygon width="0.127" layer="29">
-<vertex x="2.325" y="-0.5"/>
-<vertex x="2.325" y="0.5" curve="-90"/>
-<vertex x="2.825" y="1" curve="-90"/>
-<vertex x="3.325" y="0.5"/>
-<vertex x="3.325" y="-0.5" curve="-90"/>
-<vertex x="2.825" y="-1" curve="-90"/>
+<vertex x="2.035" y="-0.5"/>
+<vertex x="2.035" y="0.5" curve="-90"/>
+<vertex x="2.825" y="1.29" curve="-90"/>
+<vertex x="3.615" y="0.5"/>
+<vertex x="3.615" y="-0.5" curve="-90"/>
+<vertex x="2.825" y="-1.29" curve="-90"/>
 </polygon>
 <polygon width="0.127" layer="30">
-<vertex x="2.325" y="-0.5"/>
-<vertex x="2.325" y="0.5" curve="-90"/>
-<vertex x="2.825" y="1" curve="-90"/>
-<vertex x="3.325" y="0.5"/>
-<vertex x="3.325" y="-0.5" curve="-90"/>
-<vertex x="2.825" y="-1" curve="-90"/>
+<vertex x="2.035" y="-0.5"/>
+<vertex x="2.035" y="0.5" curve="-90"/>
+<vertex x="2.825" y="1.29" curve="-90"/>
+<vertex x="3.615" y="0.5"/>
+<vertex x="3.615" y="-0.5" curve="-90"/>
+<vertex x="2.825" y="-1.29" curve="-90"/>
 </polygon>
 <polygon width="0.127" layer="31">
-<vertex x="2.325" y="-0.5"/>
-<vertex x="2.325" y="0.5" curve="-90"/>
-<vertex x="2.825" y="1" curve="-90"/>
-<vertex x="3.325" y="0.5"/>
-<vertex x="3.325" y="-0.5" curve="-90"/>
-<vertex x="2.825" y="-1" curve="-90"/>
+<vertex x="2.125" y="-0.5"/>
+<vertex x="2.125" y="0.5" curve="-90"/>
+<vertex x="2.825" y="1.2" curve="-90"/>
+<vertex x="3.525" y="0.5"/>
+<vertex x="3.525" y="-0.5" curve="-90"/>
+<vertex x="2.825" y="-1.2" curve="-90"/>
 </polygon>
-<pad name="S$1" x="-2.825" y="0" drill="0.35"/>
-<wire x1="-3" y1="-0.5" x2="-2.823" y2="-0.675" width="0" layer="46" curve="90"/>
-<wire x1="-2.823" y1="-0.675" x2="-2.65" y2="-0.5" width="0" layer="46" curve="90"/>
-<wire x1="-2.65" y1="0.5" x2="-2.825" y2="0.675" width="0" layer="46" curve="90"/>
-<wire x1="-2.825" y1="0.675" x2="-3" y2="0.5" width="0" layer="46" curve="90"/>
+<pad name="S$1" x="-2.825" y="0" drill="0.5" diameter="1.5"/>
+<wire x1="-3.075" y1="-0.375" x2="-2.823" y2="-0.65" width="0" layer="46" curve="90"/>
+<wire x1="-2.823" y1="-0.65" x2="-2.575" y2="-0.375" width="0" layer="46" curve="90"/>
+<wire x1="-2.575" y1="0.375" x2="-2.825" y2="0.65" width="0" layer="46" curve="90"/>
+<wire x1="-2.825" y1="0.65" x2="-3.075" y2="0.375" width="0" layer="46" curve="90"/>
 <polygon width="0.127" layer="29">
-<vertex x="-3.325" y="-0.5"/>
-<vertex x="-3.325" y="0.5" curve="-90"/>
-<vertex x="-2.825" y="1" curve="-90"/>
-<vertex x="-2.325" y="0.5"/>
-<vertex x="-2.325" y="-0.5" curve="-90"/>
-<vertex x="-2.825" y="-1" curve="-90"/>
+<vertex x="-3.615" y="-0.5"/>
+<vertex x="-3.615" y="0.5" curve="-90"/>
+<vertex x="-2.825" y="1.29" curve="-90"/>
+<vertex x="-2.035" y="0.5"/>
+<vertex x="-2.035" y="-0.5" curve="-90"/>
+<vertex x="-2.825" y="-1.29" curve="-90"/>
 </polygon>
 <polygon width="0.127" layer="30">
-<vertex x="-3.325" y="-0.5"/>
-<vertex x="-3.325" y="0.5" curve="-90"/>
-<vertex x="-2.825" y="1" curve="-90"/>
-<vertex x="-2.325" y="0.5"/>
-<vertex x="-2.325" y="-0.5" curve="-90"/>
-<vertex x="-2.825" y="-1" curve="-90"/>
+<vertex x="-3.615" y="-0.5"/>
+<vertex x="-3.615" y="0.5" curve="-90"/>
+<vertex x="-2.825" y="1.29" curve="-90"/>
+<vertex x="-2.035" y="0.5"/>
+<vertex x="-2.035" y="-0.5" curve="-90"/>
+<vertex x="-2.825" y="-1.29" curve="-90"/>
 </polygon>
 <polygon width="0.127" layer="31">
-<vertex x="-3.325" y="-0.5"/>
-<vertex x="-3.325" y="0.5" curve="-90"/>
-<vertex x="-2.825" y="1" curve="-90"/>
-<vertex x="-2.325" y="0.5"/>
-<vertex x="-2.325" y="-0.5" curve="-90"/>
-<vertex x="-2.825" y="-1" curve="-90"/>
+<vertex x="-3.525" y="-0.5"/>
+<vertex x="-3.525" y="0.5" curve="-90"/>
+<vertex x="-2.825" y="1.2" curve="-90"/>
+<vertex x="-2.125" y="0.5"/>
+<vertex x="-2.125" y="-0.5" curve="-90"/>
+<vertex x="-2.825" y="-1.2" curve="-90"/>
 </polygon>
-<wire x1="-3" y1="0.5" x2="-3" y2="-0.5" width="0" layer="46"/>
-<wire x1="-2.65" y1="0.5" x2="-2.65" y2="-0.5" width="0" layer="46"/>
-<wire x1="3" y1="0.5" x2="3" y2="-0.5" width="0" layer="46"/>
-<wire x1="2.65" y1="-0.5" x2="2.65" y2="0.5" width="0" layer="46"/>
+<wire x1="-3.075" y1="0.375" x2="-3.075" y2="-0.375" width="0" layer="46"/>
+<wire x1="-2.575" y1="0.375" x2="-2.575" y2="-0.375" width="0" layer="46"/>
+<wire x1="3.075" y1="0.375" x2="3.075" y2="-0.375" width="0" layer="46"/>
+<wire x1="2.575" y1="-0.375" x2="2.575" y2="0.375" width="0" layer="46"/>
+<polygon width="0.127" layer="42">
+<vertex x="-1.075" y="-1.45"/>
+<vertex x="-1.075" y="0.2" curve="90"/>
+<vertex x="-2.825" y="1.95" curve="90"/>
+<vertex x="-4.575" y="0.2"/>
+<vertex x="-4.575" y="-1.45"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="4.575" y="-1.45"/>
+<vertex x="4.575" y="0.2" curve="90"/>
+<vertex x="2.825" y="1.95" curve="90"/>
+<vertex x="1.075" y="0.2"/>
+<vertex x="1.075" y="-1.45"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-4.575" y="-1.45"/>
+<vertex x="-4.575" y="0.2" curve="-90"/>
+<vertex x="-2.825" y="1.95" curve="-90"/>
+<vertex x="-1.075" y="0.2"/>
+<vertex x="-1.075" y="-1.45"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="1.075" y="-1.45"/>
+<vertex x="1.075" y="0.2" curve="-90"/>
+<vertex x="2.825" y="1.95" curve="-90"/>
+<vertex x="4.575" y="0.2"/>
+<vertex x="4.575" y="-1.45"/>
+</polygon>
 </package>
 <package name="XQFN-12">
 <description>&lt;b&gt;Plastic Extremely Thin Quad Flat Package (XQFN), no leads, 12 terminals, 1.7 x 2.0 mm Body&lt;/b&gt;</description>

@@ -61,6 +61,8 @@
 <layer number="101" name="CC_BY-SA_Outline" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="102" name="CC-BY-SA_Letters" color="0" fill="4" visible="yes" active="yes"/>
 <layer number="103" name="CC-BY-SA_Filling" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="Module_Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="119" name="mUnrouted" color="7" fill="1" visible="no" active="no"/>
 <layer number="126" name="mbNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="127" name="mtValues" color="7" fill="1" visible="no" active="no"/>
@@ -1879,14 +1881,14 @@
 <wire x1="1.778" y1="2.032" x2="1.778" y2="-2.032" width="0.0508" layer="39"/>
 <wire x1="1.778" y1="-2.032" x2="-1.778" y2="-2.032" width="0.0508" layer="39"/>
 <wire x1="-1.778" y1="-2.032" x2="-1.778" y2="2.032" width="0.0508" layer="39"/>
-<wire x1="-1.7526" y1="2.032" x2="1.778" y2="2.032" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="2.032" x2="1.778" y2="2.032" width="0.127" layer="21"/>
 <wire x1="1.778" y1="2.032" x2="1.778" y2="-2.032" width="0.127" layer="21"/>
-<wire x1="1.778" y1="-2.032" x2="-1.7526" y2="-2.032" width="0.127" layer="21"/>
-<wire x1="-1.7526" y1="-2.032" x2="-1.7526" y2="2.0066" width="0.127" layer="21"/>
+<wire x1="1.778" y1="-2.032" x2="-1.778" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="-2.032" x2="-1.778" y2="2.032" width="0.127" layer="21"/>
 <polygon width="0.127" layer="21">
-<vertex x="-1.4478" y="-2.032"/>
-<vertex x="-1.7526" y="-1.7272"/>
-<vertex x="-1.7526" y="-2.032"/>
+<vertex x="-1.778" y="-2.032"/>
+<vertex x="-1.2192" y="-2.032"/>
+<vertex x="-1.778" y="-1.4732"/>
 </polygon>
 </package>
 <package name="FB0603">
@@ -2554,68 +2556,96 @@
 <wire x1="2.2" y1="0.3" x2="2.6" y2="0.3" width="0.127" layer="51"/>
 <hole x="-2" y="2.15" drill="0.55"/>
 <hole x="2" y="2.15" drill="0.55"/>
-<pad name="S$2" x="2.825" y="0" drill="0.35"/>
-<wire x1="2.65" y1="-0.5" x2="2.827" y2="-0.675" width="0" layer="46" curve="90"/>
-<wire x1="2.827" y1="-0.675" x2="3" y2="-0.5" width="0" layer="46" curve="90"/>
-<wire x1="3" y1="0.5" x2="2.825" y2="0.675" width="0" layer="46" curve="90"/>
-<wire x1="2.825" y1="0.675" x2="2.65" y2="0.5" width="0" layer="46" curve="90"/>
+<pad name="S$2" x="2.825" y="0" drill="0.5" diameter="1.5"/>
+<wire x1="2.575" y1="-0.375" x2="2.827" y2="-0.65" width="0" layer="46" curve="90"/>
+<wire x1="2.827" y1="-0.65" x2="3.075" y2="-0.375" width="0" layer="46" curve="90"/>
+<wire x1="3.075" y1="0.375" x2="2.825" y2="0.65" width="0" layer="46" curve="90"/>
+<wire x1="2.825" y1="0.65" x2="2.575" y2="0.375" width="0" layer="46" curve="90"/>
 <polygon width="0.127" layer="29">
-<vertex x="2.325" y="-0.5"/>
-<vertex x="2.325" y="0.5" curve="-90"/>
-<vertex x="2.825" y="1" curve="-90"/>
-<vertex x="3.325" y="0.5"/>
-<vertex x="3.325" y="-0.5" curve="-90"/>
-<vertex x="2.825" y="-1" curve="-90"/>
+<vertex x="2.035" y="-0.5"/>
+<vertex x="2.035" y="0.5" curve="-90"/>
+<vertex x="2.825" y="1.29" curve="-90"/>
+<vertex x="3.615" y="0.5"/>
+<vertex x="3.615" y="-0.5" curve="-90"/>
+<vertex x="2.825" y="-1.29" curve="-90"/>
 </polygon>
 <polygon width="0.127" layer="30">
-<vertex x="2.325" y="-0.5"/>
-<vertex x="2.325" y="0.5" curve="-90"/>
-<vertex x="2.825" y="1" curve="-90"/>
-<vertex x="3.325" y="0.5"/>
-<vertex x="3.325" y="-0.5" curve="-90"/>
-<vertex x="2.825" y="-1" curve="-90"/>
+<vertex x="2.035" y="-0.5"/>
+<vertex x="2.035" y="0.5" curve="-90"/>
+<vertex x="2.825" y="1.29" curve="-90"/>
+<vertex x="3.615" y="0.5"/>
+<vertex x="3.615" y="-0.5" curve="-90"/>
+<vertex x="2.825" y="-1.29" curve="-90"/>
 </polygon>
 <polygon width="0.127" layer="31">
-<vertex x="2.325" y="-0.5"/>
-<vertex x="2.325" y="0.5" curve="-90"/>
-<vertex x="2.825" y="1" curve="-90"/>
-<vertex x="3.325" y="0.5"/>
-<vertex x="3.325" y="-0.5" curve="-90"/>
-<vertex x="2.825" y="-1" curve="-90"/>
+<vertex x="2.125" y="-0.5"/>
+<vertex x="2.125" y="0.5" curve="-90"/>
+<vertex x="2.825" y="1.2" curve="-90"/>
+<vertex x="3.525" y="0.5"/>
+<vertex x="3.525" y="-0.5" curve="-90"/>
+<vertex x="2.825" y="-1.2" curve="-90"/>
 </polygon>
-<pad name="S$1" x="-2.825" y="0" drill="0.35"/>
-<wire x1="-3" y1="-0.5" x2="-2.823" y2="-0.675" width="0" layer="46" curve="90"/>
-<wire x1="-2.823" y1="-0.675" x2="-2.65" y2="-0.5" width="0" layer="46" curve="90"/>
-<wire x1="-2.65" y1="0.5" x2="-2.825" y2="0.675" width="0" layer="46" curve="90"/>
-<wire x1="-2.825" y1="0.675" x2="-3" y2="0.5" width="0" layer="46" curve="90"/>
+<pad name="S$1" x="-2.825" y="0" drill="0.5" diameter="1.5"/>
+<wire x1="-3.075" y1="-0.375" x2="-2.823" y2="-0.65" width="0" layer="46" curve="90"/>
+<wire x1="-2.823" y1="-0.65" x2="-2.575" y2="-0.375" width="0" layer="46" curve="90"/>
+<wire x1="-2.575" y1="0.375" x2="-2.825" y2="0.65" width="0" layer="46" curve="90"/>
+<wire x1="-2.825" y1="0.65" x2="-3.075" y2="0.375" width="0" layer="46" curve="90"/>
 <polygon width="0.127" layer="29">
-<vertex x="-3.325" y="-0.5"/>
-<vertex x="-3.325" y="0.5" curve="-90"/>
-<vertex x="-2.825" y="1" curve="-90"/>
-<vertex x="-2.325" y="0.5"/>
-<vertex x="-2.325" y="-0.5" curve="-90"/>
-<vertex x="-2.825" y="-1" curve="-90"/>
+<vertex x="-3.615" y="-0.5"/>
+<vertex x="-3.615" y="0.5" curve="-90"/>
+<vertex x="-2.825" y="1.29" curve="-90"/>
+<vertex x="-2.035" y="0.5"/>
+<vertex x="-2.035" y="-0.5" curve="-90"/>
+<vertex x="-2.825" y="-1.29" curve="-90"/>
 </polygon>
 <polygon width="0.127" layer="30">
-<vertex x="-3.325" y="-0.5"/>
-<vertex x="-3.325" y="0.5" curve="-90"/>
-<vertex x="-2.825" y="1" curve="-90"/>
-<vertex x="-2.325" y="0.5"/>
-<vertex x="-2.325" y="-0.5" curve="-90"/>
-<vertex x="-2.825" y="-1" curve="-90"/>
+<vertex x="-3.615" y="-0.5"/>
+<vertex x="-3.615" y="0.5" curve="-90"/>
+<vertex x="-2.825" y="1.29" curve="-90"/>
+<vertex x="-2.035" y="0.5"/>
+<vertex x="-2.035" y="-0.5" curve="-90"/>
+<vertex x="-2.825" y="-1.29" curve="-90"/>
 </polygon>
 <polygon width="0.127" layer="31">
-<vertex x="-3.325" y="-0.5"/>
-<vertex x="-3.325" y="0.5" curve="-90"/>
-<vertex x="-2.825" y="1" curve="-90"/>
-<vertex x="-2.325" y="0.5"/>
-<vertex x="-2.325" y="-0.5" curve="-90"/>
-<vertex x="-2.825" y="-1" curve="-90"/>
+<vertex x="-3.525" y="-0.5"/>
+<vertex x="-3.525" y="0.5" curve="-90"/>
+<vertex x="-2.825" y="1.2" curve="-90"/>
+<vertex x="-2.125" y="0.5"/>
+<vertex x="-2.125" y="-0.5" curve="-90"/>
+<vertex x="-2.825" y="-1.2" curve="-90"/>
 </polygon>
-<wire x1="-3" y1="0.5" x2="-3" y2="-0.5" width="0" layer="46"/>
-<wire x1="-2.65" y1="0.5" x2="-2.65" y2="-0.5" width="0" layer="46"/>
-<wire x1="3" y1="0.5" x2="3" y2="-0.5" width="0" layer="46"/>
-<wire x1="2.65" y1="-0.5" x2="2.65" y2="0.5" width="0" layer="46"/>
+<wire x1="-3.075" y1="0.375" x2="-3.075" y2="-0.375" width="0" layer="46"/>
+<wire x1="-2.575" y1="0.375" x2="-2.575" y2="-0.375" width="0" layer="46"/>
+<wire x1="3.075" y1="0.375" x2="3.075" y2="-0.375" width="0" layer="46"/>
+<wire x1="2.575" y1="-0.375" x2="2.575" y2="0.375" width="0" layer="46"/>
+<polygon width="0.127" layer="42">
+<vertex x="-1.075" y="-1.45"/>
+<vertex x="-1.075" y="0.2" curve="90"/>
+<vertex x="-2.825" y="1.95" curve="90"/>
+<vertex x="-4.575" y="0.2"/>
+<vertex x="-4.575" y="-1.45"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="4.575" y="-1.45"/>
+<vertex x="4.575" y="0.2" curve="90"/>
+<vertex x="2.825" y="1.95" curve="90"/>
+<vertex x="1.075" y="0.2"/>
+<vertex x="1.075" y="-1.45"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-4.575" y="-1.45"/>
+<vertex x="-4.575" y="0.2" curve="-90"/>
+<vertex x="-2.825" y="1.95" curve="-90"/>
+<vertex x="-1.075" y="0.2"/>
+<vertex x="-1.075" y="-1.45"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="1.075" y="-1.45"/>
+<vertex x="1.075" y="0.2" curve="-90"/>
+<vertex x="2.825" y="1.95" curve="-90"/>
+<vertex x="4.575" y="0.2"/>
+<vertex x="4.575" y="-1.45"/>
+</polygon>
 </package>
 <package name="USB_MR5_003C">
 <description>&lt;b&gt;MicroUSB B Type Receptacle, 2 Shield Pins, 1 Shield Pad, Long Pins&lt;/b&gt;</description>
@@ -5886,9 +5916,7 @@
 </devices>
 </deviceset>
 <deviceset name="FIDUCIAL" prefix="F">
-<description>&lt;b&gt;Fiducial Mark&lt;/b&gt;
-&lt;p&gt;Copyright &amp;copy; 2012, Michel Stempin, All rights reserved&lt;/p&gt;
-&lt;p&gt;Licenced under &lt;a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en"&gt;Creative Commons CC BY-SA 3.0&lt;/a&gt; license.&lt;/p&gt;</description>
+<description>&lt;b&gt;Fiducial Mark&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
 </gates>
@@ -6955,7 +6983,7 @@
 <text x="480.06" y="11.43" size="0.8128" layer="94">Global Marine Networks disclaims all other warranties express or implied, </text>
 <text x="480.06" y="8.89" size="0.8128" layer="94">merchantibility or fitness for any particular application.</text>
 <text x="480.06" y="5.08" size="0.8128" layer="94">descriptions at any time, without notice.</text>
-<text x="523.24" y="20.32" size="1.27" layer="94">© 2014, Michel Stempin
+<text x="523.24" y="20.32" size="1.27" layer="94">© 2014, The Domino Team
 All rights reserved.</text>
 <text x="557.022" y="5.334" size="1.778" layer="94">&gt;REV</text>
 <text x="551.942" y="5.334" size="1.778" layer="94">Rev.</text>
