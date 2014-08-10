@@ -3888,7 +3888,7 @@ DIN A3, landscape with location and doc. field</description>
 </library>
 </libraries>
 <attributes>
-<attribute name="DATABASE" value="./BOM/Domino_DB.txt"/>
+<attribute name="DATABASE" value="./../Common/BOM/Domino_DB.txt"/>
 <attribute name="DRAWN" value="M.STEMPIN"/>
 <attribute name="REV" value="B"/>
 </attributes>
