@@ -84,6 +84,7 @@
 <layer number="148" name="mDocument" color="7" fill="1" visible="no" active="no"/>
 <layer number="149" name="mReference" color="7" fill="1" visible="no" active="no"/>
 <layer number="150" name="Pinout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="mbDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
 <layer number="192" name="mBusses" color="7" fill="1" visible="no" active="no"/>
@@ -91,6 +92,7 @@
 <layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="no"/>
 <layer number="195" name="mNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="196" name="mValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="199" name="L$199" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="Component_side" color="7" fill="1" visible="no" active="yes"/>
 <layer number="201" name="Solder_side" color="7" fill="1" visible="no" active="yes"/>
 <layer number="202" name="Silk_screen_CMP" color="7" fill="1" visible="no" active="yes"/>
@@ -6804,6 +6806,16 @@ Your Eurocircuits Team
 <approved hash="18,30,29c07d4d83b92cb1"/>
 <approved hash="18,30,2f780aa1d87962aa"/>
 <approved hash="18,29,a8cc685c4448407d"/>
+<approved hash="3,1,b4f8b6fab6fab4f8"/>
+<approved hash="3,1,d609d40854085609"/>
+<approved hash="3,1,9633943194319633"/>
+<approved hash="3,1,752e1d441d1b7571"/>
+<approved hash="3,1,cd5cf122f162cd1c"/>
+<approved hash="3,1,5c52c4dcfc654c0a"/>
+<approved hash="3,1,203f267d2d35135f"/>
+<approved hash="3,1,4c00f27efd2b4355"/>
+<approved hash="3,1,c3bb73ff4db55e5d"/>
+<approved hash="3,1,0b4f7853118f339d"/>
 <approved hash="18,29,414327a44fbe5b95"/>
 <approved hash="18,29,5e6996a134101fcd"/>
 <approved hash="18,29,36e0db02db0236e0"/>
@@ -6816,16 +6828,6 @@ Your Eurocircuits Team
 <approved hash="18,29,993e1b3bea8a0c55"/>
 <approved hash="18,29,4f44836d32429ec2"/>
 <approved hash="18,29,e2d4ca553efdc4a0"/>
-<approved hash="3,1,b4f8b6fab6fab4f8"/>
-<approved hash="3,1,d609d40854085609"/>
-<approved hash="3,1,9633943194319633"/>
-<approved hash="3,1,752e1d441d1b7571"/>
-<approved hash="3,1,cd5cf122f162cd1c"/>
-<approved hash="3,1,5c52c4dcfc654c0a"/>
-<approved hash="3,1,203f267d2d35135f"/>
-<approved hash="3,1,4c00f27efd2b4355"/>
-<approved hash="3,1,c3bb73ff4db55e5d"/>
-<approved hash="3,1,0b4f7853118f339d"/>
 <approved hash="4,1,0e4c91bcf1a80e58"/>
 <approved hash="4,1,0ccc713c112c0cdc"/>
 <approved hash="6,1,dc8cd08f128f1e8c"/>

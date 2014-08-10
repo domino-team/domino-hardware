@@ -61,8 +61,7 @@
 <layer number="101" name="CC-BY-SA_Outline" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="102" name="CC-BY-SA_Letters" color="0" fill="4" visible="yes" active="yes"/>
 <layer number="103" name="CC-BY-SA_Filling" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="108" name="Module_Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="TL-WR703N_BOOTSTRAP" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="119" name="mUnrouted" color="7" fill="1" visible="no" active="no"/>
 <layer number="126" name="mbNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="127" name="mtValues" color="7" fill="1" visible="no" active="no"/>

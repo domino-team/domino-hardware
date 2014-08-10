@@ -61,8 +61,6 @@
 <layer number="101" name="CC-BY-SA_Outline" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="102" name="CC-BY-SA_Letters" color="0" fill="4" visible="yes" active="yes"/>
 <layer number="103" name="CC-BY-SA_Filling" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="Module_Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="119" name="mUnrouted" color="7" fill="1" visible="no" active="no"/>
 <layer number="126" name="mbNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="127" name="mtValues" color="7" fill="1" visible="no" active="no"/>
@@ -1459,6 +1457,15 @@
 <wire x1="0" y1="6.35" x2="0.635" y2="5.715" width="0.127" layer="94"/>
 <pin name="1" x="2.54" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
+<symbol name="PE">
+<description>&lt;b&gt;Protective Earth Power Supply&lt;/b&gt;</description>
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.0922" y1="-0.508" x2="1.0922" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-0.6223" y1="-1.016" x2="0.6223" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-0.3048" y1="-1.524" x2="0.3302" y2="-1.524" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="PE" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CAP_" prefix="C" uservalue="yes">
@@ -1702,23 +1709,6 @@ DIN A3, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-</devicesets>
-</library>
-<library name="GeMiNi">
-<packages>
-</packages>
-<symbols>
-<symbol name="PE">
-<description>&lt;b&gt;Protective Earth Power Supply&lt;/b&gt;</description>
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.0922" y1="-0.508" x2="1.0922" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="-0.6223" y1="-1.016" x2="0.6223" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-0.3048" y1="-1.524" x2="0.3302" y2="-1.524" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="PE" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
 <deviceset name="PE" prefix="PE">
 <description>&lt;b&gt;Protective Earth Power Supply&lt;/b&gt;</description>
 <gates>
@@ -1773,7 +1763,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="VOLT" value="500V"/>
 </part>
 <part name="SUPPLY37" library="Domino" deviceset="GND" device=""/>
-<part name="PE1" library="GeMiNi" deviceset="PE" device=""/>
+<part name="PE1" library="Domino" deviceset="PE" device=""/>
 <part name="C3" library="Domino" deviceset="CAP_" device="0402" value="100n">
 <attribute name="PARTNO" value="C0402_100n_X7R_10%_CER_50V"/>
 <attribute name="TC" value="X7R"/>

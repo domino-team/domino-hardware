@@ -61,35 +61,9 @@
 <layer number="101" name="CC_BY-SA_Outline" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="102" name="CC-BY-SA_Letters" color="0" fill="4" visible="yes" active="yes"/>
 <layer number="103" name="CC-BY-SA_Filling" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="TL-WR703N_BOOTSTRAP" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="TL-WR703N_VIAS" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="TL-WR703N_RAIL" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="Module_Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="Grey" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="Black" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="WhiteOver" color="0" fill="1" visible="yes" active="yes"/>
-<layer number="114" name="BlackOver" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="115" name="TD_LOGO" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="ModuleBottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="117" name="TITLE" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="118" name="LED" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="119" name="mUnrouted" color="7" fill="1" visible="no" active="no"/>
-<layer number="120" name="Antenna" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="126" name="mbNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="127" name="mtValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="128" name="128bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="129" name="129bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="130" name="130bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="133" name="mtFinish" color="7" fill="1" visible="no" active="no"/>
 <layer number="134" name="mbFinish" color="7" fill="1" visible="no" active="no"/>
 <layer number="135" name="mtGlue" color="7" fill="1" visible="no" active="no"/>
@@ -101,11 +75,8 @@
 <layer number="141" name="mtRestrict" color="7" fill="1" visible="no" active="no"/>
 <layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="no"/>
 <layer number="143" name="mvRestrict" color="7" fill="1" visible="no" active="no"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="147" name="Measures_X8" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="148" name="mDocument" color="7" fill="1" visible="no" active="no"/>
 <layer number="149" name="mReference" color="7" fill="1" visible="no" active="no"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="mbDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
 <layer number="192" name="mBusses" color="7" fill="1" visible="no" active="no"/>
@@ -113,24 +84,6 @@
 <layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="no"/>
 <layer number="195" name="mNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="196" name="mValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="199" name="L$199" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="GeMiNi_Antenna" color="12" fill="1" visible="yes" active="yes"/>
-<layer number="201" name="GeMiNi_Antenna_Keepout" color="12" fill="8" visible="yes" active="yes"/>
-<layer number="202" name="GeMiNi_LEDs" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="203" name="GeMiNi_Console" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="204" name="GeMiNi_Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="205" name="GeMiNi_Legend" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -139,14 +92,8 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="xfer" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <description>&lt;b&gt;Domino breakout Board&lt;/b&gt;</description>
@@ -3183,6 +3130,15 @@
 <wire x1="0" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-2.54" y2="2.286" width="0.1524" layer="94"/>
 </symbol>
+<symbol name="PE">
+<description>&lt;b&gt;Protective Earth Power Supply&lt;/b&gt;</description>
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.0922" y1="-0.508" x2="1.0922" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-0.6223" y1="-1.016" x2="0.6223" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-0.3048" y1="-1.524" x2="0.3302" y2="-1.524" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="PE" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="SUPPLY">
@@ -3854,23 +3810,6 @@ DIN A3, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-</devicesets>
-</library>
-<library name="GeMiNi">
-<packages>
-</packages>
-<symbols>
-<symbol name="PE">
-<description>&lt;b&gt;Protective Earth Power Supply&lt;/b&gt;</description>
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.0922" y1="-0.508" x2="1.0922" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="-0.6223" y1="-1.016" x2="0.6223" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-0.3048" y1="-1.524" x2="0.3302" y2="-1.524" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="PE" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
 <deviceset name="PE" prefix="PE">
 <description>&lt;b&gt;Protective Earth Power Supply&lt;/b&gt;</description>
 <gates>
@@ -4083,7 +4022,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="VOLT" value="500V"/>
 </part>
 <part name="SUPPLY37" library="Domino" deviceset="GND" device=""/>
-<part name="PE1" library="GeMiNi" deviceset="PE" device=""/>
+<part name="PE1" library="Domino" deviceset="PE" device=""/>
 <part name="C6" library="Domino" deviceset="CAP_" device="0402" value="100n">
 <attribute name="PARTNO" value="C0402_100n_X7R_10%_CER_50V"/>
 <attribute name="TC" value="X7R"/>
@@ -6144,6 +6083,7 @@ SWITCH</text>
 </sheets>
 <errors>
 <approved hash="102,1,71.12,215.9,OUT,+3V3,,,,"/>
+<approved hash="102,1,205.74,132.08,+2.5VD_OUT,+2V5,,,,"/>
 <approved hash="104,1,91.44,73.66,U2,VIO,+2V5,,,"/>
 <approved hash="104,1,106.68,55.88,U2,REGIN,VBUS,,,"/>
 <approved hash="104,1,91.44,93.98,U2,PAD,GND,,,"/>
