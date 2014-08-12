@@ -11,7 +11,7 @@ UsedLibrary="/home/mstempin/eagle/Domino/Common/Domino.lbr"
 
 [Win_1]
 Type="Board Editor"
-Loc="0 0 599 399"
+Loc="1920 24 2519 423"
 State=1
 Number=1
 File="Domino USB MicroSD No Teardrop.brd"

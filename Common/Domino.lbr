@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -5568,23 +5568,25 @@ Pi</text>
 <wire x1="3.175" y1="2.159" x2="3.175" y2="-1.6002" width="0.127" layer="21"/>
 <text x="-2.54" y="3.175" size="0.8128" layer="25" align="center-left">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="0.8128" layer="27" align="center-left">&gt;VALUE</text>
-<smd name="S$2" x="2.4" y="0.02" dx="1.524" dy="1.016" layer="1" rot="R270"/>
-<smd name="S$1" x="-2.4" y="0.02" dx="1.524" dy="1.016" layer="1" rot="R270"/>
 <polygon width="0" layer="1">
-<vertex x="2.5306" y="0.7824"/>
-<vertex x="2.55" y="-1.6575"/>
-<vertex x="1.18" y="-1.6575"/>
-<vertex x="1.1606" y="-0.6416"/>
-<vertex x="1.8686" y="-0.6416"/>
-<vertex x="1.8686" y="0.7824"/>
+<vertex x="1.8" y="0.7"/>
+<vertex x="3" y="0.7"/>
+<vertex x="3" y="-0.7"/>
+<vertex x="2.6" y="-0.7"/>
+<vertex x="2.6" y="-1.6"/>
+<vertex x="1.2" y="-1.6"/>
+<vertex x="1.2" y="-0.7"/>
+<vertex x="1.8" y="-0.7"/>
 </polygon>
 <polygon width="0" layer="1">
-<vertex x="-2.55" y="0.7825"/>
-<vertex x="-2.55" y="-1.6575"/>
-<vertex x="-1.18" y="-1.6575"/>
-<vertex x="-1.1794" y="-0.6416"/>
-<vertex x="-1.8874" y="-0.6416"/>
-<vertex x="-1.8874" y="0.7824"/>
+<vertex x="-1.7874" y="0.7"/>
+<vertex x="-3" y="0.7"/>
+<vertex x="-3" y="-0.7"/>
+<vertex x="-2.6" y="-0.7"/>
+<vertex x="-2.6" y="-1.6"/>
+<vertex x="-1.2" y="-1.6"/>
+<vertex x="-1.2" y="-0.7"/>
+<vertex x="-1.8" y="-0.7"/>
 </polygon>
 <wire x1="2.0996" y1="-0.45" x2="2.3" y2="-0.25" width="0" layer="46" curve="90"/>
 <wire x1="2.3" y1="-0.25" x2="2.3" y2="0.25" width="0" layer="46"/>
@@ -5598,8 +5600,48 @@ Pi</text>
 <wire x1="-2.0996" y1="0.45" x2="-2.3" y2="0.25" width="0" layer="46" curve="90"/>
 <wire x1="-2.3" y1="0.25" x2="-2.3" y2="-0.25" width="0" layer="46"/>
 <wire x1="-2.3" y1="-0.25" x2="-2.0996" y2="-0.45" width="0" layer="46" curve="90"/>
-<smd name="P$2" x="2.16" y="-0.0175" dx="1.2" dy="0.7" layer="16" rot="R270"/>
-<smd name="P$1" x="-2.16" y="-0.0175" dx="1.2" dy="0.7" layer="16" rot="R270"/>
+<pad name="S$1" x="-2.1" y="0" drill="0.4" diameter="0.6"/>
+<pad name="S$2" x="2.1" y="0" drill="0.4" diameter="0.6"/>
+<rectangle x1="-2.6" y1="-1.6" x2="-1.2" y2="-0.7" layer="31"/>
+<rectangle x1="1.2" y1="-1.6" x2="2.6" y2="-0.7" layer="31"/>
+<rectangle x1="-2.7" y1="-1.7" x2="-1.1" y2="-0.6" layer="29"/>
+<rectangle x1="1.1" y1="-1.7" x2="2.7" y2="-0.6" layer="29"/>
+<polygon width="0.127" layer="30">
+<vertex x="-2.35" y="0.3"/>
+<vertex x="-2.35" y="-0.3" curve="90"/>
+<vertex x="-2.1" y="-0.55" curve="90"/>
+<vertex x="-1.85" y="-0.35"/>
+<vertex x="-1.85" y="0.25" curve="90"/>
+<vertex x="-2.1" y="0.55" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="-2.45" y="0.3"/>
+<vertex x="-2.45" y="-0.3" curve="90"/>
+<vertex x="-2.1" y="-0.65" curve="90"/>
+<vertex x="-1.75" y="-0.3"/>
+<vertex x="-1.75" y="0.3" curve="90"/>
+<vertex x="-2.1" y="0.65" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="1.85" y="0.3"/>
+<vertex x="1.85" y="-0.3" curve="90"/>
+<vertex x="2.1" y="-0.55" curve="90"/>
+<vertex x="2.35" y="-0.35"/>
+<vertex x="2.35" y="0.25" curve="90"/>
+<vertex x="2.1" y="0.55" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="1.75" y="0.3"/>
+<vertex x="1.75" y="-0.3" curve="90"/>
+<vertex x="2.1" y="-0.65" curve="90"/>
+<vertex x="2.45" y="-0.3"/>
+<vertex x="2.45" y="0.3" curve="90"/>
+<vertex x="2.1" y="0.65" curve="90"/>
+</polygon>
+<rectangle x1="-3" y1="-0.7" x2="-1.8" y2="0.7" layer="31"/>
+<rectangle x1="-3.1" y1="-0.8" x2="-1.7" y2="0.8" layer="29"/>
+<rectangle x1="1.7" y1="-0.8" x2="3.1" y2="0.8" layer="29"/>
+<rectangle x1="1.8" y1="-0.7" x2="3" y2="0.7" layer="31"/>
 </package>
 <package name="CHS-01TA">
 <description>&lt;b&gt;DIP Slide Switch 1 Position SMD 6V&lt;/b&gt;</description>
@@ -5650,6 +5692,145 @@ Pi</text>
 </polygon>
 <text x="-1.27" y="4.445" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-5.08" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
+<package name="AG9800M">
+<description>&lt;b&gt;Miniature PoE Module&lt;/b&gt;</description>
+<smd name="1" x="-11.43" y="-9" dx="4" dy="1.25" layer="1" rot="R90"/>
+<smd name="2" x="-8.89" y="-9" dx="4" dy="1.25" layer="1" rot="R90"/>
+<smd name="3" x="8.89" y="-9" dx="4" dy="1.25" layer="1" rot="R90"/>
+<smd name="4" x="11.43" y="-9" dx="4" dy="1.25" layer="1" rot="R90"/>
+<smd name="5" x="11.43" y="9" dx="4" dy="1.25" layer="1" rot="R90"/>
+<smd name="6" x="8.89" y="9" dx="4" dy="1.25" layer="1" rot="R90"/>
+<smd name="7" x="-8.89" y="9" dx="4" dy="1.25" layer="1" rot="R90"/>
+<smd name="8" x="-11.43" y="9" dx="4" dy="1.25" layer="1" rot="R90"/>
+<wire x1="13.97" y1="8.89" x2="-13.97" y2="8.89" width="0.127" layer="51"/>
+<wire x1="-13.97" y1="8.89" x2="-13.97" y2="-8.89" width="0.127" layer="51"/>
+<wire x1="-13.97" y1="-8.89" x2="13.97" y2="-8.89" width="0.127" layer="51"/>
+<wire x1="13.97" y1="-8.89" x2="13.97" y2="8.89" width="0.127" layer="51"/>
+<rectangle x1="-11.75" y1="8.89" x2="-11.11" y2="10.39" layer="51"/>
+<rectangle x1="-9.21" y1="8.89" x2="-8.57" y2="10.39" layer="51"/>
+<rectangle x1="8.57" y1="8.89" x2="9.21" y2="10.39" layer="51"/>
+<rectangle x1="11.11" y1="8.89" x2="11.75" y2="10.39" layer="51"/>
+<rectangle x1="-11.75" y1="-10.39" x2="-11.11" y2="-8.89" layer="51" rot="R180"/>
+<rectangle x1="-9.21" y1="-10.39" x2="-8.57" y2="-8.89" layer="51" rot="R180"/>
+<rectangle x1="8.57" y1="-10.39" x2="9.21" y2="-8.89" layer="51" rot="R180"/>
+<rectangle x1="11.11" y1="-10.39" x2="11.75" y2="-8.89" layer="51" rot="R180"/>
+<wire x1="-6.97" y1="6.89" x2="6.97" y2="6.89" width="0.127" layer="51"/>
+<wire x1="6.97" y1="6.89" x2="6.97" y2="-6.89" width="0.127" layer="51"/>
+<wire x1="6.97" y1="-6.89" x2="-6.97" y2="-6.89" width="0.127" layer="51"/>
+<wire x1="-6.97" y1="-6.89" x2="-6.97" y2="6.89" width="0.127" layer="51"/>
+<wire x1="-5" y1="5" x2="5" y2="5" width="0.127" layer="51"/>
+<wire x1="5" y1="5" x2="5" y2="3" width="0.127" layer="51"/>
+<wire x1="5" y1="3" x2="5" y2="2" width="0.127" layer="51"/>
+<wire x1="5" y1="2" x2="5" y2="-2" width="0.127" layer="51"/>
+<wire x1="5" y1="-2" x2="5" y2="-3" width="0.127" layer="51"/>
+<wire x1="5" y1="-3" x2="5" y2="-5" width="0.127" layer="51"/>
+<wire x1="5" y1="-5" x2="-5" y2="-5" width="0.127" layer="51"/>
+<wire x1="-5" y1="-5" x2="-5" y2="-3" width="0.127" layer="51"/>
+<wire x1="-5" y1="-3" x2="-5" y2="-2" width="0.127" layer="51"/>
+<wire x1="-5" y1="-2" x2="-5" y2="2" width="0.127" layer="51"/>
+<wire x1="-5" y1="2" x2="-5" y2="3" width="0.127" layer="51"/>
+<wire x1="-5" y1="3" x2="-5" y2="5" width="0.127" layer="51"/>
+<wire x1="-7" y1="3" x2="-5" y2="3" width="0.127" layer="51"/>
+<wire x1="-7" y1="2" x2="-5" y2="2" width="0.127" layer="51"/>
+<wire x1="5" y1="3" x2="7" y2="3" width="0.127" layer="51"/>
+<wire x1="5" y1="2" x2="7" y2="2" width="0.127" layer="51"/>
+<wire x1="5" y1="-3" x2="7" y2="-3" width="0.127" layer="51"/>
+<wire x1="7" y1="-2" x2="5" y2="-2" width="0.127" layer="51"/>
+<wire x1="-5" y1="-2" x2="-7" y2="-2" width="0.127" layer="51"/>
+<wire x1="-7" y1="-3" x2="-5" y2="-3" width="0.127" layer="51"/>
+<rectangle x1="-13.97" y1="-5.89" x2="13.97" y2="2.11" layer="41"/>
+<wire x1="-13.97" y1="11.43" x2="13.97" y2="11.43" width="0.127" layer="21"/>
+<wire x1="13.97" y1="11.43" x2="13.97" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="13.97" y1="-11.43" x2="-13.97" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="-11.43" x2="-13.97" y2="11.43" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="11.43" x2="13.97" y2="11.43" width="0.0508" layer="39"/>
+<wire x1="13.97" y1="11.43" x2="13.97" y2="-11.43" width="0.0508" layer="39"/>
+<wire x1="13.97" y1="-11.43" x2="-13.97" y2="-11.43" width="0.0508" layer="39"/>
+<wire x1="-13.97" y1="-11.43" x2="-13.97" y2="11.43" width="0.0508" layer="39"/>
+<polygon width="0.0508" layer="51">
+<vertex x="-13.97" y="-8.89"/>
+<vertex x="-13" y="-8.89"/>
+<vertex x="-13" y="-8.9"/>
+<vertex x="-14" y="-7.9"/>
+<vertex x="-14" y="-8.9"/>
+</polygon>
+<polygon width="0.0508" layer="21">
+<vertex x="-13.97" y="-11.43"/>
+<vertex x="-12.7" y="-11.43"/>
+<vertex x="-13.97" y="-10.16"/>
+</polygon>
+<text x="-13.97" y="12.065" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-13.97" y="-12.7" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
+<package name="SMA">
+<description>&lt;b&gt;SMA/DO-214AC Plastic Surface Mount Diode&lt;/b&gt;</description>
+<wire x1="-2.2479" y1="-1.397" x2="2.2479" y2="-1.397" width="0.127" layer="51"/>
+<wire x1="2.2479" y1="-1.397" x2="2.2479" y2="1.397" width="0.127" layer="51"/>
+<wire x1="2.2479" y1="1.397" x2="-2.2479" y2="1.397" width="0.127" layer="51"/>
+<wire x1="-2.2479" y1="1.397" x2="-2.2479" y2="-1.397" width="0.127" layer="51"/>
+<rectangle x1="2.25" y1="-0.85" x2="2.64" y2="0.85" layer="51"/>
+<rectangle x1="-1.651" y1="-1.397" x2="-1.27" y2="1.397" layer="51"/>
+<wire x1="-2.55" y1="1.35" x2="2.55" y2="1.35" width="0.127" layer="21"/>
+<wire x1="2.55" y1="1.35" x2="2.55" y2="1" width="0.127" layer="21"/>
+<wire x1="2.55" y1="-1" x2="2.55" y2="-1.35" width="0.127" layer="21"/>
+<wire x1="2.55" y1="-1.35" x2="-2.55" y2="-1.35" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="-1.35" x2="-2.55" y2="-1" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="1.35" x2="-2.55" y2="1" width="0.127" layer="21"/>
+<smd name="C" x="-2.05" y="0" dx="2.2" dy="1.55" layer="1"/>
+<smd name="A" x="2.05" y="0" dx="2.2" dy="1.55" layer="1"/>
+<polygon width="0.127" layer="21">
+<vertex x="0.7" y="1"/>
+<vertex x="-0.7" y="0"/>
+<vertex x="0.7" y="-1"/>
+</polygon>
+<polygon width="0.127" layer="21">
+<vertex x="-0.7" y="1"/>
+<vertex x="-0.7" y="-1"/>
+<vertex x="-0.5" y="-1"/>
+<vertex x="-0.5" y="1"/>
+</polygon>
+<wire x1="-3.4" y1="1.65" x2="3.4" y2="1.65" width="0.0508" layer="39"/>
+<wire x1="3.4" y1="1.65" x2="3.4" y2="-1.65" width="0.0508" layer="39"/>
+<wire x1="3.4" y1="-1.65" x2="-3.4" y2="-1.65" width="0.0508" layer="39"/>
+<wire x1="-3.4" y1="-1.65" x2="-3.4" y2="1.65" width="0.0508" layer="39"/>
+<text x="-2.54" y="1.905" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.64" y1="-0.85" x2="-2.25" y2="0.85" layer="51" rot="R180"/>
+</package>
+<package name="NBS04">
+<description>&lt;b&gt;Bridge JEDEC SOD-106&lt;/b&gt;</description>
+<smd name="1" x="1.25" y="2.7" dx="1.6" dy="0.65" layer="1" rot="R90"/>
+<smd name="2" x="1.25" y="-2.7" dx="1.6" dy="0.65" layer="1" rot="R90"/>
+<smd name="3" x="-1.25" y="-2.7" dx="1.6" dy="0.65" layer="1" rot="R90"/>
+<smd name="4" x="-1.25" y="2.7" dx="1.6" dy="0.65" layer="1" rot="R90"/>
+<wire x1="2.35" y1="1.9" x2="-2.35" y2="1.9" width="0.127" layer="51"/>
+<wire x1="-2.35" y1="1.9" x2="-2.35" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="-2.35" y1="-1.9" x2="2.35" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="2.35" y1="-1.9" x2="2.35" y2="1.9" width="0.127" layer="51"/>
+<rectangle x1="-1.55" y1="1.9" x2="-0.95" y2="3.5" layer="51"/>
+<rectangle x1="0.95" y1="1.9" x2="1.55" y2="3.5" layer="51"/>
+<rectangle x1="-1.55" y1="-3.5" x2="-0.95" y2="-1.9" layer="51" rot="R180"/>
+<rectangle x1="0.95" y1="-3.5" x2="1.55" y2="-1.9" layer="51" rot="R180"/>
+<text x="1.3" y="1.3" size="1.27" layer="51" align="center">+</text>
+<text x="-1.2" y="1.2" size="1.27" layer="51" align="center">-</text>
+<wire x1="-2.54" y1="3.81" x2="2.54" y2="3.81" width="0.127" layer="21"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-3.81" x2="-2.54" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="3.81" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="2.54" y="3.81"/>
+<vertex x="1.905" y="3.81"/>
+<vertex x="2.54" y="3.175"/>
+</polygon>
+<wire x1="-2.54" y1="3.81" x2="2.54" y2="3.81" width="0.0508" layer="39"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="-3.81" width="0.0508" layer="39"/>
+<wire x1="2.54" y1="-3.81" x2="-2.54" y2="-3.81" width="0.0508" layer="39"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="3.81" width="0.0508" layer="39"/>
+<text x="-2.54" y="4.445" size="0.8128" layer="25" align="center-left">&gt;NAME</text>
+<text x="-2.54" y="-4.445" size="0.8128" layer="27" align="center-left">&gt;VALUE</text>
+<text x="-1.2" y="-0.8" size="1.27" layer="51" align="center">~</text>
+<text x="1.3" y="-0.8" size="1.27" layer="51" align="center">~</text>
 </package>
 </packages>
 <symbols>
@@ -9362,6 +9543,67 @@ Pi</text>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="PE" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
+<symbol name="AG9800M">
+<description>&lt;b&gt;Miniature PoE Module&lt;/b&gt;</description>
+<pin name="+VDC@1" x="-15.24" y="7.62" length="short" direction="sup"/>
+<pin name="+VDC@2" x="-15.24" y="5.08" length="short" direction="sup"/>
+<pin name="-VDC" x="-15.24" y="-5.08" length="short" direction="sup"/>
+<pin name="ADJ" x="-15.24" y="-7.62" length="short" direction="pas"/>
+<pin name="VIN+@1" x="15.24" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="VIN+@2" x="15.24" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="VIN-@1" x="15.24" y="5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="VIN-@2" x="15.24" y="7.62" length="short" direction="pwr" rot="R180"/>
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.127" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.127" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.127" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.127" layer="94"/>
+<text x="-12.7" y="12.7" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="-12.7" y="-12.7" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+</symbol>
+<symbol name="TVS">
+<description>&lt;b&gt;Transient Votlage Suppression (TVS) Diode&lt;/b&gt;</description>
+<wire x1="-1.016" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0" x2="1.524" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0" x2="-1.524" y2="-0.508" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-1.016" y="-2.032"/>
+<vertex x="0" y="0"/>
+<vertex x="1.016" y="-2.032"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="1.016" y="2.032"/>
+<vertex x="0" y="0"/>
+<vertex x="-1.016" y="2.032"/>
+</polygon>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.127" layer="94"/>
+<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="DIODE_BRIDGE">
+<description>&lt;b&gt;Diode Bridge Rectifier&lt;/b&gt;</description>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-1.27" y="1.27"/>
+<vertex x="-1.27" y="-1.27"/>
+<vertex x="1.27" y="0"/>
+</polygon>
+<wire x1="0" y1="5.08" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
+<text x="6.35" y="1.27" size="1.27" layer="94" align="center">+</text>
+<text x="-6.35" y="1.27" size="1.27" layer="94" align="center">-</text>
+<text x="-1.27" y="6.35" size="1.27" layer="94" align="center">~</text>
+<text x="-1.27" y="-6.35" size="1.27" layer="94" align="center">~</text>
+<pin name="-" x="-7.62" y="0" visible="pad" length="short" direction="sup"/>
+<pin name="AC2" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="+" x="7.62" y="0" visible="pad" length="short" direction="sup" rot="R180"/>
+<pin name="AC1" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
+<text x="2.54" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="2.54" y="-3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DOMINO" prefix="M">
@@ -11097,6 +11339,87 @@ DIN A3, landscape with location and doc. field</description>
 <device name="">
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AG98*M" prefix="M">
+<description>&lt;b&gt;Miniature PoE Module&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="AG9800M" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AG9800M">
+<connects>
+<connect gate="G$1" pin="+VDC@1" pad="1"/>
+<connect gate="G$1" pin="+VDC@2" pad="2"/>
+<connect gate="G$1" pin="-VDC" pad="3"/>
+<connect gate="G$1" pin="ADJ" pad="4"/>
+<connect gate="G$1" pin="VIN+@1" pad="5"/>
+<connect gate="G$1" pin="VIN+@2" pad="6"/>
+<connect gate="G$1" pin="VIN-@1" pad="7"/>
+<connect gate="G$1" pin="VIN-@2" pad="8"/>
+</connects>
+<technologies>
+<technology name="03">
+<attribute name="RATE" value="6W" constant="no"/>
+<attribute name="VOLT" value="3.3V" constant="no"/>
+</technology>
+<technology name="05">
+<attribute name="RATE" value="9W" constant="no"/>
+<attribute name="VOLT" value="5V" constant="no"/>
+</technology>
+<technology name="12">
+<attribute name="RATE" value="12W" constant="no"/>
+<attribute name="VOLT" value="12V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMAJ58CA" prefix="D">
+<description>&lt;b&gt;Transient Votlage Suppression (TVS) Diode&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="TVS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMA">
+<connects>
+<connect gate="G$1" pin="1" pad="A"/>
+<connect gate="G$1" pin="2" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CDNBS04-B08" prefix="BR">
+<description>&lt;b&gt;Surface Mount Rectifier&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE_BRIDGE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NBS04">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="4"/>
+<connect gate="G$1" pin="AC1" pad="2"/>
+<connect gate="G$1" pin="AC2" pad="3"/>
+</connects>
+<technologies>
+<technology name="200">
+<attribute name="VOLT" value="200V" constant="no"/>
+</technology>
+<technology name="400">
+<attribute name="VOLT" value="400V" constant="no"/>
+</technology>
+<technology name="600">
+<attribute name="VOLT" value="600V" constant="no"/>
+</technology>
+<technology name="800">
+<attribute name="VOLT" value="800V" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
