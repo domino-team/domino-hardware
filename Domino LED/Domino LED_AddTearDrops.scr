@@ -1,0 +1,11 @@
+# Script generated to add teardrops to board vias.
+# Script generated with 'teardrops.ulp', *EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft* at 2014-08-13 19:31:07.
+# Script values in mm and spreadsheet values in mils:
+# This script generated with the following user parameters:
+# Teardrop Apex Radius Factor: 1.50.  Ignoring segments >= 25.0 mils.  Ignoring segments with width/via_hole ratio >= 1.5. 
+# SCR Command, Signal Name, Signal Class, Layer, Width, Via Drill, Via Layer Diameter, Via X, Via Y, Ratio segment_width/Via_drill_size
+SET UNDO_LOG OFF;
+SET WIRE_BEND 2;
+GRID MM;
+GRID LAST;
+SET UNDO_LOG ON;
