@@ -76,8 +76,8 @@
 <layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="no"/>
 <layer number="143" name="mvRestrict" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="yes" active="yes"/>
-<layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="no" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="no" active="yes"/>
 <layer number="148" name="mDocument" color="7" fill="1" visible="no" active="no"/>
 <layer number="149" name="mReference" color="7" fill="1" visible="no" active="no"/>
 <layer number="150" name="Pinout" color="7" fill="1" visible="no" active="yes"/>
@@ -120,10 +120,10 @@
 <text x="79.375" y="64.516" size="1.27" layer="48" ratio="16">DRILL CHART: TOP TO BOTTOM</text>
 <dimension x1="0" y1="33.02" x2="0" y2="0" x3="-2.54" y3="16.51" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="25.4" y1="33.02" x2="0" y2="33.02" x3="12.7" y3="38.1" textsize="1.778" layer="47" dtype="horizontal"/>
-<text x="21.59" y="5.08" size="0.8128" layer="22" rot="MR90" align="center">USB+</text>
-<text x="19.05" y="5.08" size="0.8128" layer="22" rot="MR90" align="center">USB-</text>
-<text x="16.51" y="4.826" size="0.8128" layer="22" rot="MR90" align="center">+5V</text>
-<text x="24.13" y="5.207" size="0.8128" layer="22" rot="MR90" align="center">GND</text>
+<text x="20.955" y="3.81" size="0.8128" layer="22" rot="MR90" align="center">USB+</text>
+<text x="19.05" y="3.81" size="0.8128" layer="22" rot="MR90" align="center">USB-</text>
+<text x="16.51" y="3.556" size="0.8128" layer="22" rot="MR90" align="center">+5V</text>
+<text x="24.13" y="3.937" size="0.8128" layer="22" rot="MR90" align="center">GND</text>
 <text x="19.685" y="9.525" size="1.27" layer="22" rot="MR0" align="center">USB</text>
 <wire x1="15.24" y1="8.255" x2="25.4" y2="8.255" width="0.127" layer="22"/>
 <text x="11.43" y="11.43" size="0.8128" layer="26" rot="MR180" align="center">&gt;DATE</text>
@@ -349,7 +349,7 @@ Core</text>
 <text x="-16.51" y="-53.975" size="1.778" layer="48" rot="R45" align="center-left">Domino
 Qi</text>
 <wire x1="15.24" y1="1.905" x2="15.24" y2="8.255" width="0.127" layer="22"/>
-<text x="13.97" y="5.207" size="0.8128" layer="22" rot="MR90" align="center">GND</text>
+<text x="13.97" y="3.937" size="0.8128" layer="22" rot="MR90" align="center">GND</text>
 <text x="24.13" y="27.813" size="0.8128" layer="22" rot="MR270" align="center">GND</text>
 <text x="15.875" y="11.43" size="0.8128" layer="26" rot="MR0" align="center">&gt;REV</text>
 <text x="13.97" y="-1.27" size="1.27" layer="150" rot="R270" align="center-left">GND</text>
@@ -357,12 +357,13 @@ Qi</text>
 <text x="18.542" y="3.175" size="0.8128" layer="25" rot="R180" align="center">&gt;REV</text>
 <wire x1="25.4" y1="8.255" x2="18.415" y2="8.255" width="0.127" layer="21"/>
 <wire x1="15.24" y1="6.985" x2="15.24" y2="1.905" width="0.127" layer="21"/>
-<text x="24.13" y="5.207" size="0.8128" layer="21" rot="R90" align="center">GND</text>
-<text x="21.59" y="5.08" size="0.8128" layer="21" rot="R90" align="center">USB+</text>
-<text x="19.05" y="5.08" size="0.8128" layer="21" rot="R90" align="center">USB-</text>
-<text x="16.51" y="4.826" size="0.8128" layer="21" rot="R90" align="center">+5V</text>
-<text x="13.843" y="6.35" size="0.8128" layer="21" rot="R180" align="center">GND</text>
+<text x="24.13" y="3.556" size="0.8128" layer="21" rot="R90" align="center">GND</text>
+<text x="20.828" y="3.556" size="0.8128" layer="21" rot="R90" align="center">USB+</text>
+<text x="19.05" y="3.556" size="0.8128" layer="21" rot="R90" align="center">USB-</text>
+<text x="16.637" y="3.556" size="0.8128" layer="21" rot="R90" align="center">+5V</text>
+<text x="15.113" y="3.556" size="0.8128" layer="21" rot="R270" align="center">GND</text>
 <text x="24.13" y="28.067" size="0.8128" layer="21" rot="R90" align="center">GND</text>
+<hole x="22.44" y="6" drill="3.2"/>
 <text x="62.865" y="59.944" size="1.27" layer="144">LAYER-STACK</text>
 <text x="72.644" y="57.0103" size="1.27" layer="145">01-16</text>
 <wire x1="10.287" y1="16.129" x2="10.287" y2="15.113" width="0.1016" layer="145"/>
@@ -474,8 +475,6 @@ Qi</text>
 <wire x1="19.812" y1="10.16" x2="20.828" y2="10.16" width="0.1016" layer="145"/>
 <wire x1="22.86" y1="10.668" x2="22.86" y2="9.652" width="0.1016" layer="145"/>
 <wire x1="22.352" y1="10.16" x2="23.368" y2="10.16" width="0.1016" layer="145"/>
-<wire x1="22.86" y1="8.128" x2="22.86" y2="7.112" width="0.1016" layer="145"/>
-<wire x1="22.352" y1="7.62" x2="23.368" y2="7.62" width="0.1016" layer="145"/>
 <wire x1="20.32" y1="8.128" x2="20.32" y2="7.112" width="0.1016" layer="145"/>
 <wire x1="19.812" y1="7.62" x2="20.828" y2="7.62" width="0.1016" layer="145"/>
 <wire x1="10.16" y1="8.128" x2="10.16" y2="7.112" width="0.1016" layer="145"/>
@@ -490,8 +489,6 @@ Qi</text>
 <wire x1="14.732" y1="5.08" x2="15.748" y2="5.08" width="0.1016" layer="145"/>
 <wire x1="17.78" y1="5.588" x2="17.78" y2="4.572" width="0.1016" layer="145"/>
 <wire x1="17.272" y1="5.08" x2="18.288" y2="5.08" width="0.1016" layer="145"/>
-<wire x1="22.86" y1="5.588" x2="22.86" y2="4.572" width="0.1016" layer="145"/>
-<wire x1="22.352" y1="5.08" x2="23.368" y2="5.08" width="0.1016" layer="145"/>
 <wire x1="22.86" y1="3.048" x2="22.86" y2="2.032" width="0.1016" layer="145"/>
 <wire x1="22.352" y1="2.54" x2="23.368" y2="2.54" width="0.1016" layer="145"/>
 <wire x1="17.78" y1="3.048" x2="17.78" y2="2.032" width="0.1016" layer="145"/>
@@ -588,6 +585,11 @@ Qi</text>
 <wire x1="17.653" y1="18.529" x2="16.637" y2="18.529" width="0.1016" layer="146"/>
 <wire x1="16.637" y1="18.529" x2="16.637" y2="19.545" width="0.1016" layer="146"/>
 <wire x1="16.637" y1="19.545" x2="17.145" y2="19.545" width="0.1016" layer="146"/>
+<wire x1="22.44" y1="6" x2="22.44" y2="6.508" width="0.1016" layer="146"/>
+<wire x1="22.44" y1="6.508" x2="22.948" y2="6" width="0.1016" layer="146"/>
+<wire x1="22.948" y1="6" x2="22.44" y2="5.492" width="0.1016" layer="146"/>
+<wire x1="22.44" y1="5.492" x2="21.932" y2="6" width="0.1016" layer="146"/>
+<wire x1="21.932" y1="6" x2="22.44" y2="6.508" width="0.1016" layer="146"/>
 </plain>
 <libraries>
 <library name="Domino">
@@ -1801,7 +1803,7 @@ Pi</text>
 <wire x1="9.652" y1="-2.921" x2="17.526" y2="-2.921" width="0.1016" layer="144"/>
 <wire x1="17.526" y1="-2.921" x2="25.4" y2="-2.921" width="0.1016" layer="144"/>
 <wire x1="17.526" y1="-2.921" x2="17.526" y2="0" width="0.1016" layer="144"/>
-<text x="26.8224" y="-2.3622" size="1.778" layer="144" ratio="5">86</text>
+<text x="26.8224" y="-2.3622" size="1.778" layer="144" ratio="5">84</text>
 <wire x1="25.4" y1="-2.921" x2="31.242" y2="-2.921" width="0.1016" layer="144"/>
 <wire x1="31.242" y1="-2.921" x2="31.242" y2="0" width="0.1016" layer="144"/>
 <text x="34.8234" y="-2.3622" size="1.778" layer="144" ratio="5">YES</text>
@@ -1849,13 +1851,35 @@ Pi</text>
 <text x="34.8234" y="-8.2042" size="1.778" layer="144" ratio="5">NOT</text>
 <wire x1="31.242" y1="-8.763" x2="42.926" y2="-8.763" width="0.1016" layer="144"/>
 <wire x1="42.926" y1="-8.763" x2="42.926" y2="-5.842" width="0.1016" layer="144"/>
+<wire x1="2.921" y1="-10.2362" x2="2.921" y2="-9.7282" width="0.1016" layer="144"/>
+<wire x1="2.921" y1="-9.7282" x2="3.429" y2="-10.2362" width="0.1016" layer="144"/>
+<wire x1="3.429" y1="-10.2362" x2="2.921" y2="-10.7442" width="0.1016" layer="144"/>
+<wire x1="2.921" y1="-10.7442" x2="2.413" y2="-10.2362" width="0.1016" layer="144"/>
+<wire x1="2.413" y1="-10.2362" x2="2.921" y2="-9.7282" width="0.1016" layer="144"/>
+<wire x1="0" y1="-11.684" x2="5.842" y2="-11.684" width="0.1016" layer="144"/>
+<wire x1="5.842" y1="-11.684" x2="5.842" y2="-8.763" width="0.1016" layer="144"/>
+<text x="6.985" y="-11.1252" size="1.778" layer="144" ratio="5">4</text>
+<wire x1="5.842" y1="-11.684" x2="9.652" y2="-11.684" width="0.1016" layer="144"/>
+<wire x1="9.652" y1="-11.684" x2="9.652" y2="-8.763" width="0.1016" layer="144"/>
+<text x="18.4404" y="-11.1252" size="1.778" layer="144" ratio="5">3.20</text>
+<wire x1="25.4" y1="-11.684" x2="25.4" y2="-8.763" width="0.1016" layer="144"/>
+<text x="11.3284" y="-11.1252" size="1.778" layer="144" ratio="5">126</text>
+<wire x1="9.652" y1="-11.684" x2="17.526" y2="-11.684" width="0.1016" layer="144"/>
+<wire x1="17.526" y1="-11.684" x2="25.4" y2="-11.684" width="0.1016" layer="144"/>
+<wire x1="17.526" y1="-11.684" x2="17.526" y2="-8.763" width="0.1016" layer="144"/>
+<text x="27.559" y="-11.1252" size="1.778" layer="144" ratio="5">1</text>
+<wire x1="25.4" y1="-11.684" x2="31.242" y2="-11.684" width="0.1016" layer="144"/>
+<wire x1="31.242" y1="-11.684" x2="31.242" y2="-8.763" width="0.1016" layer="144"/>
+<text x="34.8234" y="-11.1252" size="1.778" layer="144" ratio="5">NOT</text>
+<wire x1="31.242" y1="-11.684" x2="42.926" y2="-11.684" width="0.1016" layer="144"/>
+<wire x1="42.926" y1="-11.684" x2="42.926" y2="-8.763" width="0.1016" layer="144"/>
 <wire x1="17.526" y1="0" x2="25.4" y2="0" width="0.1016" layer="144"/>
 <wire x1="42.926" y1="0" x2="42.926" y2="2.921" width="0.1016" layer="144"/>
 <wire x1="0" y1="2.921" x2="0" y2="0" width="0.1016" layer="144"/>
-<wire x1="0" y1="-8.763" x2="42.926" y2="-8.763" width="0.2032" layer="144"/>
-<wire x1="42.926" y1="-8.763" x2="42.926" y2="2.921" width="0.2032" layer="144"/>
+<wire x1="0" y1="-11.684" x2="42.926" y2="-11.684" width="0.2032" layer="144"/>
+<wire x1="42.926" y1="-11.684" x2="42.926" y2="2.921" width="0.2032" layer="144"/>
 <wire x1="42.926" y1="2.921" x2="0" y2="2.921" width="0.2032" layer="144"/>
-<wire x1="0" y1="2.921" x2="0" y2="-8.763" width="0.2032" layer="144"/>
+<wire x1="0" y1="2.921" x2="0" y2="-11.684" width="0.2032" layer="144"/>
 </package>
 </packages>
 </library>
@@ -2270,7 +2294,6 @@ Your Eurocircuits Team
 <via x="10.16" y="10.16" extent="1-16" drill="0.3"/>
 <via x="20.32" y="10.16" extent="1-16" drill="0.3"/>
 <via x="22.86" y="10.16" extent="1-16" drill="0.3"/>
-<via x="22.86" y="7.62" extent="1-16" drill="0.3"/>
 <via x="20.32" y="7.62" extent="1-16" drill="0.3"/>
 <via x="10.16" y="7.62" extent="1-16" drill="0.3"/>
 <via x="2.54" y="7.62" extent="1-16" drill="0.3"/>
@@ -2278,7 +2301,6 @@ Your Eurocircuits Team
 <via x="5.08" y="5.08" extent="1-16" drill="0.3"/>
 <via x="15.24" y="5.08" extent="1-16" drill="0.3"/>
 <via x="17.78" y="5.08" extent="1-16" drill="0.3"/>
-<via x="22.86" y="5.08" extent="1-16" drill="0.3"/>
 <via x="22.86" y="2.54" extent="1-16" drill="0.3"/>
 <via x="17.78" y="2.54" extent="1-16" drill="0.3"/>
 <via x="12.7" y="2.54" extent="1-16" drill="0.3"/>
