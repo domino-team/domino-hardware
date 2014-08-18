@@ -537,32 +537,32 @@
 </package>
 <package name="SOT143B">
 <description>&lt;b&gt;Small Outline Transistor (SOT), 4 Pins, Large Pin 1, (SOT143B) Package&lt;/b&gt;</description>
-<wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.127" layer="51"/>
-<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.127" layer="51"/>
-<wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.127" layer="51"/>
-<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.127" layer="51"/>
-<rectangle x1="-1.19" y1="0.65" x2="-0.71" y2="1.3" layer="51"/>
-<rectangle x1="0.71" y1="0.65" x2="1.19" y2="1.3" layer="51"/>
-<rectangle x1="0.71" y1="-1.3" x2="1.19" y2="-0.65" layer="51"/>
-<rectangle x1="-1.19" y1="-1.3" x2="-0.3" y2="-0.65" layer="51"/>
-<smd name="1" x="-0.76" y="-1.1" dx="1.2" dy="1.4" layer="1"/>
-<smd name="2" x="0.96" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="3" x="0.96" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="4" x="-0.96" y="1.1" dx="1" dy="1.4" layer="1"/>
-<text x="-1.905" y="2.54" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="0.8128" layer="27">&gt;VALUE</text>
-<wire x1="-1.778" y1="2.032" x2="1.778" y2="2.032" width="0.0508" layer="39"/>
-<wire x1="1.778" y1="2.032" x2="1.778" y2="-2.032" width="0.0508" layer="39"/>
-<wire x1="1.778" y1="-2.032" x2="-1.778" y2="-2.032" width="0.0508" layer="39"/>
-<wire x1="-1.778" y1="-2.032" x2="-1.778" y2="2.032" width="0.0508" layer="39"/>
-<wire x1="-1.778" y1="2.032" x2="1.778" y2="2.032" width="0.127" layer="21"/>
-<wire x1="1.778" y1="2.032" x2="1.778" y2="-2.032" width="0.127" layer="21"/>
-<wire x1="1.778" y1="-2.032" x2="-1.778" y2="-2.032" width="0.127" layer="21"/>
-<wire x1="-1.778" y1="-2.032" x2="-1.778" y2="2.032" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.127" layer="51"/>
+<wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.127" layer="51"/>
+<rectangle x1="-1.19" y1="0.7" x2="-0.71" y2="1.25" layer="51"/>
+<rectangle x1="0.71" y1="0.7" x2="1.19" y2="1.25" layer="51"/>
+<rectangle x1="0.71" y1="-1.25" x2="1.19" y2="-0.7" layer="51"/>
+<rectangle x1="-1.19" y1="-1.25" x2="-0.31" y2="-0.7" layer="51"/>
+<smd name="1" x="-0.75" y="-1" dx="1" dy="0.7" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.6" dy="0.7" layer="1"/>
+<smd name="3" x="0.95" y="1" dx="0.6" dy="0.7" layer="1"/>
+<smd name="4" x="-0.95" y="1" dx="0.6" dy="0.7" layer="1"/>
+<text x="-1.905" y="1.905" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
+<wire x1="-1.651" y1="1.524" x2="1.651" y2="1.524" width="0.0508" layer="39"/>
+<wire x1="1.651" y1="1.524" x2="1.651" y2="-1.524" width="0.0508" layer="39"/>
+<wire x1="1.651" y1="-1.524" x2="-1.651" y2="-1.524" width="0.0508" layer="39"/>
+<wire x1="-1.651" y1="-1.524" x2="-1.651" y2="1.524" width="0.0508" layer="39"/>
+<wire x1="-1.651" y1="1.524" x2="1.651" y2="1.524" width="0.127" layer="21"/>
+<wire x1="1.651" y1="1.524" x2="1.651" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="1.651" y1="-1.524" x2="-1.651" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="-1.651" y1="-1.524" x2="-1.651" y2="1.524" width="0.127" layer="21"/>
 <polygon width="0.127" layer="21">
-<vertex x="-1.778" y="-2.032"/>
-<vertex x="-1.2192" y="-2.032"/>
-<vertex x="-1.778" y="-1.4732"/>
+<vertex x="-1.651" y="-1.524"/>
+<vertex x="-1.4732" y="-1.524"/>
+<vertex x="-1.651" y="-1.3462"/>
 </polygon>
 </package>
 <package name="FB0603">
@@ -2293,26 +2293,26 @@ certification</text>
 </net>
 <net name="D_N" class="1">
 <segment>
-<wire x1="233.68" y1="139.7" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="139.7" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
 <label x="228.6" y="139.7" size="1.778" layer="95" rot="MR0"/>
 <pinref part="J2" gate="G$1" pin="2"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="D1" gate="G$1" pin="P$3"/>
-<wire x1="205.74" y1="139.7" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="132.08" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
-<junction x="205.74" y="139.7"/>
+<pinref part="D1" gate="G$1" pin="P$2"/>
+<wire x1="210.82" y1="139.7" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="132.08" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
+<junction x="210.82" y="139.7"/>
 </segment>
 </net>
 <net name="D_P" class="1">
 <segment>
-<wire x1="195.58" y1="137.16" x2="210.82" y2="137.16" width="0.1524" layer="91"/>
 <label x="228.6" y="137.16" size="1.778" layer="95" rot="MR0"/>
 <pinref part="J2" gate="G$1" pin="3"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="D1" gate="G$1" pin="P$2"/>
-<wire x1="210.82" y1="137.16" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="132.08" x2="210.82" y2="137.16" width="0.1524" layer="91"/>
-<junction x="210.82" y="137.16"/>
+<wire x1="195.58" y1="137.16" x2="205.74" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="P$3"/>
+<wire x1="205.74" y1="137.16" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="132.08" x2="205.74" y2="137.16" width="0.1524" layer="91"/>
+<junction x="205.74" y="137.16"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
