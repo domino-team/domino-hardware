@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -5967,6 +5967,7 @@ Pi</text>
 <wire x1="10.16" y1="17.78" x2="10.16" y2="-7.62" width="0.127" layer="21"/>
 </package>
 <package name="11A009-1702-00">
+<description>&lt;b&gt;Single Port RJ45 Modular Jack with Integrated Magnetics, no LED, 2 Shield Tabs&lt;/b&gt;</description>
 <hole x="5.715" y="0" drill="3.25"/>
 <hole x="-5.715" y="0" drill="3.25"/>
 <pad name="1" x="-4.445" y="6.35" drill="0.89"/>
@@ -6021,13 +6022,13 @@ Pi</text>
 <wire x1="10.16" y1="11.43" x2="10.16" y2="-11.43" width="0.0508" layer="39"/>
 <wire x1="10.16" y1="-11.43" x2="-10.16" y2="-11.43" width="0.0508" layer="39"/>
 <wire x1="-10.16" y1="-11.43" x2="-10.16" y2="11.43" width="0.0508" layer="39"/>
-<wire x1="8" y1="-10.2" x2="8.5" y2="-9.5" width="0.127" layer="21"/>
-<wire x1="8.5" y1="-9.5" x2="9.5" y2="-4.6" width="0.127" layer="21" curve="47.471742"/>
-<wire x1="9.5" y1="-4.6" x2="9.8" y2="-3" width="0.127" layer="21" curve="-50.158405"/>
-<wire x1="9.8" y1="-3" x2="10.1" y2="-3.2" width="0.127" layer="21"/>
-<wire x1="8" y1="-10.8" x2="8.8" y2="-9.7" width="0.127" layer="21"/>
-<wire x1="8.8" y1="-9.7" x2="9.8" y2="-4.5" width="0.127" layer="21" curve="47.471742"/>
-<wire x1="9.8" y1="-4.5" x2="10.1" y2="-3.2" width="0.127" layer="21" curve="-50.158405"/>
+<wire x1="8" y1="-10.2" x2="8.5" y2="-9.5" width="0.127" layer="51"/>
+<wire x1="8.5" y1="-9.5" x2="9.5" y2="-4.6" width="0.127" layer="51" curve="47.471742"/>
+<wire x1="9.5" y1="-4.6" x2="9.8" y2="-3" width="0.127" layer="51" curve="-50.158405"/>
+<wire x1="9.8" y1="-3" x2="10.1" y2="-3.2" width="0.127" layer="51"/>
+<wire x1="8" y1="-10.8" x2="8.8" y2="-9.7" width="0.127" layer="51"/>
+<wire x1="8.8" y1="-9.7" x2="9.8" y2="-4.5" width="0.127" layer="51" curve="47.471742"/>
+<wire x1="9.8" y1="-4.5" x2="10.1" y2="-3.2" width="0.127" layer="51" curve="-50.158405"/>
 <pad name="SH$1" x="-7.874" y="3.048" drill="1.63"/>
 <pad name="SH$2" x="7.874" y="3.048" drill="1.63"/>
 </package>
