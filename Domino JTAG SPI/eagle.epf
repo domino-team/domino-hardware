@@ -54,7 +54,7 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=1
+Layer=16
 
 [Win_2]
 Type="Schematic Editor"
@@ -106,7 +106,7 @@ Sheet=1
 
 [Win_3]
 Type="Control Panel"
-Loc="0 0 599 399"
+Loc="49 22 1008 1063"
 State=1
 Number=0
 

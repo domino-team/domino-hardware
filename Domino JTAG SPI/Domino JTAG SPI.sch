@@ -2091,7 +2091,7 @@ DIN A3, landscape with location and doc. field</description>
 <parts>
 <part name="FRAME1" library="Domino" deviceset="A3L-LOC" device="" value="FRAME"/>
 <part name="CC-BY-SA1" library="Domino" deviceset="CC-BY-SA_LOGO" device=""/>
-<part name="R3" library="Domino" deviceset="RES_" device="0402" value="10k">
+<part name="R4" library="Domino" deviceset="RES_" device="0402" value="10k">
 <attribute name="PARTNO" value="R0402_10k_5%_62.5mW"/>
 <attribute name="RATE" value="62.5mW"/>
 <attribute name="TOL" value="5%"/>
@@ -2107,18 +2107,13 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="PARTNO" value="MHRA7-2-0.1"/>
 </part>
 <part name="SUPPLY1" library="Domino" deviceset="GND" device=""/>
-<part name="R5" library="Domino" deviceset="RES_" device="0603" value="0R">
+<part name="R6" library="Domino" deviceset="RES_" device="0603" value="0R">
 <attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="R0603_0R_5%_125mW"/>
 <attribute name="RATE" value="125mW"/>
 <attribute name="TOL" value="5%"/>
 </part>
-<part name="R4" library="Domino" deviceset="RES_" device="0402" value="10k">
-<attribute name="PARTNO" value="R0402_10k_5%_62.5mW"/>
-<attribute name="RATE" value="62.5mW"/>
-<attribute name="TOL" value="5%"/>
-</part>
-<part name="R6" library="Domino" deviceset="RES_" device="0402" value="10k">
+<part name="R5" library="Domino" deviceset="RES_" device="0402" value="10k">
 <attribute name="PARTNO" value="R0402_10k_5%_62.5mW"/>
 <attribute name="RATE" value="62.5mW"/>
 <attribute name="TOL" value="5%"/>
@@ -2128,13 +2123,18 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="RATE" value="62.5mW"/>
 <attribute name="TOL" value="5%"/>
 </part>
-<part name="R8" library="Domino" deviceset="RES_" device="0603" value="0R">
+<part name="R8" library="Domino" deviceset="RES_" device="0402" value="10k">
+<attribute name="PARTNO" value="R0402_10k_5%_62.5mW"/>
+<attribute name="RATE" value="62.5mW"/>
+<attribute name="TOL" value="5%"/>
+</part>
+<part name="R9" library="Domino" deviceset="RES_" device="0603" value="0R">
 <attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="R0603_0R_5%_125mW"/>
 <attribute name="RATE" value="125mW"/>
 <attribute name="TOL" value="5%"/>
 </part>
-<part name="R9" library="Domino" deviceset="RES_" device="0603" value="0R">
+<part name="R10" library="Domino" deviceset="RES_" device="0603" value="0R">
 <attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="R0603_0R_5%_125mW"/>
 <attribute name="RATE" value="125mW"/>
@@ -2153,7 +2153,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="PARTNO" value="MH10-1-0.1"/>
 </part>
 <part name="U$5" library="Domino" deviceset="+2V5" device=""/>
-<part name="R2" library="Domino" deviceset="RES_" device="0402" value="10k">
+<part name="R3" library="Domino" deviceset="RES_" device="0402" value="10k">
 <attribute name="PARTNO" value="R0402_10k_5%_62.5mW"/>
 <attribute name="RATE" value="62.5mW"/>
 <attribute name="TOL" value="5%"/>
@@ -2182,11 +2182,6 @@ DIN A3, landscape with location and doc. field</description>
 <part name="SUPPLY9" library="Domino" deviceset="GND" device=""/>
 <part name="PORT9" library="Domino" deviceset="NC" device=""/>
 <part name="U$14" library="Domino" deviceset="+3V3" device=""/>
-<part name="R10" library="Domino" deviceset="RES_" device="0603" value="0R">
-<attribute name="PARTNO" value="R0603_0R_5%_125mW"/>
-<attribute name="RATE" value="125mW"/>
-<attribute name="TOL" value="5%"/>
-</part>
 <part name="R11" library="Domino" deviceset="RES_" device="0603" value="0R">
 <attribute name="PARTNO" value="R0603_0R_5%_125mW"/>
 <attribute name="RATE" value="125mW"/>
@@ -2197,13 +2192,18 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="RATE" value="125mW"/>
 <attribute name="TOL" value="5%"/>
 </part>
-<part name="U$15" library="Domino" deviceset="+3V3" device=""/>
 <part name="R13" library="Domino" deviceset="RES_" device="0603" value="0R">
 <attribute name="PARTNO" value="R0603_0R_5%_125mW"/>
 <attribute name="RATE" value="125mW"/>
 <attribute name="TOL" value="5%"/>
 </part>
+<part name="U$15" library="Domino" deviceset="+3V3" device=""/>
 <part name="R14" library="Domino" deviceset="RES_" device="0603" value="0R">
+<attribute name="PARTNO" value="R0603_0R_5%_125mW"/>
+<attribute name="RATE" value="125mW"/>
+<attribute name="TOL" value="5%"/>
+</part>
+<part name="R15" library="Domino" deviceset="RES_" device="0603" value="0R">
 <attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="R0603_0R_5%_125mW"/>
 <attribute name="RATE" value="125mW"/>
@@ -2238,8 +2238,13 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="VOLT" value="50V"/>
 </part>
 <part name="SUPPLY8" library="Domino" deviceset="GND" device=""/>
-<part name="R1" library="Domino" deviceset="RES_" device="0402" value="10k">
+<part name="R2" library="Domino" deviceset="RES_" device="0402" value="10k">
 <attribute name="PARTNO" value="R0402_10k_5%_62.5mW"/>
+<attribute name="RATE" value="62.5mW"/>
+<attribute name="TOL" value="5%"/>
+</part>
+<part name="R1" library="Domino" deviceset="RES_" device="0402" value="1k">
+<attribute name="PARTNO" value="R0402_1k_5%_62.5mW"/>
 <attribute name="RATE" value="62.5mW"/>
 <attribute name="TOL" value="5%"/>
 </part>
@@ -2321,7 +2326,7 @@ All rights reserved.</text>
 <text x="374.142" y="5.334" size="1.778" layer="94">Rev.</text>
 <text x="162.56" y="144.78" size="2.54" layer="94" align="center">FLASH
 WP</text>
-<text x="132.08" y="114.3" size="2.54" layer="94" rot="MR0" align="center">SPI</text>
+<text x="124.46" y="114.3" size="2.54" layer="94" rot="MR0" align="center">SPI</text>
 <text x="246.38" y="134.62" size="2.54" layer="94" align="center">JTAG</text>
 <text x="220.98" y="170.18" size="1.778" layer="94" align="center-left">+2.5V JTAG: R9, R10, R11, R12: 0 ohm, R13: DNP
 +3.3V JTAG: R9, R10, R11: 3.3 kohm, R12: DNP, R13: 0 ohm</text>
@@ -2349,7 +2354,7 @@ Protection with GPIO24</text>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="CC-BY-SA1" gate="G$1" x="269.24" y="10.16" smashed="yes"/>
-<instance part="R3" gate="G$1" x="187.96" y="170.18">
+<instance part="R4" gate="G$1" x="187.96" y="170.18">
 <attribute name="PARTNO" x="187.96" y="170.18" size="1.778" layer="96" display="off"/>
 <attribute name="RATE" x="187.96" y="170.18" size="1.778" layer="96" display="off"/>
 <attribute name="TOL" x="187.96" y="170.18" size="1.778" layer="96" display="off"/>
@@ -2369,7 +2374,7 @@ Protection with GPIO24</text>
 <attribute name="NAME" x="242.57" y="160.782" size="1.778" layer="95"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="259.08" y="124.46" smashed="yes"/>
-<instance part="R5" gate="G$1" x="187.96" y="154.94" smashed="yes">
+<instance part="R6" gate="G$1" x="187.96" y="154.94" smashed="yes">
 <attribute name="PARTNO" x="187.96" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="RATE" x="187.96" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="TOL" x="187.96" y="154.94" size="1.778" layer="96" display="off"/>
@@ -2378,22 +2383,22 @@ Protection with GPIO24</text>
 <attribute name="NAME" x="187.96" y="157.48" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="187.96" y="152.4" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R4" gate="G$1" x="187.96" y="162.56">
+<instance part="R5" gate="G$1" x="187.96" y="162.56">
 <attribute name="PARTNO" x="187.96" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="RATE" x="187.96" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="TOL" x="187.96" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R6" gate="G$1" x="187.96" y="147.32">
+<instance part="R7" gate="G$1" x="187.96" y="147.32">
 <attribute name="PARTNO" x="187.96" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="RATE" x="187.96" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="TOL" x="187.96" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R7" gate="G$1" x="187.96" y="139.7">
+<instance part="R8" gate="G$1" x="187.96" y="139.7">
 <attribute name="PARTNO" x="187.96" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="RATE" x="187.96" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="TOL" x="187.96" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R8" gate="G$1" x="187.96" y="132.08" smashed="yes">
+<instance part="R9" gate="G$1" x="187.96" y="132.08" smashed="yes">
 <attribute name="PARTNO" x="187.96" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="RATE" x="187.96" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="TOL" x="187.96" y="132.08" size="1.778" layer="96" display="off"/>
@@ -2402,7 +2407,7 @@ Protection with GPIO24</text>
 <attribute name="NAME" x="187.96" y="134.62" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="187.96" y="129.54" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R9" gate="G$1" x="208.28" y="170.18" smashed="yes">
+<instance part="R10" gate="G$1" x="208.28" y="170.18" smashed="yes">
 <attribute name="PARTNO" x="208.28" y="170.18" size="1.778" layer="96" display="off"/>
 <attribute name="RATE" x="208.28" y="170.18" size="1.778" layer="96" display="off"/>
 <attribute name="TOL" x="208.28" y="170.18" size="1.778" layer="96" display="off"/>
@@ -2430,7 +2435,7 @@ Protection with GPIO24</text>
 <instance part="U$5" gate="G$1" x="185.42" y="121.92" smashed="yes">
 <attribute name="VALUE" x="185.42" y="125.73" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R2" gate="G$1" x="185.42" y="114.3" smashed="yes" rot="R90">
+<instance part="R3" gate="G$1" x="185.42" y="114.3" smashed="yes" rot="R90">
 <attribute name="PARTNO" x="185.42" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="RATE" x="185.42" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="TOL" x="185.42" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
@@ -2466,12 +2471,12 @@ Protection with GPIO24</text>
 <instance part="U$13" gate="G$1" x="172.72" y="106.68" smashed="yes">
 <attribute name="VALUE" x="172.72" y="110.49" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="SUPPLY9" gate="GND" x="96.52" y="93.98"/>
+<instance part="SUPPLY9" gate="GND" x="83.82" y="93.98"/>
 <instance part="PORT9" gate="G$1" x="167.64" y="101.6" rot="R180"/>
 <instance part="U$14" gate="G$1" x="142.24" y="73.66" smashed="yes">
 <attribute name="VALUE" x="139.7" y="77.47" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R10" gate="G$1" x="231.14" y="152.4" smashed="yes">
+<instance part="R11" gate="G$1" x="231.14" y="152.4" smashed="yes">
 <attribute name="PARTNO" x="231.14" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="RATE" x="231.14" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="TOL" x="231.14" y="152.4" size="1.778" layer="96" display="off"/>
@@ -2479,7 +2484,7 @@ Protection with GPIO24</text>
 <attribute name="NAME" x="225.552" y="153.67" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="226.06" y="139.7" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R11" gate="G$1" x="231.14" y="147.32" smashed="yes">
+<instance part="R12" gate="G$1" x="231.14" y="147.32" smashed="yes">
 <attribute name="PARTNO" x="231.14" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="RATE" x="231.14" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="TOL" x="231.14" y="147.32" size="1.778" layer="96" display="off"/>
@@ -2487,7 +2492,7 @@ Protection with GPIO24</text>
 <attribute name="NAME" x="226.314" y="148.59" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="226.06" y="139.7" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R12" gate="G$1" x="231.14" y="144.78" smashed="yes">
+<instance part="R13" gate="G$1" x="231.14" y="144.78" smashed="yes">
 <attribute name="PARTNO" x="231.14" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="RATE" x="231.14" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="TOL" x="231.14" y="144.78" size="1.778" layer="96" display="off"/>
@@ -2498,7 +2503,7 @@ Protection with GPIO24</text>
 <instance part="U$15" gate="G$1" x="294.64" y="142.24" smashed="yes">
 <attribute name="VALUE" x="294.64" y="146.05" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R13" gate="G$1" x="274.32" y="139.7" smashed="yes">
+<instance part="R14" gate="G$1" x="274.32" y="139.7" smashed="yes">
 <attribute name="PARTNO" x="274.32" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="RATE" x="274.32" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="TOL" x="274.32" y="139.7" size="1.778" layer="96" display="off"/>
@@ -2506,7 +2511,7 @@ Protection with GPIO24</text>
 <attribute name="NAME" x="268.732" y="140.97" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="278.384" y="140.97" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R14" gate="G$1" x="274.32" y="134.62" smashed="yes">
+<instance part="R15" gate="G$1" x="274.32" y="134.62" smashed="yes">
 <attribute name="PARTNO" x="274.32" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="RATE" x="274.32" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="TOL" x="274.32" y="134.62" size="1.778" layer="96" display="off"/>
@@ -2525,17 +2530,17 @@ Protection with GPIO24</text>
 <instance part="J5" gate="G$1" x="162.56" y="106.68">
 <attribute name="PARTNO" x="162.56" y="106.68" size="1.778" layer="96" align="center" display="off"/>
 </instance>
-<instance part="J1" gate="G$1" x="101.6" y="106.68" rot="MR0">
-<attribute name="PARTNO" x="101.6" y="106.68" size="1.778" layer="96" rot="MR0" align="center" display="off"/>
+<instance part="J1" gate="G$1" x="88.9" y="106.68" rot="MR0">
+<attribute name="PARTNO" x="88.9" y="106.68" size="1.778" layer="96" rot="MR0" align="center" display="off"/>
 </instance>
 <instance part="PORT6" gate="G$1" x="167.64" y="114.3" rot="MR0"/>
 <instance part="PORT8" gate="G$1" x="167.64" y="111.76" rot="MR0"/>
 <instance part="PORT10" gate="G$1" x="167.64" y="109.22" rot="MR0"/>
 <instance part="PORT11" gate="G$1" x="167.64" y="106.68" rot="MR0"/>
-<instance part="PORT12" gate="G$1" x="96.52" y="114.3" rot="MR180"/>
-<instance part="PORT13" gate="G$1" x="96.52" y="111.76" rot="MR180"/>
-<instance part="PORT14" gate="G$1" x="96.52" y="109.22" rot="MR180"/>
-<instance part="PORT15" gate="G$1" x="96.52" y="106.68" rot="MR180"/>
+<instance part="PORT12" gate="G$1" x="83.82" y="114.3" rot="MR180"/>
+<instance part="PORT13" gate="G$1" x="83.82" y="111.76" rot="MR180"/>
+<instance part="PORT14" gate="G$1" x="83.82" y="109.22" rot="MR180"/>
+<instance part="PORT15" gate="G$1" x="83.82" y="106.68" rot="MR180"/>
 <instance part="U1" gate="G$1" x="124.46" y="99.06" smashed="yes">
 <attribute name="NAME" x="111.76" y="109.22" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="111.76" y="92.456" size="1.778" layer="96" align="center-left"/>
@@ -2552,12 +2557,19 @@ Protection with GPIO24</text>
 <attribute name="VALUE" x="140.97" y="107.95" size="1.778" layer="96" rot="MR180" align="center"/>
 </instance>
 <instance part="SUPPLY8" gate="GND" x="144.78" y="114.3" smashed="yes" rot="MR180"/>
-<instance part="R1" gate="G$1" x="149.86" y="101.6" smashed="yes" rot="MR0">
+<instance part="R2" gate="G$1" x="149.86" y="101.6" smashed="yes" rot="MR0">
 <attribute name="PARTNO" x="149.86" y="101.6" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="RATE" x="149.86" y="101.6" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="TOL" x="149.86" y="101.6" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="NAME" x="154.94" y="102.87" size="1.778" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="145.796" y="102.616" size="1.778" layer="96" rot="MR0" align="center"/>
+</instance>
+<instance part="R1" gate="G$1" x="99.06" y="101.6" smashed="yes" rot="MR0">
+<attribute name="PARTNO" x="99.06" y="101.6" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="RATE" x="99.06" y="101.6" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="TOL" x="99.06" y="101.6" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="NAME" x="104.14" y="102.87" size="1.778" layer="95" rot="MR0" align="center"/>
+<attribute name="VALUE" x="94.996" y="102.616" size="1.778" layer="96" rot="MR0" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -2567,19 +2579,19 @@ Protection with GPIO24</text>
 <segment>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 <wire x1="180.34" y1="137.16" x2="180.34" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="139.7" x2="180.34" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="147.32" x2="180.34" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="154.94" x2="180.34" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="162.56" x2="180.34" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="170.18" x2="182.88" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="162.56" x2="180.34" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="154.94" x2="180.34" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="162.56" x2="180.34" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="147.32" x2="180.34" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="154.94" x2="180.34" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="147.32" x2="180.34" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="139.7" x2="180.34" y2="139.7" width="0.1524" layer="91"/>
 <junction x="180.34" y="139.7"/>
 <junction x="180.34" y="147.32"/>
@@ -2639,12 +2651,12 @@ Protection with GPIO24</text>
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
-<wire x1="99.06" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="96.52" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="96.52" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="8"/>
 <pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="106.68" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
-<junction x="99.06" y="96.52"/>
+<wire x1="106.68" y1="96.52" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
+<junction x="86.36" y="96.52"/>
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
@@ -2654,8 +2666,8 @@ Protection with GPIO24</text>
 </net>
 <net name="TRST_L" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="170.18" x2="200.66" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="J6" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="170.18" x2="203.2" y2="170.18" width="0.1524" layer="91"/>
@@ -2672,14 +2684,14 @@ Protection with GPIO24</text>
 <pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="U$5" gate="G$1" pin="+2V5"/>
 <wire x1="185.42" y1="119.38" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="+2V5"/>
 <wire x1="287.02" y1="142.24" x2="287.02" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="287.02" y1="139.7" x2="279.4" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -2687,10 +2699,10 @@ Protection with GPIO24</text>
 <segment>
 <wire x1="226.06" y1="152.4" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="152.4" x2="198.12" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="162.56" x2="193.04" y2="162.56" width="0.1524" layer="91"/>
 <label x="203.2" y="152.4" size="1.778" layer="95"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="160.02" x2="147.32" y2="177.8" width="0.1524" layer="91"/>
@@ -2703,7 +2715,7 @@ Protection with GPIO24</text>
 <pinref part="J6" gate="G$1" pin="5"/>
 <wire x1="241.3" y1="149.86" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="149.86" x2="195.58" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="154.94" x2="193.04" y2="154.94" width="0.1524" layer="91"/>
 <label x="203.2" y="149.86" size="1.778" layer="95"/>
 </segment>
@@ -2715,10 +2727,10 @@ Protection with GPIO24</text>
 </net>
 <net name="JTAG_TMS" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <label x="203.2" y="147.32" size="1.778" layer="95"/>
 <wire x1="226.06" y1="147.32" x2="193.04" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="160.02" x2="152.4" y2="177.8" width="0.1524" layer="91"/>
@@ -2730,10 +2742,10 @@ Protection with GPIO24</text>
 <segment>
 <wire x1="226.06" y1="144.78" x2="195.58" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="144.78" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="139.7" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
 <label x="203.2" y="144.78" size="1.778" layer="95"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="149.86" y1="177.8" x2="149.86" y2="160.02" width="0.1524" layer="91"/>
@@ -2746,18 +2758,18 @@ Protection with GPIO24</text>
 <pinref part="J6" gate="G$1" pin="11"/>
 <wire x1="241.3" y1="142.24" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="142.24" x2="198.12" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="132.08" x2="193.04" y2="132.08" width="0.1524" layer="91"/>
 <label x="203.2" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="!RESET_L" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="132.08" x2="180.34" y2="132.08" width="0.1524" layer="91"/>
 <label x="167.64" y="132.08" size="1.778" layer="95"/>
 <pinref part="SW1" gate="G$1" pin="1"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="106.68" x2="185.42" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="106.68" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -2780,16 +2792,16 @@ Protection with GPIO24</text>
 <pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="157.48" x2="160.02" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="157.48" x2="152.4" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="157.48" x2="152.4" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="129.54" x2="78.74" y2="129.54" width="0.1524" layer="91"/>
-<label x="86.36" y="99.06" size="1.778" layer="95"/>
-<wire x1="99.06" y1="99.06" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="129.54" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="157.48" x2="152.4" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="132.08" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
+<label x="73.66" y="99.06" size="1.778" layer="95"/>
+<wire x1="86.36" y1="99.06" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="132.08" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
 <junction x="160.02" y="157.48"/>
 <pinref part="J1" gate="G$1" pin="7"/>
 <pinref part="U1" gate="G$1" pin="!W!/ACC/IO2"/>
-<wire x1="106.68" y1="99.06" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
-<junction x="99.06" y="99.06"/>
+<wire x1="106.68" y1="99.06" x2="86.36" y2="99.06" width="0.1524" layer="91"/>
+<junction x="86.36" y="99.06"/>
 </segment>
 </net>
 <net name="GPIO24" class="0">
@@ -2805,14 +2817,14 @@ Protection with GPIO24</text>
 <pinref part="J3" gate="G$1" pin="5"/>
 <label x="152.4" y="71.12" size="1.778" layer="95" rot="R90"/>
 <wire x1="152.4" y1="71.12" x2="152.4" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="83.82" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="83.82" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
-<label x="86.36" y="101.6" size="1.778" layer="95"/>
+<wire x1="152.4" y1="83.82" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="83.82" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
+<label x="73.66" y="101.6" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="6"/>
-<pinref part="U1" gate="G$1" pin="SO/IO1"/>
-<wire x1="99.06" y1="101.6" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="101.6" x2="99.06" y2="101.6" width="0.1524" layer="91"/>
-<junction x="99.06" y="101.6"/>
+<wire x1="86.36" y1="101.6" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="101.6" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
+<junction x="86.36" y="101.6"/>
 </segment>
 </net>
 <net name="SPI_CS" class="0">
@@ -2820,14 +2832,14 @@ Protection with GPIO24</text>
 <pinref part="J3" gate="G$1" pin="4"/>
 <label x="149.86" y="71.12" size="1.778" layer="95" rot="R90"/>
 <wire x1="149.86" y1="71.12" x2="149.86" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="86.36" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="86.36" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
-<label x="86.36" y="104.14" size="1.778" layer="95"/>
+<wire x1="149.86" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="86.36" x2="71.12" y2="104.14" width="0.1524" layer="91"/>
+<label x="73.66" y="104.14" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="5"/>
 <pinref part="U1" gate="G$1" pin="!CS"/>
-<wire x1="99.06" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="104.14" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
-<junction x="99.06" y="104.14"/>
+<wire x1="86.36" y1="104.14" x2="71.12" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
+<junction x="86.36" y="104.14"/>
 </segment>
 </net>
 <net name="SPI_MOSI" class="0">
@@ -2874,7 +2886,7 @@ Protection with GPIO24</text>
 <wire x1="157.48" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="106.68" x2="144.78" y2="104.14" width="0.1524" layer="91"/>
 <junction x="144.78" y="104.14"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="101.6" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="101.6" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
 <junction x="157.48" y="104.14"/>
@@ -2885,7 +2897,7 @@ Protection with GPIO24</text>
 <wire x1="142.24" y1="73.66" x2="142.24" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="279.4" y1="134.62" x2="294.64" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U$15" gate="G$1" pin="+3V3"/>
 <wire x1="294.64" y1="134.62" x2="294.64" y2="142.24" width="0.1524" layer="91"/>
@@ -2895,21 +2907,21 @@ Protection with GPIO24</text>
 <segment>
 <pinref part="J6" gate="G$1" pin="3"/>
 <wire x1="241.3" y1="152.4" x2="236.22" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="7"/>
 <wire x1="241.3" y1="147.32" x2="236.22" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="9"/>
 <wire x1="241.3" y1="144.78" x2="236.22" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -2920,16 +2932,16 @@ Protection with GPIO24</text>
 <wire x1="259.08" y1="139.7" x2="259.08" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="134.62" x2="259.08" y2="132.08" width="0.1524" layer="91"/>
 <junction x="259.08" y="139.7"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="269.24" y1="139.7" x2="259.08" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="139.7" x2="259.08" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="269.24" y1="134.62" x2="259.08" y2="134.62" width="0.1524" layer="91"/>
 <junction x="259.08" y="134.62"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="259.08" y1="142.24" x2="259.08" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="170.18" x2="215.9" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="170.18" x2="215.9" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
@@ -2938,15 +2950,22 @@ Protection with GPIO24</text>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="!HOLD!/IO3"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="101.6" x2="144.78" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="SO/IO1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="101.6" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,114.3,101.6,U1,VCC,+3V3,,,"/>
+<approved hash="104,1,142.24,104.14,U1,VCC,+3V3,,,"/>
 </errors>
 </schematic>
 </drawing>
