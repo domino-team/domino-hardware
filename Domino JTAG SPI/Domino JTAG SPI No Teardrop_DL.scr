@@ -1,5 +1,5 @@
 OPEN '/home/mstempin/eagle/Domino/Domino JTAG SPI/drilegend.lbr';
-Rename drilegend.pac dl08875758.pac
+Rename drilegend.pac dl09120283.pac
 Edit drilegend.pac
 LAYER 144 DrillLegend;
 Display none;
@@ -75,7 +75,7 @@ Text '0.30' R0 (726 -93);
 Wire 4 (690 -115) (1000 -115) (1000 115);
 Text '12' R0 (476 -93);
 Wire 4 (380 -115) (690 -115) (690 115);
-Text '62' R0 (1056 -93);
+Text '69' R0 (1056 -93);
 Wire 4 (1000 -115) (1230 -115) (1230 115);
 Text 'YES' R0 (1371 -93);
 Wire 4 (1230 -115) (1690 -115) (1690 115);
@@ -296,6 +296,27 @@ MARK (400.0000 435.0000);
 Wire 4 (R0 20) (R0 -20);
 Wire 4 (R-20 0) (R20 0);
 MARK (420.0000 485.0000);
+Wire 4 (R0 20) (R0 -20);
+Wire 4 (R-20 0) (R20 0);
+MARK (275.0000 475.0000);
+Wire 4 (R0 20) (R0 -20);
+Wire 4 (R-20 0) (R20 0);
+MARK (400.0000 350.0000);
+Wire 4 (R0 20) (R0 -20);
+Wire 4 (R-20 0) (R20 0);
+MARK (575.0000 375.0000);
+Wire 4 (R0 20) (R0 -20);
+Wire 4 (R-20 0) (R20 0);
+MARK (685.0000 605.0000);
+Wire 4 (R0 20) (R0 -20);
+Wire 4 (R-20 0) (R20 0);
+MARK (690.0000 520.0000);
+Wire 4 (R0 20) (R0 -20);
+Wire 4 (R-20 0) (R20 0);
+MARK (565.0000 645.0000);
+Wire 4 (R0 20) (R0 -20);
+Wire 4 (R-20 0) (R20 0);
+MARK (525.0000 610.0000);
 Wire 4 (R0 20) (R0 -20);
 Wire 4 (R-20 0) (R20 0);
 MARK (730.0000 595.0000);
