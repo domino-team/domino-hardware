@@ -1,38 +1,36 @@
-BOM-EX v1.30 exported from /home/mstempin/eagle/Domino/Domino Pi No Teardrop.sch at 10/08/14 10:09
+BOM-EX v1.30 exported from /home/mstempin/eagle/Domino/Domino Pi/Domino Pi.sch at 30/12/14 20:11
 
-Qty Value            Part Num                   Package          Parts                          Mfg Name               VID Vendor Part Num            Description                                             
-4   0R               R0402_0R_5%_62.5mW         R0402            R6, R7, R11, R12               ANY                    *   R0402_0R_5%_62.5mW         RES 0.0 OHM 1/16W JUMP 0402 SMD                         
-1   0R               R0603_0R_5%_125mW          R0603            R9                             ANY                    *   R0603_0R_5%_125mW          RES 0.0 OHM 1/8W JUMP SMD 0603                          
-1   0ZCG0110FF2C     0ZCG0110FF2C               PTC1812          F1                             BEL FUSE INC           *   0ZCG0110FF2C               PTC RESETTBLE 1.10A 8V CHIP 1812                        
-1   1k               R0402_1k_5%_62.5mW         R0402            R13                            ANY                    *   R0402_1k_5%_62.5mW         RES 1K OHM 1/16W 5% 0402 SMD                            
-1   1n               C1206_1n_X7R_10%_CER_500V  C1206            C1                             ANY                    *   C1206_1n_X7R_10%_CER_500V  CAP CER 1000PF 500V 10% X7R 1206                        
-1   1u               C0402_1u_X7R_10%_CER_25V   C0402            C11                            ANY                    *   C0402_1u_X7R_10%_CER_25V   CAP CER 1UF 25V 10% X7R 0402                            
-2   4u7              C0402_4u7_X5R_10%_CER_6V3  C0402            C8, C18                        ANY                    *   C0402_4u7_X5R_10%_CER_6V3  CAP CER 4.7UF 6.3V 10% X5R 0402                         
-2   10k              R0402_10k_5%_62.5mW        R0402            R1, R14                        ANY                    *   R0402_10k_5%_62.5mW        RES 10K OHM 1/16W 5% 0402 SMD                           
-1   10n              C0402_10n_X7R_10%_CER_50V  C0402            C20                            ANY                    *   C0402_10n_X7R_10%_CER_50V  CAP CER 10000PF 50V 10% X7R 0402                        
-2   10p              C0402_10p_NP0_5%_CER_50V   C0402            C3, C16                        ANY                    *   C0402_10p_NP0_5%_CER_50V   CAP CER 10PF 50V 5% NP0 0402                            
-1   10u              C0805_10u_X5R_10%_CER_16V  C0805            C4                             ANY                    *   C0805_10u_X5R_10%_CER_16V  CAP CER 10UF 16V 10% X5R 0805                           
-1   22p              C0402_22p_NP0_5%_CER_50V   C0402            C7                             ANY                    *   C0402_22p_NP0_5%_CER_50V   CAP CER 22PF 50V 5% NP0 0402                            
-2   22u              C0805_22u_X5R_20%_CER_6V3  C0805            C13, C15                       ANY                    *   C0805_22u_X5R_20%_CER_6V3  CAP CER 22UF 6.3V 20% X5R 0805                          
-1   22u              C1206_22u_X7R_20%_CER_10V  C0805            C2                             ANY                    *   C1206_22u_X7R_20%_CER_10V  CAP CER 22UF 10V 20% X7R 1206                           
-1   33k2             R0402_33k2_1%_62.5mW       R0402            R2                             ANY                    *   R0402_33k2_1%_62.5mW       RES 33.2K OHM 1/16W 1% 0402 SMD                         
-1   47k              R0402_47k_5%_62.5mW        R0402            R4, R5(DNP)                    ANY                    *   R0402_47k_5%_62.5mW        RES 47K OHM 1/16W 5% 0402 SMD                           
-1   74LVC1G125DCK    74LVC1G125DCK              SC70             U3                             TEXAS INSTRUMENTS      *   74LVC1G125DCK              IC BUFF/DVR TRI-ST N-INV SC705                          
-7   100n             C0402_100n_X7R_10%_CER_50V C0402            C5, C6, C9, C10, C12, C14, C17 ANY                    *   C0402_100n_X7R_10%_CER_50V CAP CER 0.1UF 50V 10% X7R 0402                          
-1   150k             R0402_150k_1%_62.5mW       R0402            R3                             ANY                    *   R0402_150k_1%_62.5mW       RES 150K OHM 1/16W 1% 0402 SMD                          
-1   270R             R0402_270R_5%_62.5mW       R0402            R8                             ANY                    *   R0402_270R_5%_62.5mW       RES 270 OHM 1/16W 5% 0402 SMD                           
-1   270R             R0603_270R_5%_125mW        R0603            R10                            ANY                    *   R0603_270R_5%_125mW        RES 270 OHM 1/8W 5% 0603 SMD                            
-1   ACA-5036-A2-CC-S ACA-5036-A2-CC-S           ACA-5036-A2-CC-S A1                             INPAQ TECHNOLOGY       *   ACA-5036-A2-CC-S           2.4GHZ CERAMIC CHIP ANTENNA                             
-1   BLM31PG601SN1L   BLM31PG601SN1L             FB1206           L1                             MURATA                 *   BLM31PG601SN1L             FERRITE CHIP 600 OHM 1500MA 1206                        
-1   BLUE             LED0603-BLUE               LED0603          D4                             ANY                    *   LED0603-BLUE               LED BLUE CLEAR 0603 SMD                                 
-1   CP2104-F03-GM    CP2104-F03-GM              QFN-25_4X4       U2                             SILICON LABORATORIES   *   CP2104-F03-GM              IC SGL USB-TO-UART BRIDGE 24QFN                         
-0   DNP              C0402_DNP                  C0402            C19(DNP), C21(DNP)             NONE                   *   C0402_DNP                  CAP DNP 0402                                            
-1   DOMINO           DOMINO-CORE                DOMINO           M1                             GL-CONNECT             *   DOMINO-CORE                MOD AR9331 WIFI                                         
-1   IT-1100          IT-1100                    IT-1100          SW1                            SZJUSTWELL ELECTRONICS *   IT-1100                    SWITCH TACTILE SPST-NO 0.05A 12V                        
-1   MBRM130LT1G      MBRM130LT1G                DO-216AA         D1                             ON SEMICONDUCTOR       *   MBRM130LT1G                DIODE SCHOTTKY 30V 1A POWERMITE                         
-2   MH28-1           MH28-1-0.1                 MH28-1-0.1       J1, J2                         ANY                    *   MH28-1-0.1                 CONN HEADER VERT .100 1ROW 28POS 10.5 TAIL 8.5 BODY 15AU
-1   MP2162GQH        MP2162GQH                  QFN-8_2X1.5      U1                             MONOLITHIC POWER       *   MP2162GQH                  IC REG BUCK SYNC ADJ 2A 8WDFN                           
-1   PRTR5V0U2X       PRTR5V0U2X                 SOT143B          D2                             NXP                    *   PRTR5V0U2X                 TVS DIODE ARRAY 2CH 5V SOT143                           
-1   RED              LED0603-RED                LED0603          D3                             ANY                    *   LED0603-RED                LED RED CLEAR 0603 SMD                                  
-1   SWPA252012S1R0NT SWPA252012SMT              SWPA252012S      L2                             SUNLORD                *   SWPA252012SMT              INDUCTOR 1.2UH 2.0A SMD2.5 X 2.0 X 1.2                  
-1   USB_MR5-003A     USB MR5-003A               USB_MR5-003A     S1                             SZJUSTWELL ELECTRONICS *   USB MR5-003A               CONN USB MICRO B RECPT SMT R/A                          
+Qty Value            Part Num                   Package     Parts                          Mfg Name               VID Vendor Part Num            Description                                             
+4   0R               R0402_0R_5%_62.5mW         R0402       R6, R7, R11, R12               ANY                    *   R0402_0R_5%_62.5mW         RES 0.0 OHM 1/16W JUMP 0402 SMD                         
+1   0R               R0603_0R_5%_125mW          R0603       R9                             ANY                    *   R0603_0R_5%_125mW          RES 0.0 OHM 1/8W JUMP SMD 0603                          
+1   0ZCG0110FF2C     0ZCG0110FF2C               PTC1812     F1                             BEL FUSE INC           *   0ZCG0110FF2C               PTC RESETTBLE 1.10A 8V CHIP 1812                        
+1   1k               R0402_1k_5%_62.5mW         R0402       R14                            ANY                    *   R0402_1k_5%_62.5mW         RES 1K OHM 1/16W 5% 0402 SMD                            
+1   1n               C1206_1n_X7R_10%_CER_500V  C1206       C1                             ANY                    *   C1206_1n_X7R_10%_CER_500V  CAP CER 1000PF 500V 10% X7R 1206                        
+1   1u               C0402_1u_X7R_10%_CER_25V   C0402       C11                            ANY                    *   C0402_1u_X7R_10%_CER_25V   CAP CER 1UF 25V 10% X7R 0402                            
+2   4u7              C0402_4u7_X5R_10%_CER_6V3  C0402       C8, C18                        ANY                    *   C0402_4u7_X5R_10%_CER_6V3  CAP CER 4.7UF 6.3V 10% X5R 0402                         
+2   10k              R0402_10k_5%_62.5mW        R0402       R1, R13                        ANY                    *   R0402_10k_5%_62.5mW        RES 10K OHM 1/16W 5% 0402 SMD                           
+1   10n              C0402_10n_X7R_10%_CER_50V  C0402       C20                            ANY                    *   C0402_10n_X7R_10%_CER_50V  CAP CER 10000PF 50V 10% X7R 0402                        
+2   10p              C0402_10p_NP0_5%_CER_50V   C0402       C3, C16                        ANY                    *   C0402_10p_NP0_5%_CER_50V   CAP CER 10PF 50V 5% NP0 0402                            
+1   10u              C0805_10u_X5R_10%_CER_16V  C0805       C4                             ANY                    *   C0805_10u_X5R_10%_CER_16V  CAP CER 10UF 16V 10% X5R 0805                           
+1   22p              C0402_22p_NP0_5%_CER_50V   C0402       C7                             ANY                    *   C0402_22p_NP0_5%_CER_50V   CAP CER 22PF 50V 5% NP0 0402                            
+2   22u              C0805_22u_X5R_20%_CER_6V3  C0805       C13, C15                       ANY                    *   C0805_22u_X5R_20%_CER_6V3  CAP CER 22UF 6.3V 20% X5R 0805                          
+1   22u              C1206_22u_X7R_20%_CER_10V  C0805       C2                             ANY                    *   C1206_22u_X7R_20%_CER_10V  CAP CER 22UF 10V 20% X7R 1206                           
+1   33k2             R0402_33k2_1%_62.5mW       R0402       R2                             ANY                    *   R0402_33k2_1%_62.5mW       RES 33.2K OHM 1/16W 1% 0402 SMD                         
+1   47k              R0402_47k_5%_62.5mW        R0402       R4, R5(DNP)                    ANY                    *   R0402_47k_5%_62.5mW        RES 47K OHM 1/16W 5% 0402 SMD                           
+1   74LVC1G125DCK    74LVC1G125DCK              SC70        U3                             TEXAS INSTRUMENTS      *   74LVC1G125DCK              IC BUFF/DVR TRI-ST N-INV SC705                          
+7   100n             C0402_100n_X7R_10%_CER_50V C0402       C5, C6, C9, C10, C12, C14, C17 ANY                    *   C0402_100n_X7R_10%_CER_50V CAP CER 0.1UF 50V 10% X7R 0402                          
+1   150k             R0402_150k_1%_62.5mW       R0402       R3                             ANY                    *   R0402_150k_1%_62.5mW       RES 150K OHM 1/16W 1% 0402 SMD                          
+1   270R             R0402_270R_5%_62.5mW       R0402       R8                             ANY                    *   R0402_270R_5%_62.5mW       RES 270 OHM 1/16W 5% 0402 SMD                           
+1   270R             R0603_270R_5%_125mW        R0603       R10                            ANY                    *   R0603_270R_5%_125mW        RES 270 OHM 1/8W 5% 0603 SMD                            
+1   BLM31PG601SN1L   BLM31PG601SN1L             FB1206      L1                             MURATA                 *   BLM31PG601SN1L             FERRITE CHIP 600 OHM 1500MA 1206                        
+1   BLUE             LED0402-BLUE               LED0402     D3                             ANY                    *   LED0402-BLUE               LED BLUE CLEAR 0402 SMD                                 
+1   CP2104-F03-GM    CP2104-F03-GM              QFN-25_4X4  U2                             SILICON LABORATORIES   *   CP2104-F03-GM              IC SGL USB-TO-UART BRIDGE 24QFN                         
+0   DNP              C0402_DNP                  C0402       C19(DNP), C21(DNP)             NONE                   *   C0402_DNP                  CAP DNP 0402                                            
+1   DOMINO           DOMINO-CORE                DOMINO      M1                             GL-CONNECT             *   DOMINO-CORE                MOD AR9331 WIFI                                         
+1   IT-1210          IT-1210                    IT-1210     SW1                            SZJUSTWELL ELECTRONICS *   IT-1210                    SWITCH TACTILE SPST-NO 0.05A 12V                        
+2   MH28-1           MH28-1-0.1                 MH28-1-0.1  J1, J2                         ANY                    *   MH28-1-0.1                 CONN HEADER VERT .100 1ROW 28POS 10.5 TAIL 8.5 BODY 15AU
+1   MP2162GQH        MP2162GQH                  QFN-8_2X1.5 U1                             MONOLITHIC POWER       *   MP2162GQH                  IC REG BUCK SYNC ADJ 2A 8WDFN                           
+1   PRTR5V0U2X       PRTR5V0U2X                 SOT143B     D1                             NXP                    *   PRTR5V0U2X                 TVS DIODE ARRAY 2CH 5V SOT143                           
+1   RED              LED0402-RED                LED0402     D2                             ANY                    *   LED0402-RED                LED RED CLEAR 0402 SMD                                  
+1   SWPA252012S1R0NT SWPA252012SMT              SWPA252012S L2                             SUNLORD                *   SWPA252012SMT              INDUCTOR 1.2UH 2.0A SMD2.5 X 2.0 X 1.2                  
+1   USB_MR5-001      USB MR5-001                USB-MR5-001 S1                             SZJUSTWELL ELECTRONICS *   USB MR5-001                CONN USB MICRO B RECPT SMT R/A                          
