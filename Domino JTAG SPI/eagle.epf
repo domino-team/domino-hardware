@@ -106,7 +106,7 @@ Layer=1
 
 [Win_3]
 Type="Control Panel"
-Loc="2411 35 3010 434"
+Loc="50 22 649 421"
 State=1
 Number=0
 
