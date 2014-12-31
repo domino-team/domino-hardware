@@ -626,36 +626,6 @@
 <wire x1="1.778" y1="-1.016" x2="-1.778" y2="-1.016" width="0.0508" layer="39"/>
 <wire x1="-1.778" y1="-1.016" x2="-1.778" y2="1.016" width="0.0508" layer="39"/>
 </package>
-<package name="PTC1206">
-<description>&lt;b&gt;Bel 0ZCA Series Surface Mount PTC&lt;/b&gt;</description>
-<wire x1="-2.286" y1="1.27" x2="2.286" y2="1.27" width="0.0508" layer="39"/>
-<wire x1="2.286" y1="-1.27" x2="-2.286" y2="-1.27" width="0.0508" layer="39"/>
-<wire x1="-2.286" y1="-1.27" x2="-2.286" y2="1.27" width="0.0508" layer="39"/>
-<wire x1="-1.4" y1="0.9" x2="1.4" y2="0.9" width="0.127" layer="51"/>
-<wire x1="-1.4" y1="-0.9" x2="1.4" y2="-0.9" width="0.127" layer="51"/>
-<wire x1="2.286" y1="1.27" x2="2.286" y2="-1.27" width="0.0508" layer="39"/>
-<smd name="1" x="-1.5" y="0" dx="1" dy="1.9" layer="1"/>
-<smd name="2" x="1.5" y="0" dx="1" dy="1.9" layer="1"/>
-<text x="-2.54" y="1.905" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.381" x2="0.254" y2="0.381" layer="35"/>
-<polygon width="0.127" layer="51">
-<vertex x="-1.75" y="-0.9"/>
-<vertex x="-1.75" y="0.9"/>
-<vertex x="-0.95" y="0.9"/>
-<vertex x="-0.95" y="-0.9"/>
-</polygon>
-<polygon width="0.127" layer="51">
-<vertex x="0.95" y="0.9"/>
-<vertex x="1.75" y="0.9"/>
-<vertex x="1.75" y="-0.9"/>
-<vertex x="0.95" y="-0.9"/>
-</polygon>
-<wire x1="-2.286" y1="1.27" x2="2.286" y2="1.27" width="0.127" layer="21"/>
-<wire x1="2.286" y1="1.27" x2="2.286" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="2.286" y1="-1.27" x2="-2.286" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-2.286" y1="-1.27" x2="-2.286" y2="1.27" width="0.127" layer="21"/>
-</package>
 <package name="USB_AF-006">
 <description>&lt;b&gt;USB-A Right/Angle SMT Connector&lt;/b&gt;</description>
 <wire x1="-7.15" y1="-9.7" x2="-7.15" y2="-10" width="0.127" layer="51"/>
@@ -2283,19 +2253,6 @@
 <pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
-<symbol name="PTC">
-<description>&lt;b&gt;Positive Temperature Coefficient (PTC) Resistor&lt;/b&gt;</description>
-<wire x1="0.889" y1="-2.54" x2="0.889" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-0.889" y1="2.54" x2="-0.889" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0.889" y1="2.54" x2="-0.889" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0.889" y1="-2.54" x2="-0.889" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.524" y1="1.524" x2="-1.778" y2="-1.778" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="-1.778" x2="-1.778" y2="-2.54" width="0.1524" layer="94"/>
-<text x="2.0574" y="-2.794" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.032" y="-5.207" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="1" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
 <symbol name="PE">
 <description>&lt;b&gt;Protective Earth Power Supply&lt;/b&gt;</description>
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
@@ -3458,26 +3415,6 @@ DIN A3, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="0ZCA" prefix="F">
-<description>&lt;b&gt;Bel 0ZCA Series Surface Mount PTC&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="PTC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PTC1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="0050FF2G">
-<attribute name="RATE" value="0.5A" constant="no"/>
-<attribute name="VOLT" value="8V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PE" prefix="PE">
 <description>&lt;b&gt;Protective Earth Power Supply&lt;/b&gt;</description>
 <gates>
@@ -3671,10 +3608,6 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="TYPE" value="CER"/>
 <attribute name="VOLT" value="16V"/>
 </part>
-<part name="F1" library="Domino" deviceset="0ZCA" device="" technology="0050FF2G" value="0ZCA0050FF2G">
-<attribute name="PARTNO" value="0ZCG0110FF2C"/>
-</part>
-<part name="SUPPLY1" library="Domino" deviceset="GND" device=""/>
 <part name="J2" library="Domino" deviceset="USB_AF-006" device="">
 <attribute name="PARTNO" value="USB_AF-006"/>
 </part>
@@ -3733,7 +3666,6 @@ DIN A3, landscape with location and doc. field</description>
 All rights reserved.</text>
 <text x="379.222" y="5.334" size="1.778" layer="94">&gt;REV</text>
 <text x="374.142" y="5.334" size="1.778" layer="94">Rev.</text>
-<text x="210.566" y="167.386" size="1.778" layer="96" rot="MR0">PolyFuse</text>
 <text x="193.548" y="141.986" size="1.778" layer="95" rot="MR0" align="center">2x</text>
 <text x="187.96" y="149.86" size="1.778" layer="97" rot="MR0" align="center">Reserve 0
 Ohm resistor
@@ -3780,12 +3712,12 @@ certification</text>
 <attribute name="VALUE" x="222.25" y="156.21" size="1.778" layer="96" rot="MR180" align="center"/>
 </instance>
 <instance part="SUPPLY38" gate="GND" x="226.06" y="149.86" rot="MR0"/>
-<instance part="L1" gate="G$1" x="218.44" y="185.42" smashed="yes" rot="R270">
-<attribute name="SIZE" x="215.9" y="181.61" size="1.778" layer="96" rot="R180"/>
-<attribute name="OPT" x="215.9" y="184.15" size="1.778" layer="96" rot="R180"/>
-<attribute name="PARTNO" x="218.44" y="185.42" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="NAME" x="215.9" y="189.23" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="215.9" y="186.69" size="1.778" layer="96" rot="R180"/>
+<instance part="L1" gate="G$1" x="218.44" y="172.72" smashed="yes" rot="R270">
+<attribute name="SIZE" x="215.9" y="168.91" size="1.778" layer="96" rot="R180"/>
+<attribute name="OPT" x="215.9" y="171.45" size="1.778" layer="96" rot="R180"/>
+<attribute name="PARTNO" x="218.44" y="172.72" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="NAME" x="215.9" y="176.53" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="215.9" y="173.99" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C2" gate="G$1" x="232.41" y="157.48" smashed="yes" rot="MR270">
 <attribute name="SIZE" x="229.87" y="151.384" size="1.778" layer="96" rot="MR0" align="center"/>
@@ -3797,14 +3729,6 @@ certification</text>
 <attribute name="NAME" x="229.87" y="158.75" size="1.778" layer="95" rot="MR180" align="center"/>
 <attribute name="VALUE" x="229.87" y="156.21" size="1.778" layer="96" rot="MR180" align="center"/>
 </instance>
-<instance part="F1" gate="G$1" x="218.44" y="170.18" smashed="yes" rot="MR180">
-<attribute name="OPT" x="220.98" y="154.94" size="1.778" layer="96" rot="MR90"/>
-<attribute name="RATE" x="216.408" y="167.386" size="1.778" layer="96" rot="MR0"/>
-<attribute name="PARTNO" x="218.44" y="170.18" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="NAME" x="216.3826" y="172.466" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="216.408" y="170.053" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="SUPPLY1" gate="GND" x="198.12" y="132.08"/>
 <instance part="J2" gate="G$1" x="238.76" y="139.7" smashed="yes" rot="MR0">
 <attribute name="NAME" x="236.22" y="146.05" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="236.22" y="125.73" size="1.778" layer="96" rot="MR0"/>
@@ -3837,7 +3761,7 @@ certification</text>
 <attribute name="NAME" x="149.86" y="208.153" size="1.778" layer="95" rot="MR180" align="center"/>
 <attribute name="PARTNO" x="167.64" y="205.74" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="U$9" gate="G$1" x="218.44" y="193.04" rot="MR0"/>
+<instance part="U$9" gate="G$1" x="218.44" y="180.34" rot="MR0"/>
 <instance part="J1" gate="G$1" x="167.64" y="73.66" smashed="yes" rot="R90">
 <attribute name="VALUE" x="150.495" y="73.66" size="1.778" layer="96" rot="R180" align="center"/>
 <attribute name="NAME" x="149.86" y="76.073" size="1.778" layer="95" rot="R180" align="center"/>
@@ -3887,11 +3811,6 @@ certification</text>
 <wire x1="226.06" y1="152.4" x2="226.06" y2="154.94" width="0.1524" layer="91"/>
 <junction x="226.06" y="152.4"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="SUPPLY1" gate="GND" pin="GND"/>
-<wire x1="195.58" y1="134.62" x2="198.12" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="134.62" x2="198.12" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY65" gate="GND" pin="GND"/>
@@ -3944,15 +3863,15 @@ certification</text>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="232.41" y1="162.56" x2="232.41" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<pinref part="F1" gate="G$1" pin="2"/>
 <label x="226.06" y="162.56" size="1.778" layer="95" rot="MR0"/>
 <wire x1="226.06" y1="162.56" x2="226.06" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="232.41" y1="162.56" x2="226.06" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="162.56" x2="218.44" y2="162.56" width="0.1524" layer="91"/>
 <junction x="226.06" y="162.56"/>
-<wire x1="218.44" y1="162.56" x2="218.44" y2="165.1" width="0.1524" layer="91"/>
 <junction x="218.44" y="162.56"/>
 <pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="L1" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="162.56" x2="218.44" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PE" class="0">
@@ -3970,14 +3889,6 @@ certification</text>
 <pinref part="J2" gate="G$1" pin="G@2"/>
 </segment>
 </net>
-<net name="VPROT" class="0">
-<segment>
-<pinref part="L1" gate="G$1" pin="2"/>
-<pinref part="F1" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="177.8" x2="218.44" y2="175.26" width="0.1524" layer="91"/>
-<label x="218.44" y="175.26" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
 <net name="+5V" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="+5V"/>
@@ -3987,7 +3898,7 @@ certification</text>
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
 <pinref part="U$9" gate="G$1" pin="+5V"/>
-<wire x1="218.44" y1="190.5" x2="218.44" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="177.8" x2="218.44" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB_P" class="1">

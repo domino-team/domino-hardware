@@ -1,5 +1,5 @@
 OPEN '/home/mstempin/eagle/Domino/Domino Single USB/drilegend.lbr';
-Rename drilegend.pac dl08398903.pac
+Rename drilegend.pac dl20025106.pac
 Edit drilegend.pac
 LAYER 144 DrillLegend;
 Display none;
@@ -285,7 +285,7 @@ Wire 4 (R-20 0) (R20 0);
 MARK (800.0000 300.0000);
 Wire 4 (R0 20) (R0 -20);
 Wire 4 (R-20 0) (R20 0);
-MARK (400.0000 300.0000);
+MARK (425.0000 300.0000);
 Wire 4 (R0 20) (R0 -20);
 Wire 4 (R-20 0) (R20 0);
 MARK (100.0000 300.0000);
