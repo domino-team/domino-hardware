@@ -60,7 +60,7 @@ Sheet=1
 
 [Win_2]
 Type="Board Editor"
-Loc="0 0 599 399"
+Loc="-4 30 1809 963"
 State=1
 Number=1
 File="Domino Pi.brd"
@@ -106,7 +106,7 @@ Layer=16
 
 [Win_3]
 Type="Control Panel"
-Loc="50 22 649 421"
+Loc="43 22 642 421"
 State=1
 Number=0
 

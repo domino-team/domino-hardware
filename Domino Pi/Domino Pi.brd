@@ -8,21 +8,21 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -103,8 +103,8 @@
 <layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="no"/>
 <layer number="143" name="mvRestrict" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="no" active="yes"/>
-<layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="no" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="yes" active="yes"/>
 <layer number="147" name="mMeasures" color="7" fill="1" visible="no" active="no"/>
 <layer number="148" name="mDocument" color="7" fill="1" visible="no" active="no"/>
 <layer number="149" name="mReference" color="7" fill="1" visible="no" active="no"/>
@@ -129,7 +129,7 @@
 <layer number="208" name="Drill_data" color="7" fill="1" visible="no" active="yes"/>
 <layer number="209" name="Component_Assembly_CMP" color="7" fill="1" visible="no" active="yes"/>
 <layer number="210" name="Component_Assembly_SOL" color="7" fill="1" visible="no" active="yes"/>
-<layer number="211" name="Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="Outline" color="7" fill="1" visible="no" active="yes"/>
 <layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
@@ -589,11 +589,6 @@ BOTTOM</text>
 <text x="64.135" y="7.78" size="0.8128" layer="21" rot="R90" align="center-left">&gt;REV</text>
 <text x="61.408" y="20.066" size="0.8128" layer="22" rot="MR0" align="center-left">&gt;REV</text>
 <dimension x1="7.569565625" y1="29.48369375" x2="5.130434375" y2="27.41230625" x3="5.1304375" y3="27.41230625" textsize="1.778" layer="47" dtype="diameter"/>
-<polygon width="0.13" layer="47">
-<vertex x="1.27" y="28.575"/>
-<vertex x="-1.27" y="29.21"/>
-<vertex x="-1.27" y="27.94"/>
-</polygon>
 <wire x1="5.969" y1="26.67" x2="5.969" y2="25.273" width="0.127" layer="25"/>
 <wire x1="5.969" y1="25.273" x2="7.874" y2="25.273" width="0.127" layer="25"/>
 <wire x1="7.874" y1="25.273" x2="7.874" y2="22.098" width="0.127" layer="25"/>
@@ -1096,6 +1091,24 @@ BOTTOM</text>
 <wire x1="24.892" y1="20.32" x2="25.908" y2="20.32" width="0.1016" layer="145"/>
 <wire x1="22.86" y1="23.368" x2="22.86" y2="22.352" width="0.1016" layer="145"/>
 <wire x1="22.352" y1="22.86" x2="23.368" y2="22.86" width="0.1016" layer="145"/>
+<wire x1="1.27" y1="30.226" x2="1.27" y2="29.21" width="0.1016" layer="145"/>
+<wire x1="0.762" y1="29.718" x2="1.778" y2="29.718" width="0.1016" layer="145"/>
+<wire x1="8.89" y1="29.083" x2="8.89" y2="28.067" width="0.1016" layer="145"/>
+<wire x1="8.382" y1="28.575" x2="9.398" y2="28.575" width="0.1016" layer="145"/>
+<wire x1="17.145" y1="22.479" x2="17.145" y2="21.463" width="0.1016" layer="145"/>
+<wire x1="16.637" y1="21.971" x2="17.653" y2="21.971" width="0.1016" layer="145"/>
+<wire x1="16.637" y1="26.035" x2="16.637" y2="25.019" width="0.1016" layer="145"/>
+<wire x1="16.129" y1="25.527" x2="17.145" y2="25.527" width="0.1016" layer="145"/>
+<wire x1="14.097" y1="5.207" x2="14.097" y2="4.191" width="0.1016" layer="145"/>
+<wire x1="13.589" y1="4.699" x2="14.605" y2="4.699" width="0.1016" layer="145"/>
+<wire x1="16.891" y1="5.842" x2="16.891" y2="4.826" width="0.1016" layer="145"/>
+<wire x1="16.383" y1="5.334" x2="17.399" y2="5.334" width="0.1016" layer="145"/>
+<wire x1="17.526" y1="13.081" x2="17.526" y2="12.065" width="0.1016" layer="145"/>
+<wire x1="17.018" y1="12.573" x2="18.034" y2="12.573" width="0.1016" layer="145"/>
+<wire x1="19.304" y1="17.78" x2="19.304" y2="16.764" width="0.1016" layer="145"/>
+<wire x1="18.796" y1="17.272" x2="19.812" y2="17.272" width="0.1016" layer="145"/>
+<wire x1="3.048" y1="13.843" x2="3.048" y2="12.827" width="0.1016" layer="145"/>
+<wire x1="2.54" y1="13.335" x2="3.556" y2="13.335" width="0.1016" layer="145"/>
 <wire x1="18.288" y1="11.049" x2="18.288" y2="10.033" width="0.1016" layer="145"/>
 <wire x1="17.78" y1="10.541" x2="18.796" y2="10.541" width="0.1016" layer="145"/>
 <wire x1="54.102" y1="18.923" x2="54.102" y2="17.907" width="0.1016" layer="145"/>
@@ -3371,8 +3384,8 @@ BOTTOM</text>
 <wire x1="11.15" y1="4.65" x2="11.15" y2="2.01" width="0.5" layer="1"/>
 <wire x1="11.1522" y1="4.65" x2="13.3226" y2="4.65" width="0.5" layer="1"/>
 <wire x1="13.35" y1="4.65" x2="13.35" y2="1.15" width="0.5" layer="1"/>
-<smd name="GND" x="0" y="0.5" dx="0.5" dy="0.5" layer="1"/>
-<smd name="FEED" x="1.75" y="-0.44" dx="0.5" dy="0.5" layer="1"/>
+<smd name="GND" x="0" y="0.5" dx="0.5" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="FEED" x="1.75" y="-0.44" dx="0.5" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
 <rectangle x1="-1" y1="0.5" x2="13.9" y2="6" layer="19"/>
 <rectangle x1="-1" y1="0.5" x2="19" y2="6" layer="42"/>
 <rectangle x1="1.25" y1="-0.56" x2="2.25" y2="0.54" layer="41" rot="R90"/>
@@ -5499,7 +5512,7 @@ BOTTOM</text>
 <wire x1="9.652" y1="-2.921" x2="17.526" y2="-2.921" width="0.1016" layer="144"/>
 <wire x1="17.526" y1="-2.921" x2="25.4" y2="-2.921" width="0.1016" layer="144"/>
 <wire x1="17.526" y1="-2.921" x2="17.526" y2="0" width="0.1016" layer="144"/>
-<text x="26.0604" y="-2.3622" size="1.778" layer="144" ratio="5">292</text>
+<text x="26.0604" y="-2.3622" size="1.778" layer="144" ratio="5">301</text>
 <wire x1="25.4" y1="-2.921" x2="31.242" y2="-2.921" width="0.1016" layer="144"/>
 <wire x1="31.242" y1="-2.921" x2="31.242" y2="0" width="0.1016" layer="144"/>
 <text x="34.8234" y="-2.3622" size="1.778" layer="144" ratio="5">YES</text>
@@ -6092,27 +6105,27 @@ Your Eurocircuits Team
 <attribute name="RATE" value="62.5mW" x="60.96" y="25.4635" size="1.778" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="60.96" y="25.4635" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R16" library="Domino" package="R0402" value="0R" x="62.992" y="25.4635" smashed="yes">
-<attribute name="SIZE" value="0402" x="62.992" y="25.4635" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="63.358365625" y="21.78236875" size="0.8128" layer="25" rot="R90"/>
-<attribute name="VALUE" x="61.722" y="23.5585" size="0.8128" layer="27"/>
-<attribute name="PARTNO" value="R0402_0R_5%_62.5mW" x="62.992" y="25.4635" size="1.778" layer="27" display="off"/>
-<attribute name="RATE" value="62.5mW" x="62.992" y="25.4635" size="1.778" layer="27" display="off"/>
-<attribute name="TOL" value="5%" x="62.992" y="25.4635" size="1.778" layer="27" display="off"/>
+<element name="R16" library="Domino" package="R0402" value="0R" x="63.5" y="25.4635" smashed="yes">
+<attribute name="SIZE" value="0402" x="63.5" y="25.4635" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="63.866365625" y="21.78236875" size="0.8128" layer="25" rot="R90"/>
+<attribute name="VALUE" x="62.23" y="23.5585" size="0.8128" layer="27"/>
+<attribute name="PARTNO" value="R0402_0R_5%_62.5mW" x="63.5" y="25.4635" size="1.778" layer="27" display="off"/>
+<attribute name="RATE" value="62.5mW" x="63.5" y="25.4635" size="1.778" layer="27" display="off"/>
+<attribute name="TOL" value="5%" x="63.5" y="25.4635" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C21" library="Domino" package="C0402" value="DNP" x="61.976" y="25.0825" smashed="yes" rot="R270">
-<attribute name="SIZE" value="0402" x="61.976" y="25.0825" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="62.357" y="21.7805" size="0.8128" layer="25" rot="R90"/>
-<attribute name="VALUE" x="60.071" y="26.3525" size="0.8128" layer="27" rot="R270"/>
-<attribute name="DNP" value="T" x="61.976" y="25.0825" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PARTNO" value="C0402_DNP" x="61.976" y="25.0825" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C21" library="Domino" package="C0402" value="DNP" x="62.23" y="25.0825" smashed="yes" rot="R270">
+<attribute name="SIZE" value="0402" x="62.23" y="25.0825" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="62.611" y="21.7805" size="0.8128" layer="25" rot="R90"/>
+<attribute name="VALUE" x="60.325" y="26.3525" size="0.8128" layer="27" rot="R270"/>
+<attribute name="DNP" value="T" x="62.23" y="25.0825" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="C0402_DNP" x="62.23" y="25.0825" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C22" library="Domino" package="C0402" value="DNP" x="64.008" y="25.0825" smashed="yes" rot="R270">
-<attribute name="SIZE" value="0402" x="64.008" y="25.0825" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="64.389" y="21.7805" size="0.8128" layer="25" rot="R90"/>
-<attribute name="VALUE" x="62.103" y="26.3525" size="0.8128" layer="27" rot="R270"/>
-<attribute name="DNP" value="T" x="64.008" y="25.0825" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PARTNO" value="C0402_DNP" x="64.008" y="25.0825" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C22" library="Domino" package="C0402" value="DNP" x="64.77" y="25.0825" smashed="yes" rot="R270">
+<attribute name="SIZE" value="0402" x="64.77" y="25.0825" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="65.151" y="21.7805" size="0.8128" layer="25" rot="R90"/>
+<attribute name="VALUE" x="62.865" y="26.3525" size="0.8128" layer="27" rot="R270"/>
+<attribute name="DNP" value="T" x="64.77" y="25.0825" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="C0402_DNP" x="64.77" y="25.0825" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="CC-BY-SA" library="Domino" package="CC-BY-SA_LOGO" value="CC-BY-SA_LOGO" x="10.16" y="-49.53">
 <attribute name="BOM" value="EXCLUDE" x="10.16" y="-49.53" size="1.778" layer="27" display="off"/>
@@ -6697,6 +6710,15 @@ Your Eurocircuits Team
 <via x="53.34" y="7.62" extent="1-16" drill="0.3" diameter="0.0254"/>
 <via x="25.4" y="20.32" extent="1-16" drill="0.3" diameter="0.0254"/>
 <via x="22.86" y="22.86" extent="1-16" drill="0.3" diameter="0.0254"/>
+<via x="1.27" y="29.718" extent="1-16" drill="0.3"/>
+<via x="8.89" y="28.575" extent="1-16" drill="0.3"/>
+<via x="17.145" y="21.971" extent="1-16" drill="0.3"/>
+<via x="16.637" y="25.527" extent="1-16" drill="0.3"/>
+<via x="14.097" y="4.699" extent="1-16" drill="0.3"/>
+<via x="16.891" y="5.334" extent="1-16" drill="0.3"/>
+<via x="17.526" y="12.573" extent="1-16" drill="0.3"/>
+<via x="19.304" y="17.272" extent="1-16" drill="0.3"/>
+<via x="3.048" y="13.335" extent="1-16" drill="0.3"/>
 <wire x1="10.533803125" y1="21.844" x2="10.668" y2="21.844" width="0.254" layer="1"/>
 <wire x1="9.648" y1="10.726015625" x2="9.7700125" y2="11.141325" width="0.254" layer="1"/>
 <wire x1="9.652" y1="11.176" x2="9.7700125" y2="11.141325" width="0.254" layer="1"/>
@@ -7883,15 +7905,15 @@ Your Eurocircuits Team
 <contactref element="R14" pad="2"/>
 <contactref element="R16" pad="1"/>
 <contactref element="C21" pad="1"/>
-<wire x1="61.341" y1="25.4635" x2="61.976" y2="25.4635" width="0.508" layer="1"/>
-<wire x1="61.976" y1="25.4635" x2="62.611" y2="25.4635" width="0.508" layer="1"/>
+<wire x1="61.341" y1="25.4635" x2="62.23" y2="25.4635" width="0.508" layer="1"/>
+<wire x1="62.23" y1="25.4635" x2="63.119" y2="25.4635" width="0.508" layer="1"/>
 </signal>
 <signal name="ANT0_50R" class="2">
 <contactref element="R16" pad="2"/>
 <contactref element="C22" pad="1"/>
 <contactref element="A1" pad="FEED"/>
-<wire x1="63.373" y1="25.4635" x2="64.008" y2="25.4635" width="0.508" layer="1"/>
-<wire x1="64.008" y1="25.4635" x2="64.6449" y2="25.4635" width="0.508" layer="1"/>
+<wire x1="63.881" y1="25.4635" x2="64.77" y2="25.4635" width="0.508" layer="1"/>
+<wire x1="64.77" y1="25.4635" x2="64.6449" y2="25.4635" width="0.508" layer="1"/>
 <wire x1="64.6449" y1="25.4635" x2="64.6602" y2="25.4788" width="0.508" layer="1"/>
 </signal>
 <signal name="+3.3VD_IN">
@@ -9312,17 +9334,10 @@ Your Eurocircuits Team
 <approved hash="18,29,d09585aeed20ff5d"/>
 <approved hash="18,29,4da09163ea9e3f3b"/>
 <approved hash="18,29,b8cd2e4aa16a1380"/>
-<approved hash="3,1,37fd35ff35ff37fd"/>
-<approved hash="3,1,cd5cf122f162cd1c"/>
-<approved hash="3,1,5c52c4dcfc654c0a"/>
-<approved hash="3,1,203f267d2d35135f"/>
-<approved hash="3,1,4c00f27efd2b4355"/>
-<approved hash="3,1,c3bb73ff4db55e5d"/>
 <approved hash="3,1,9bd3392139459bb7"/>
 <approved hash="3,1,9bc829ba29df9bad"/>
 <approved hash="3,1,8bdab928b94d8bbf"/>
 <approved hash="3,1,8fbb23c923a38fd1"/>
-<approved hash="3,1,3efec1018dbd0a2d"/>
 <approved hash="18,29,a85958806a8944b7"/>
 <approved hash="18,29,eed9499c499beede"/>
 <approved hash="18,29,71dcd499d49971dc"/>
@@ -9336,13 +9351,40 @@ Your Eurocircuits Team
 <approved hash="18,29,45caa08fa08f45ca"/>
 <approved hash="18,29,bc871e3edde1a4a0"/>
 <approved hash="18,29,28fbcfaacfab28fa"/>
-<approved hash="4,1,0ccc713c112c0cdc"/>
-<approved hash="4,1,0e4c91bcf1a80e58"/>
 <approved hash="19,1,e894d0bd03fb16af"/>
 <approved hash="6,1,988b6d072b5f6a33"/>
+<approved hash="3,1,37fd35ff35ff37fd"/>
+<approved hash="3,1,cd5cf122f162cd1c"/>
+<approved hash="3,1,5c52c4dcfc654c0a"/>
+<approved hash="3,1,203f267d2d35135f"/>
+<approved hash="3,1,4c00f27efd2b4355"/>
+<approved hash="3,1,c3bb73ff4db55e5d"/>
+<approved hash="3,1,dd4c6fbe6fc4dd36"/>
+<approved hash="3,1,494c383e385a4928"/>
+<approved hash="3,1,495c3bae3bca4938"/>
+<approved hash="3,1,19705f425f261914"/>
+<approved hash="3,1,3efec1018dbd0a2d"/>
+<approved hash="18,29,a8595883940aba37"/>
+<approved hash="18,29,a8595883940aba37"/>
+<approved hash="18,29,71dc0439043971dc"/>
+<approved hash="18,29,9dbcb7cc044c1a3c"/>
+<approved hash="18,29,9dbcb7cc044c1a3c"/>
+<approved hash="18,29,85a25387538685a3"/>
+<approved hash="18,29,b6597e83f41f1137"/>
+<approved hash="18,29,c8c99f2c9f2cc8c9"/>
+<approved hash="18,29,b6597e83f41f1137"/>
+<approved hash="4,1,0e4c91bcf1a80e58"/>
+<approved hash="4,1,0ccc713c112c0cdc"/>
+<approved hash="19,1,4cb3b55a2bbb16af"/>
+<approved hash="6,1,e3cb1647ba9ffbf3"/>
 <approved hash="19,1,509190ced07682de"/>
 <approved hash="6,1,ca48ff34424be09d"/>
+<approved hash="19,1,4cb3b55a2bbb16af"/>
+<approved hash="6,1,b01da732a7ddbc80"/>
 <approved hash="19,1,c0daa2014cedc068"/>
+<approved hash="19,1,cff36c4e949efc6a"/>
+<approved hash="6,1,98e179421944f8e7"/>
+<approved hash="6,1,1ca9fbecfbea1caf"/>
 <approved hash="19,1,970823a8d7d6968d"/>
 </errors>
 </board>

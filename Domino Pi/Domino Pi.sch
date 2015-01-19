@@ -1576,8 +1576,8 @@
 <wire x1="11.15" y1="4.65" x2="11.15" y2="2.01" width="0.5" layer="1"/>
 <wire x1="11.1522" y1="4.65" x2="13.3226" y2="4.65" width="0.5" layer="1"/>
 <wire x1="13.35" y1="4.65" x2="13.35" y2="1.15" width="0.5" layer="1"/>
-<smd name="GND" x="0" y="0.5" dx="0.5" dy="0.5" layer="1"/>
-<smd name="FEED" x="1.75" y="-0.44" dx="0.5" dy="0.5" layer="1"/>
+<smd name="GND" x="0" y="0.5" dx="0.5" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="FEED" x="1.75" y="-0.44" dx="0.5" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
 <rectangle x1="-1" y1="0.5" x2="13.9" y2="6" layer="19"/>
 <rectangle x1="-1" y1="0.5" x2="19" y2="6" layer="42"/>
 <rectangle x1="1.25" y1="-0.56" x2="2.25" y2="0.54" layer="41" rot="R90"/>
