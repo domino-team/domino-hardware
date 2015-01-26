@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3390,7 +3390,7 @@
 <pin name="EN" x="-7.62" y="5.08" length="short" direction="in"/>
 <pin name="FB" x="-7.62" y="2.54" length="short" direction="pas"/>
 <pin name="AGND" x="-7.62" y="0" length="short" direction="pwr"/>
-<pin name="OUT" x="-7.62" y="-2.54" length="short" direction="sup"/>
+<pin name="OUT" x="-7.62" y="-2.54" length="short" direction="pas"/>
 <pin name="PGND" x="12.7" y="-2.54" length="short" direction="pwr" rot="R180"/>
 <pin name="SW" x="12.7" y="0" length="short" direction="pas" rot="R180"/>
 <pin name="VIN" x="12.7" y="2.54" length="short" direction="pwr" rot="R180"/>
@@ -7043,6 +7043,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="VOLT" value="50V"/>
 </part>
 <part name="SUPPLY56" library="Domino" deviceset="GND" device=""/>
+<part name="U$9" library="Domino" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7855,6 +7856,9 @@ Reset</text>
 <attribute name="VALUE" x="26.67" y="168.91" size="1.778" layer="96" rot="MR180" align="center"/>
 </instance>
 <instance part="SUPPLY56" gate="GND" x="22.86" y="165.1" rot="MR0"/>
+<instance part="U$9" gate="G$1" x="287.02" y="50.8" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="287.02" y="54.61" size="1.778" layer="96" rot="MR0" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8648,6 +8652,11 @@ Reset</text>
 <pinref part="J1" gate="G$1" pin="13"/>
 <wire x1="284.48" y1="231.14" x2="284.48" y2="236.22" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="287.02" y1="45.72" x2="287.02" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="13"/>
+<pinref part="U$9" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="+3.3VD_IN" class="0">
 <segment>
@@ -9433,13 +9442,6 @@ Reset</text>
 <label x="264.16" y="88.9" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="3V3" class="0">
-<segment>
-<wire x1="287.02" y1="45.72" x2="287.02" y2="55.88" width="0.1524" layer="91"/>
-<label x="287.02" y="45.72" size="1.778" layer="95" rot="R90"/>
-<pinref part="J2" gate="G$1" pin="13"/>
-</segment>
-</net>
 <net name="VIN" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="IN"/>
@@ -9500,18 +9502,18 @@ Reset</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,111.76,236.22,OUT,+3V3,,,,"/>
-<approved hash="102,1,236.22,134.62,+2.5VD_OUT,+2V5,,,,"/>
+<approved hash="102,1,231.14,134.62,+2.5VD_OUT,+2V5,,,,"/>
 <approved hash="102,1,180.34,160.02,VCCA,+2V5,,,,"/>
 <approved hash="102,1,149.86,160.02,VCCB,+5V,,,,"/>
 <approved hash="102,1,180.34,129.54,VCCA,+2V5,,,,"/>
 <approved hash="102,1,149.86,129.54,VCCB,+5V,,,,"/>
 <approved hash="102,1,185.42,101.6,VL,+2V5,,,,"/>
 <approved hash="102,1,149.86,101.6,VCC,+5V,,,,"/>
-<approved hash="104,1,111.76,238.76,U2,AGND,GND,,,"/>
-<approved hash="104,1,132.08,236.22,U2,PGND,GND,,,"/>
-<approved hash="104,1,132.08,241.3,U2,VIN,+5V,,,"/>
-<approved hash="104,1,236.22,132.08,M1,+3.3VD_FLASH_IN,+3V3,,,"/>
+<approved hash="102,1,63.5,246.38,OUT,+5V,,,,"/>
+<approved hash="104,1,119.38,241.3,U2,AGND,GND,,,"/>
+<approved hash="104,1,139.7,238.76,U2,PGND,GND,,,"/>
+<approved hash="104,1,139.7,243.84,U2,VIN,+5V,,,"/>
+<approved hash="104,1,231.14,132.08,M1,+3.3VD_FLASH_IN,+3V3,,,"/>
 <approved hash="104,1,81.28,162.56,U1,AVCC,+5V,,,"/>
 <approved hash="104,1,78.74,162.56,U1,AVCC1,+5V,,,"/>
 <approved hash="104,1,99.06,35.56,U1,GND1,GND,,,"/>
@@ -9522,6 +9524,7 @@ Reset</text>
 <approved hash="104,1,73.66,162.56,U1,UVCC,+5V,,,"/>
 <approved hash="104,1,88.9,162.56,U1,VCC,+5V,,,"/>
 <approved hash="104,1,86.36,162.56,U1,VCC1,+5V,,,"/>
+<approved hash="104,1,38.1,246.38,U6,IN,VIN,,,"/>
 </errors>
 </schematic>
 </drawing>
