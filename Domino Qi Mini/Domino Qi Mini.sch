@@ -7030,11 +7030,6 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="RATE" value="62.5mW"/>
 <attribute name="TOL" value="5%"/>
 </part>
-<part name="R28" library="Domino" deviceset="RES_" device="0402" value="0R">
-<attribute name="PARTNO" value="R0402_0R_5%_62.5mW"/>
-<attribute name="RATE" value="62.5mW"/>
-<attribute name="TOL" value="5%"/>
-</part>
 <part name="C34" library="Domino" deviceset="CAP_" device="0402" value="10n">
 <attribute name="PARTNO" value="C0402_10n_X7R_10%_CER_50V"/>
 <attribute name="TC" value="X7R"/>
@@ -7044,6 +7039,7 @@ DIN A3, landscape with location and doc. field</description>
 </part>
 <part name="SUPPLY56" library="Domino" deviceset="GND" device=""/>
 <part name="U$9" library="Domino" deviceset="+3V3" device=""/>
+<part name="PORT3" library="Domino" deviceset="NC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7838,14 +7834,6 @@ Reset</text>
 <attribute name="NAME" x="73.66" y="238.76" size="1.778" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="73.66" y="236.22" size="1.778" layer="96" rot="MR0" align="center"/>
 </instance>
-<instance part="R28" gate="G$1" x="50.8" y="231.14" smashed="yes" rot="R180">
-<attribute name="PARTNO" x="50.8" y="231.14" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="RATE" x="50.8" y="231.14" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SIZE" x="55.88" y="233.426" size="1.778" layer="96" align="center" display="off"/>
-<attribute name="TOL" x="50.8" y="231.14" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="NAME" x="50.8" y="233.68" size="1.778" layer="95" rot="R180" align="center"/>
-<attribute name="VALUE" x="50.8" y="228.6" size="1.778" layer="96" rot="R180" align="center"/>
-</instance>
 <instance part="C34" gate="G$1" x="22.86" y="170.18" smashed="yes" rot="MR270">
 <attribute name="TC" x="22.86" y="170.18" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="TOL" x="22.86" y="170.18" size="1.778" layer="96" rot="MR270" display="off"/>
@@ -7859,6 +7847,7 @@ Reset</text>
 <instance part="U$9" gate="G$1" x="287.02" y="50.8" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="287.02" y="54.61" size="1.778" layer="96" rot="MR0" align="center"/>
 </instance>
+<instance part="PORT3" gate="G$1" x="66.04" y="241.3" smashed="yes" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -9475,27 +9464,12 @@ Reset</text>
 <label x="63.5" y="243.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="!FLAG" class="0">
-<segment>
-<pinref part="R28" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="231.14" x2="66.04" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="231.14" x2="66.04" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="!FLAG"/>
-<wire x1="66.04" y1="241.3" x2="63.5" y2="241.3" width="0.1524" layer="91"/>
-<label x="58.42" y="231.14" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="EN_USB" class="0">
 <segment>
-<wire x1="38.1" y1="241.3" x2="35.56" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="241.3" x2="33.02" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="R26" gate="G$1" pin="1"/>
+<label x="30.48" y="238.76" size="1.778" layer="95"/>
 <pinref part="U6" gate="G$1" pin="EN"/>
-<pinref part="R28" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="231.14" x2="35.56" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="231.14" x2="35.56" y2="241.3" width="0.1524" layer="91"/>
-<junction x="35.56" y="241.3"/>
-<label x="38.1" y="231.14" size="1.778" layer="95"/>
+<pinref part="R26" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="241.3" x2="33.02" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
