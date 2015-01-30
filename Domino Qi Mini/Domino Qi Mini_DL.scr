@@ -1,5 +1,5 @@
-OPEN '/home/mstempin/eagle/Domino/Domino Qi Mini-0129/drilegend.lbr';
-Rename drilegend.pac dl22569459.pac
+OPEN '/home/mstempin/eagle/Domino/Domino Qi Mini-0130/drilegend.lbr';
+Rename drilegend.pac dl22602112.pac
 Edit drilegend.pac
 LAYER 144 DrillLegend;
 Display none;
@@ -85,7 +85,7 @@ Text '0.30' R0 (726 -93);
 Wire 4 (690 -115) (1000 -115) (1000 115);
 Text '12' R0 (476 -93);
 Wire 4 (380 -115) (690 -115) (690 115);
-Text '328' R0 (1026 -93);
+Text '327' R0 (1026 -93);
 Wire 4 (1000 -115) (1230 -115) (1230 115);
 Text 'YES' R0 (1371 -93);
 Wire 4 (1230 -115) (1690 -115) (1690 115);
@@ -142,14 +142,14 @@ Wire 4 (0 0) (1690 0) (1690 115);
 Wire 4 (1690 115) (0 115) (0 0);
 Wire 8 (0 -575) (1690 -575) (1690 115);
 Wire 8 (1690 115) (0 115) (0 -575);
-WRITE '/home/mstempin/eagle/Domino/Domino Qi Mini-0129/drilegend.lbr';
+WRITE '/home/mstempin/eagle/Domino/Domino Qi Mini-0130/drilegend.lbr';
 CLOSE;
 EDIT .brd;
 LAYER 144 DrillLegend;
 DISPLAY 23 44 45 144;
 GRID MIL 25 1 ;
 SET WIRE_BEND 2;
-USE '/home/mstempin/eagle/Domino/Domino Qi Mini-0129/drilegend.lbr'
+USE '/home/mstempin/eagle/Domino/Domino Qi Mini-0130/drilegend.lbr'
 ADD 'DRILEGEND' DRILEGEND R0 (-1640.000 -2590.000);
 LAYER 144 DrillLegend;
 TEXT 'LAYER-STACK' (-2375.0000 -2590.0000);
@@ -522,9 +522,6 @@ MARK (1310.0000 575.0000);
 Wire 4 (R0 20) (R0 -20);
 Wire 4 (R-20 0) (R20 0);
 MARK (1260.0000 575.0000);
-Wire 4 (R0 20) (R0 -20);
-Wire 4 (R-20 0) (R20 0);
-MARK (1210.0000 575.0000);
 Wire 4 (R0 20) (R0 -20);
 Wire 4 (R-20 0) (R20 0);
 MARK (1160.0000 575.0000);
@@ -914,7 +911,7 @@ Wire 4 (R-20 0) (R20 0);
 MARK (1081.0000 101.0000);
 Wire 4 (R0 20) (R0 -20);
 Wire 4 (R-20 0) (R20 0);
-MARK (925.0000 162.0000);
+MARK (925.0000 147.0000);
 Wire 4 (R0 20) (R0 -20);
 Wire 4 (R-20 0) (R20 0);
 MARK (396.0000 105.0000);
