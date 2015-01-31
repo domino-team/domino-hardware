@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.0.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6076,7 +6076,7 @@ DIN A3, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATMEGA32U4-XU" prefix="U">
+<deviceset name="ATMEGA32U4-" prefix="U">
 <description>&lt;b&gt;8-bit AVR Microcontroller with 32K Bytes of ISP Flash and USB Controller&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="ATMEGA32U4" x="0" y="0"/>
@@ -6758,7 +6758,9 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="TOL" value="5%"/>
 </part>
 <part name="SUPPLY17" library="Domino" deviceset="GND" device=""/>
-<part name="U2" library="Domino" deviceset="ATMEGA32U4-XU" device="AU/MU" value="ATMEGA32U4-XUAU/MU"/>
+<part name="U2" library="Domino" deviceset="ATMEGA32U4-" device="AU/MU" value="ATMEGA32U4-AU/MU">
+<attribute name="PARTNO" value="ATMEGA32U4-MU"/>
+</part>
 <part name="U$8" library="Domino" deviceset="+5V" device=""/>
 <part name="C15" library="Domino" deviceset="CAP_" device="0402" value="100n">
 <attribute name="PARTNO" value="C0402_100n_X7R_10%_CER_50V"/>
@@ -6774,7 +6776,9 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="TYPE" value="CER"/>
 <attribute name="VOLT" value="50V"/>
 </part>
-<part name="Y1" library="Domino" deviceset="CRYSTAL_2SH" device="" value="16MHz"/>
+<part name="Y1" library="Domino" deviceset="CRYSTAL_2SH" device="" value="16MHz">
+<attribute name="PARTNO" value="CRYSTAL_16MHZ_32X25_2SH_12PF_30PPM"/>
+</part>
 <part name="R2" library="Domino" deviceset="RES_" device="0402" value="22R">
 <attribute name="PARTNO" value="R0402_22R_5%_62.5mW"/>
 <attribute name="RATE" value="62.5mW"/>
@@ -6799,9 +6803,15 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="TYPE" value="CER"/>
 <attribute name="VOLT" value="50V"/>
 </part>
-<part name="U4" library="Domino" deviceset="NTB0104" device="GU12"/>
-<part name="U5" library="Domino" deviceset="NTB0102" device="GU"/>
-<part name="U6" library="Domino" deviceset="MAX3375E" device="EKA+T"/>
+<part name="U4" library="Domino" deviceset="NTB0104" device="GU12">
+<attribute name="PARTNO" value="NTB0104GU12"/>
+</part>
+<part name="U5" library="Domino" deviceset="NTB0102" device="GU">
+<attribute name="PARTNO" value="NTB0102GU"/>
+</part>
+<part name="U6" library="Domino" deviceset="MAX3375E" device="EKA+T">
+<attribute name="PARTNO" value="MAX3375EEKA+T"/>
+</part>
 <part name="U$6" library="Domino" deviceset="+5V" device=""/>
 <part name="U$10" library="Domino" deviceset="+5V" device=""/>
 <part name="U$11" library="Domino" deviceset="+2V5" device=""/>
@@ -6875,7 +6885,9 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="VOLT" value="50V"/>
 </part>
 <part name="SUPPLY47" library="Domino" deviceset="GND" device=""/>
-<part name="Q2" library="Domino" deviceset="2SC4081" device=""/>
+<part name="Q2" library="Domino" deviceset="2SC4081" device="">
+<attribute name="PARTNO" value="2SC4081"/>
+</part>
 <part name="R12" library="Domino" deviceset="RES_" device="0402" value="10k">
 <attribute name="PARTNO" value="R0402_10k_5%_62.5mW"/>
 <attribute name="RATE" value="62.5mW"/>
@@ -6909,13 +6921,15 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="TYPE" value="CER"/>
 <attribute name="VOLT" value="25V"/>
 </part>
-<part name="Q1" library="Domino" deviceset="AP2302GN" device=""/>
+<part name="Q1" library="Domino" deviceset="AP2302GN" device="">
+<attribute name="PARTNO" value="AP2302GN"/>
+</part>
 <part name="U$16" library="Domino" deviceset="+5V" device=""/>
 <part name="C8" library="Domino" deviceset="CAP_" device="0805" value="2u2">
-<attribute name="PARTNO" value="C0402_2u2_X5R_20%_CER_6V3"/>
+<attribute name="PARTNO" value="C0402_2u2_X5R_10%_CER_6V3"/>
 <attribute name="SIZE" value="0402"/>
 <attribute name="TC" value="X5R"/>
-<attribute name="TOL" value="±20%"/>
+<attribute name="TOL" value="±10%"/>
 <attribute name="TYPE" value="CER"/>
 <attribute name="VOLT" value="6.3V"/>
 </part>
@@ -6989,13 +7003,26 @@ DIN A3, landscape with location and doc. field</description>
 <part name="U$1" library="Domino" deviceset="+3V3" device=""/>
 <part name="U$2" library="Domino" deviceset="+5V" device=""/>
 <part name="SUPPLY13" library="Domino" deviceset="GND" device=""/>
-<part name="J2" library="Domino" deviceset="MH22-1" device=""/>
-<part name="SW3" library="Domino" deviceset="IT-1210" device=""/>
-<part name="SW2" library="Domino" deviceset="IT-1210" device=""/>
-<part name="SW1" library="Domino" deviceset="IT-1210" device=""/>
+<part name="J2" library="Domino" deviceset="MH22-1" device="">
+<attribute name="PARTNO" value="MH22-1-0.1"/>
+</part>
+<part name="SW3" library="Domino" deviceset="IT-1210" device="">
+<attribute name="PARTNO" value="IT-1210"/>
+</part>
+<part name="SW2" library="Domino" deviceset="IT-1210" device="">
+<attribute name="PARTNO" value="IT-1210"/>
+</part>
+<part name="SW1" library="Domino" deviceset="IT-1210" device="">
+<attribute name="PARTNO" value="IT-1210"/>
+</part>
 <part name="W1" library="Domino" deviceset="DOMINO_QI_LOGO" device=""/>
-<part name="A1" library="Domino" deviceset="RF_ANT1" device=""/>
-<part name="J1" library="Domino" deviceset="MH22-1" device=""/>
+<part name="A1" library="Domino" deviceset="RF_ANT1" device="">
+<attribute name="BOM" value="EXCLUDE"/>
+<attribute name="PARTNO" value="RF_ANT1"/>
+</part>
+<part name="J1" library="Domino" deviceset="MH22-1" device="">
+<attribute name="PARTNO" value="MH22-1-0.1"/>
+</part>
 <part name="C2" library="Domino" deviceset="CAP_" device="0402" value="100n">
 <attribute name="PARTNO" value="C0402_100n_X7R_10%_CER_50V"/>
 <attribute name="TC" value="X7R"/>
@@ -7417,6 +7444,7 @@ Reset</text>
 <instance part="U2" gate="G$1" x="91.44" y="88.9" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="91.44" y="160.02" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="66.04" y="158.242" size="1.778" layer="95" rot="MR0"/>
+<attribute name="PARTNO" x="91.44" y="88.9" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="U$8" gate="G$1" x="71.12" y="165.1" smashed="yes" rot="R90">
 <attribute name="VALUE" x="65.532" y="165.1" size="1.778" layer="96" rot="R180" align="center"/>
@@ -7442,6 +7470,7 @@ Reset</text>
 <instance part="Y1" gate="G$1" x="50.8" y="106.68" smashed="yes" rot="R270">
 <attribute name="NAME" x="41.656" y="101.6" size="1.778" layer="95"/>
 <attribute name="VALUE" x="41.656" y="99.06" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="50.8" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="50.8" y="152.4" smashed="yes">
 <attribute name="NAME" x="42.926" y="152.6286" size="1.778" layer="95"/>
@@ -7478,14 +7507,17 @@ Reset</text>
 <instance part="U4" gate="G$1" x="165.1" y="149.86" smashed="yes" rot="MR0">
 <attribute name="NAME" x="154.94" y="165.1" size="1.778" layer="95" rot="MR180" align="center-left"/>
 <attribute name="VALUE" x="162.56" y="165.1" size="1.778" layer="96" rot="MR180" align="center-left"/>
+<attribute name="PARTNO" x="165.1" y="149.86" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="U5" gate="G$1" x="165.1" y="121.92" smashed="yes" rot="MR0">
 <attribute name="NAME" x="154.94" y="134.62" size="1.778" layer="95" rot="MR180" align="center-left"/>
 <attribute name="VALUE" x="162.56" y="134.62" size="1.778" layer="96" rot="MR180" align="center-left"/>
+<attribute name="PARTNO" x="165.1" y="121.92" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="U6" gate="G$1" x="167.64" y="101.6" smashed="yes">
 <attribute name="NAME" x="154.94" y="111.76" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="162.56" y="111.76" size="1.778" layer="96" align="center-left"/>
+<attribute name="PARTNO" x="167.64" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$6" gate="G$1" x="147.32" y="162.56" smashed="yes">
 <attribute name="VALUE" x="147.32" y="166.37" size="1.778" layer="96" align="center"/>
@@ -7596,6 +7628,7 @@ Reset</text>
 <instance part="Q2" gate="G$1" x="172.72" y="83.82" smashed="yes" rot="MR0">
 <attribute name="NAME" x="170.18" y="83.82" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="170.18" y="81.28" size="1.778" layer="96" rot="MR0"/>
+<attribute name="PARTNO" x="172.72" y="83.82" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="162.56" y="93.98" smashed="yes" rot="R180">
 <attribute name="PARTNO" x="162.56" y="93.98" size="1.778" layer="96" rot="R180" display="off"/>
@@ -7648,6 +7681,7 @@ Reset</text>
 <instance part="Q1" gate="G$1" x="157.48" y="35.56" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="163.83" y="39.37" size="1.778" layer="96" rot="MR0" align="center"/>
 <attribute name="NAME" x="163.83" y="41.91" size="1.778" layer="95" rot="MR0" align="center"/>
+<attribute name="PARTNO" x="157.48" y="35.56" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="U$16" gate="G$1" x="55.88" y="175.26" smashed="yes">
 <attribute name="VALUE" x="55.88" y="179.07" size="1.778" layer="96" align="center"/>
@@ -7764,27 +7798,34 @@ Reset</text>
 <instance part="J2" gate="G$1" x="281.94" y="43.18" smashed="yes" rot="R90">
 <attribute name="VALUE" x="318.135" y="40.64" size="1.778" layer="96" rot="R180" align="center"/>
 <attribute name="NAME" x="314.96" y="43.053" size="1.778" layer="95" rot="R180" align="center"/>
+<attribute name="PARTNO" x="281.94" y="43.18" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SW3" gate="G$1" x="299.72" y="185.42" smashed="yes" rot="MR0">
 <attribute name="NAME" x="302.26" y="193.04" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="302.26" y="190.5" size="1.778" layer="96" rot="MR180"/>
+<attribute name="PARTNO" x="299.72" y="185.42" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="SW2" gate="G$1" x="231.14" y="91.44" smashed="yes">
 <attribute name="NAME" x="228.6" y="99.06" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="228.6" y="96.52" size="1.778" layer="96" rot="R180"/>
+<attribute name="PARTNO" x="231.14" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SW1" gate="G$1" x="109.22" y="25.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="106.68" y="30.48" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="106.68" y="27.94" size="1.778" layer="96" rot="MR0"/>
+<attribute name="PARTNO" x="109.22" y="25.4" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="W1" gate="G$1" x="223.52" y="12.7"/>
 <instance part="A1" gate="G$1" x="350.52" y="137.16" smashed="yes" rot="MR270">
 <attribute name="NAME" x="363.22" y="139.7" size="1.778" layer="95" rot="MR180" align="center-left"/>
 <attribute name="VALUE" x="363.22" y="137.16" size="1.778" layer="96" rot="MR180" align="center-left"/>
+<attribute name="BOM" x="350.52" y="137.16" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="350.52" y="137.16" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="J1" gate="G$1" x="279.4" y="238.76" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="247.015" y="238.76" size="1.778" layer="96" rot="MR0" align="center"/>
 <attribute name="NAME" x="248.92" y="241.427" size="1.778" layer="95" rot="MR0" align="center"/>
+<attribute name="PARTNO" x="279.4" y="238.76" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="12.7" y="236.22" smashed="yes" rot="MR270">
 <attribute name="TC" x="12.7" y="236.22" size="1.778" layer="96" rot="MR270" display="off"/>
@@ -9488,21 +9529,21 @@ Reset</text>
 <approved hash="102,1,185.42,101.6,VL,+2V5,,,,"/>
 <approved hash="102,1,149.86,101.6,VCC,+5V,,,,"/>
 <approved hash="102,1,63.5,246.38,OUT,+5V,,,,"/>
-<approved hash="104,1,119.38,241.3,U2,AGND,GND,,,"/>
-<approved hash="104,1,139.7,238.76,U2,PGND,GND,,,"/>
-<approved hash="104,1,139.7,243.84,U2,VIN,+5V,,,"/>
+<approved hash="104,1,119.38,241.3,U3,AGND,GND,,,"/>
+<approved hash="104,1,139.7,238.76,U3,PGND,GND,,,"/>
+<approved hash="104,1,139.7,243.84,U3,VIN,+5V,,,"/>
 <approved hash="104,1,231.14,132.08,M1,+3.3VD_FLASH_IN,+3V3,,,"/>
-<approved hash="104,1,81.28,162.56,U1,AVCC,+5V,,,"/>
-<approved hash="104,1,78.74,162.56,U1,AVCC1,+5V,,,"/>
-<approved hash="104,1,99.06,35.56,U1,GND1,GND,,,"/>
-<approved hash="104,1,96.52,35.56,U1,GND2,GND,,,"/>
-<approved hash="104,1,93.98,35.56,U1,GND3,GND,,,"/>
-<approved hash="104,1,78.74,35.56,U1,PAD,GND,,,"/>
-<approved hash="104,1,88.9,35.56,U1,UGND,GND,,,"/>
-<approved hash="104,1,73.66,162.56,U1,UVCC,+5V,,,"/>
-<approved hash="104,1,88.9,162.56,U1,VCC,+5V,,,"/>
-<approved hash="104,1,86.36,162.56,U1,VCC1,+5V,,,"/>
-<approved hash="104,1,38.1,246.38,U6,IN,VIN,,,"/>
+<approved hash="104,1,81.28,162.56,U2,AVCC,+5V,,,"/>
+<approved hash="104,1,78.74,162.56,U2,AVCC1,+5V,,,"/>
+<approved hash="104,1,99.06,35.56,U2,GND1,GND,,,"/>
+<approved hash="104,1,96.52,35.56,U2,GND2,GND,,,"/>
+<approved hash="104,1,93.98,35.56,U2,GND3,GND,,,"/>
+<approved hash="104,1,78.74,35.56,U2,PAD,GND,,,"/>
+<approved hash="104,1,88.9,35.56,U2,UGND,GND,,,"/>
+<approved hash="104,1,73.66,162.56,U2,UVCC,+5V,,,"/>
+<approved hash="104,1,88.9,162.56,U2,VCC,+5V,,,"/>
+<approved hash="104,1,86.36,162.56,U2,VCC1,+5V,,,"/>
+<approved hash="104,1,38.1,246.38,U1,IN,VIN,,,"/>
 </errors>
 </schematic>
 </drawing>

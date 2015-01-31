@@ -460,7 +460,6 @@ BOTTOM</text>
 <text x="111.76" y="25.4" size="0.8128" layer="48" ratio="16" align="center">Type</text>
 <text x="54.61" y="30.353" size="0.8128" layer="22" rot="MR270" align="center-left">GND</text>
 <text x="34.29" y="30.353" size="0.8128" layer="22" rot="MR270" align="center-left">6~</text>
-<text x="-2.159" y="34.163" size="0.8128" layer="22" rot="MR270" align="center-left">+3V3</text>
 <text x="5.08" y="32.893" size="0.8128" layer="22" rot="MR270" align="center-left">AREF</text>
 <text x="2.667" y="32.893" size="0.8128" layer="22" rot="MR270" align="center-left">GND</text>
 <text x="46.99" y="2.667" size="0.8128" layer="22" rot="MR90" align="center-left">5V</text>
@@ -5878,9 +5877,10 @@ Your Eurocircuits Team
 <attribute name="NAME" x="32.131" y="22.86" size="0.8128" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="29.718" y="24.384" size="0.8128" layer="28" rot="MR180"/>
 </element>
-<element name="U2" library="Domino" package="ATMEGA32U4_DUAL_FOOTPRINT" value="ATMEGA32U4-XUAU/MU" x="31.369" y="15.24" smashed="yes" rot="MR180">
+<element name="U2" library="Domino" package="ATMEGA32U4_DUAL_FOOTPRINT" value="ATMEGA32U4-AU/MU" x="31.369" y="15.24" smashed="yes" rot="MR180">
 <attribute name="NAME" x="26.543" y="10.033" size="0.8128" layer="26" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="25.019" y="22.86" size="0.8128" layer="28" rot="MR180" align="center-left"/>
+<attribute name="PARTNO" value="ATMEGA32U4-MU" x="31.369" y="15.24" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C15" library="Domino" package="C0402" value="100n" x="28.956" y="22.479" smashed="yes" rot="MR180">
 <attribute name="TC" value="X7R" x="28.956" y="22.479" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -5905,6 +5905,7 @@ Your Eurocircuits Team
 <element name="Y1" library="Domino" package="CRYSTAL_32X25" value="16MHz" x="30.607" y="24.765" smashed="yes" rot="MR90">
 <attribute name="NAME" x="31.242" y="26.797" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="27.432" y="23.495" size="0.8128" layer="28" rot="MR90"/>
+<attribute name="PARTNO" value="CRYSTAL_16MHZ_32X25_2SH_12PF_30PPM" x="30.607" y="24.765" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R2" library="Domino" package="R0402" value="22R" x="23.622" y="12.7" smashed="yes" rot="MR180">
 <attribute name="RATE" value="62.5mW" x="23.622" y="12.7" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -5945,14 +5946,17 @@ Your Eurocircuits Team
 <element name="U4" library="Domino" package="XQFN-12" value="NTB0104GU12" x="18.288" y="18.669" smashed="yes" rot="MR180">
 <attribute name="NAME" x="17.526" y="20.447" size="0.8128" layer="26" rot="MR180" align="center-left"/>
 <attribute name="VALUE" x="17.018" y="20.574" size="0.8128" layer="28" rot="MR180" align="center-left"/>
+<attribute name="PARTNO" value="NTB0104GU12" x="18.288" y="18.669" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="U5" library="Domino" package="XQFN-10" value="NTB0102GU" x="16.637" y="24.13" smashed="yes" rot="MR90">
 <attribute name="NAME" x="18.034" y="24.638" size="0.8128" layer="26" rot="MR180" align="center-left"/>
 <attribute name="VALUE" x="14.732" y="22.225" size="0.8128" layer="28" rot="MR90" align="center-left"/>
+<attribute name="PARTNO" value="NTB0102GU" x="16.637" y="24.13" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="U6" library="Domino" package="SOT23-8" value="MAX3375EEKA+T" x="12.446" y="19.558" smashed="yes" rot="MR0">
 <attribute name="NAME" x="14.097" y="19.431" size="0.8128" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="9.906" y="18.288" size="0.8128" layer="28" rot="MR90"/>
+<attribute name="PARTNO" value="MAX3375EEKA+T" x="12.446" y="19.558" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C20" library="Domino" package="C0402" value="100n" x="20.066" y="17.399" smashed="yes" rot="MR270">
 <attribute name="TC" value="X7R" x="20.066" y="17.399" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -6041,6 +6045,7 @@ Your Eurocircuits Team
 <element name="Q2" library="Domino" package="SOT323" value="2SC4081" x="12.319" y="25.146" smashed="yes" rot="MR180">
 <attribute name="NAME" x="11.4865" y="27.486" size="0.8128" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="10.353" y="28.1365" size="0.8128" layer="28" rot="MR180"/>
+<attribute name="PARTNO" value="2SC4081" x="12.319" y="25.146" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R12" library="Domino" package="R0402" value="10k" x="11.557" y="22.9616" smashed="yes" rot="MR0">
 <attribute name="RATE" value="62.5mW" x="11.557" y="22.9616" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -6088,14 +6093,15 @@ Your Eurocircuits Team
 <element name="Q1" library="Domino" package="SOT23-3" value="AP2302GN" x="4.699" y="25.527" smashed="yes" rot="MR0">
 <attribute name="NAME" x="7.8175" y="25.346" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="6.665" y="22.5365" size="0.8128" layer="28" rot="MR0"/>
+<attribute name="PARTNO" value="AP2302GN" x="4.699" y="25.527" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C8" library="Domino" package="C0805" value="2u2" x="21.59" y="16.637" smashed="yes" rot="MR270">
 <attribute name="TC" value="X5R" x="21.59" y="16.637" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VOLT" value="6.3V" x="21.59" y="16.637" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SIZE" value="0402" x="21.59" y="16.637" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="PARTNO" value="C0402_2u2_X5R_20%_CER_6V3" x="21.59" y="16.637" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PARTNO" value="C0402_2u2_X5R_10%_CER_6V3" x="21.59" y="16.637" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TYPE" value="CER" x="21.59" y="16.637" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="TOL" value="±20%" x="21.59" y="16.637" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="TOL" value="±10%" x="21.59" y="16.637" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="20.828" y="19.431" size="0.8128" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="24.13" y="18.542" size="0.8128" layer="28" rot="MR270"/>
 </element>
@@ -6162,28 +6168,36 @@ Your Eurocircuits Team
 <element name="J2" library="Domino" package="MH22-1-0.1" value="MH22-1" x="1.27" y="1.27" smashed="yes">
 <attribute name="NAME" x="0.8128" y="3.2258" size="0.8128" layer="25" ratio="10" align="center-left"/>
 <attribute name="VALUE" x="0" y="-1.27" size="0.8128" layer="27" align="center-left"/>
+<attribute name="PARTNO" value="MH22-1-0.1" x="1.27" y="1.27" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW3" library="Domino" package="IT-1210" value="IT-1210" x="54.864" y="5.334" smashed="yes" rot="MR90">
 <attribute name="NAME" x="52.959" y="9.652" size="0.8128" layer="26" rot="MR180" align="center-left"/>
 <attribute name="VALUE" x="51.689" y="2.794" size="0.8128" layer="28" rot="MR90" align="center-left"/>
+<attribute name="PARTNO" value="IT-1210" x="54.864" y="5.334" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="SW2" library="Domino" package="IT-1210" value="IT-1210" x="0.635" y="6.477" smashed="yes" rot="MR270">
 <attribute name="NAME" x="4.445" y="10.795" size="0.8128" layer="26" rot="MR270" align="center-left"/>
 <attribute name="VALUE" x="3.81" y="9.017" size="0.8128" layer="28" rot="MR270" align="center-left"/>
+<attribute name="PARTNO" value="IT-1210" x="0.635" y="6.477" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="SW1" library="Domino" package="IT-1210" value="IT-1210" x="0.635" y="26.416" smashed="yes" rot="MR270">
 <attribute name="NAME" x="2.54" y="25.146" size="0.8128" layer="26" rot="MR90" align="center-left"/>
 <attribute name="VALUE" x="3.81" y="28.956" size="0.8128" layer="28" rot="MR270" align="center-left"/>
+<attribute name="PARTNO" value="IT-1210" x="0.635" y="26.416" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="U$3" library="Domino" package="DOMINO_QI_LOGO_SMALL" value="" x="46.99" y="5.08" rot="R90"/>
 <element name="U$5" library="Domino" package="DOMINO_QI_LOGO_SMALL" value="" x="41.91" y="23.368" rot="MR270"/>
 <element name="W1" library="Domino" package="DOMINO_QI_LOGO" value="DOMINO_QI_LOGO" x="-34.29" y="-46.99">
 <attribute name="BOM" value="EXCLUDE" x="-34.29" y="-46.99" size="1.778" layer="27" display="off"/>
 </element>
-<element name="A1" library="Domino" package="RF_ANT1" value="RF_ANT1" x="49.8602" y="27.2288" rot="R270"/>
+<element name="A1" library="Domino" package="RF_ANT1" value="RF_ANT1" x="49.8602" y="27.2288" rot="R270">
+<attribute name="BOM" value="EXCLUDE" x="49.8602" y="27.2288" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="RF_ANT1" x="49.8602" y="27.2288" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="J1" library="Domino" package="MH22-1-0.1" value="MH22-1" x="1.27" y="31.75" smashed="yes">
 <attribute name="NAME" x="0.6858" y="29.8958" size="0.8128" layer="25" ratio="10" align="center-left"/>
 <attribute name="VALUE" x="0" y="29.21" size="0.8128" layer="27" align="center-left"/>
+<attribute name="PARTNO" value="MH22-1-0.1" x="1.27" y="31.75" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C2" library="Domino" package="C0402" value="100n" x="5.969" y="6.604" smashed="yes" rot="MR0">
 <attribute name="TC" value="X7R" x="10.287" y="19.685" size="1.778" layer="28" rot="MR0" display="off"/>
