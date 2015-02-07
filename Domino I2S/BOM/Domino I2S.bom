@@ -1,0 +1,24 @@
+BOM-EX v1.30 exported from /home/mstempin/eagle/Domino/Domino I2S/Domino I2S.sch at 07/02/15 19:02
+
+Qty Value         Part Num                    Package       Parts                             Mfg Name               VID Vendor Part Num             Description                                              
+3   0R            R0402_0R_5%_62.5mW          R0402         R1(DNP), R2, R12, R17             ANY                    *   R0402_0R_5%_62.5mW          RES 0.0 OHM 1/16W JUMP 0402 SMD                          
+2   1n            C0402_1n_X7R_10%_CER_50V    C0402         C10, C11                          ANY                    *   C0402_1n_X7R_10%_CER_50V    CAP CER 1NF 50V 10% X7R 0402                             
+5   1u            C0402_1u_X7R_10%_CER_25V    C0402         C9, C13, C16, C17, C18            ANY                    *   C0402_1u_X7R_10%_CER_25V    CAP CER 1UF 25V 10% X7R 0402                             
+2   4k7           R0402_4k7_5%_62.5mW         R0402         R13, R14                          ANY                    *   R0402_4k7_5%_62.5mW         RES 4.7K OHM 1/16W 5% 0402 SMD                           
+6   4u7           C0402_4u7_X5R_10%_CER_6V3   C0402         C1, C2, C3, C4, C5, C6            ANY                    *   C0402_4u7_X5R_10%_CER_6V3   CAP CER 4.7UF 6.3V 10% X5R 0402                          
+1   10k           R0402_10k_5%_62.5mW         R0402         R3(DNP), R4(DNP), R15, R16(DNP)   ANY                    *   R0402_10k_5%_62.5mW         RES 10K OHM 1/16W 5% 0402 SMD                            
+2   10n           C0402_10n_X7R_10%_CER_50V   C0402         C14, C15                          ANY                    *   C0402_10n_X7R_10%_CER_50V   CAP CER 10000PF 50V 10% X7R 0402                         
+5   22R           R0402_22R_5%_62.5mW         R0402         R5, R6, R8, R10, R11              ANY                    *   R0402_22R_5%_62.5mW         RES 22 OHM 1/16W 5% 0402 SMD                             
+2   33p           C0402_33p_NP0_5%_CER_50V    C0402         C8, C12                           ANY                    *   C0402_33p_NP0_5%_CER_50V    CAP CER 33PF 50V 5% NP0 0402                             
+1   47k           R0402_47k_5%_62.5mW         R0402         R7                                ANY                    *   R0402_47k_5%_62.5mW         RES 47K OHM 1/16W 5% 0402 SMD                            
+1   220p          C0402_220p_X7R_10%_CER_50V  C0402         C7                                ANY                    *   C0402_220p_X7R_10%_CER_50V  CAP CER 0.22UF 50V 10% X7R 0402                          
+2   220u          C2-5x7_220u_ALU_20%_RAD_6V3 E2-5          EC1, EC2                          ANY                    *   C2-5x7_220u_ALU_20%_RAD_6V3 CAP ALUM 220UF 6.3V 20% RADIAL                           
+1   680R          R0402_680R_5%_62.5mW        R0402         R9                                ANY                    *   R0402_680R_5%_62.5mW        RES 680 OHM 1/16W 5% 0402 SMD                            
+2   CD54NP-220MC  CD54NP-220MC                CD54          L1, L2                            SUMIDA INC             *   CD54NP-220MC                FIXED IND 220UH 1.11A 190 MOHM                           
+1   DLT1120A      DLT1120A                    DLT1120A      J6                                AIXIN LTD              *   DLT1120A                    TRANSMITTER FIBER OPTIC 16MBPS                           
+7   HH-1T1005-121 HH-1T1005-121               FB0805        FB1, FB2, FB3, FB4, FB5, FB6, FB7 CERATECH               *   HH-1T1005-121               FERRITE CHIP 120 OHM 800MA 0805                          
+1   MH2-1         MH2-1-0.1                   MH2-1-0.1     J4(DNP), J5(DNP), J7              ANY                    *   MH2-1-0.1                   CONN HEADER VERT .100 1ROW 2POS 8.08 HEAD 3.05 TAIL 15AU 
+2   MH18-1        MH18-1-0.1                  MH18-1-0.1    J1, J2                            ANY                    *   MH18-1-0.1                  CONN HEADER VERT .100 1ROW 18POS 8.08 HEAD 3.05 TAIL 15AU
+0   MIC-45-22     MIC-45-22                   MIC-45-22     J3(DNP)                           ANY                    *   MIC-45-22                   MIC COND ANALOG OMNI                                     
+1   ST-3538-050   ST-3538-050                 ST-3538-050   HP1                               SZJUSTWELL ELECTRONICS *   ST-3538-050                 CONN AUDIO JACK 3.5MM STEREO SMD                         
+1   WM8978CGEFL   WM8978CGEFL                 QFN-32_EP_5X5 U1                                CIRRUS LOGIC           *   WM8978CGEFL                 IC CODEC STER SPEAKER DVR 32QF                           
