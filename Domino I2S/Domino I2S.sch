@@ -4290,22 +4290,28 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="PARTNO" value="MH2-1-0.1"/>
 </part>
 <part name="FB5" library="Domino" deviceset="FB_" device="0805" value="HH-1T1005-121">
-<attribute name="PARTNO" value="HH-1T1005-121"/>
+<attribute name="OPT" value="600R/2.5A"/>
+<attribute name="PARTNO" value="HH-1T2012-601"/>
 </part>
 <part name="FB6" library="Domino" deviceset="FB_" device="0805" value="HH-1T1005-121">
-<attribute name="PARTNO" value="HH-1T1005-121"/>
+<attribute name="OPT" value="600R/2.5A"/>
+<attribute name="PARTNO" value="HH-1T2012-601"/>
 </part>
 <part name="FB3" library="Domino" deviceset="FB_" device="0805" value="HH-1T1005-121">
-<attribute name="PARTNO" value="HH-1T1005-121"/>
+<attribute name="OPT" value="600R/2.5A"/>
+<attribute name="PARTNO" value="HH-1T2012-601"/>
 </part>
 <part name="FB1" library="Domino" deviceset="FB_" device="0805" value="HH-1T1005-121">
-<attribute name="PARTNO" value="HH-1T1005-121"/>
+<attribute name="OPT" value="600R/2.5A"/>
+<attribute name="PARTNO" value="HH-1T2012-601"/>
 </part>
 <part name="FB7" library="Domino" deviceset="FB_" device="0805" value="HH-1T1005-121">
-<attribute name="PARTNO" value="HH-1T1005-121"/>
+<attribute name="OPT" value="600R/2.5A"/>
+<attribute name="PARTNO" value="HH-1T2012-601"/>
 </part>
 <part name="FB2" library="Domino" deviceset="FB_" device="0805" value="HH-1T1005-121">
-<attribute name="PARTNO" value="HH-1T1005-121"/>
+<attribute name="OPT" value="600R/2.5A"/>
+<attribute name="PARTNO" value="HH-1T2012-601"/>
 </part>
 <part name="J4" library="Domino" deviceset="MH2-1" device="">
 <attribute name="DNP" value="T"/>
@@ -4552,7 +4558,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="PORT8" library="Domino" deviceset="NC" device=""/>
 <part name="PORT9" library="Domino" deviceset="NC" device=""/>
 <part name="FB4" library="Domino" deviceset="FB_" device="0805" value="HH-1T1005-121">
-<attribute name="PARTNO" value="HH-1T1005-121"/>
+<attribute name="OPT" value="600R/2.5A"/>
+<attribute name="PARTNO" value="HH-1T2012-601"/>
 </part>
 <part name="SUPPLY26" library="Domino" deviceset="GND" device=""/>
 <part name="PORT14" library="Domino" deviceset="NC" device=""/>
@@ -4608,6 +4615,9 @@ All rights reserved.</text>
 <text x="150.622" y="158.242" size="1.778" layer="95">2x</text>
 <text x="159.512" y="158.496" size="1.778" layer="95">/</text>
 <text x="255.27" y="117.348" size="1.778" layer="95">5x</text>
+<text x="129.286" y="159.004" size="1.778" layer="95" align="center">2x</text>
+<text x="274.32" y="223.52" size="1.778" layer="95" align="center">3x</text>
+<text x="248.666" y="71.12" size="1.778" layer="95" align="center">2x</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -4689,33 +4699,45 @@ All rights reserved.</text>
 </instance>
 <instance part="FB5" gate="G$1" x="134.62" y="152.4" smashed="yes">
 <attribute name="NAME" x="135.89" y="151.13" size="1.778" layer="95" rot="R180" align="center"/>
-<attribute name="VALUE" x="135.89" y="148.59" size="1.778" layer="96" rot="R180" align="center"/>
+<attribute name="VALUE" x="139.954" y="159.004" size="1.778" layer="96" rot="R180" align="center"/>
 <attribute name="PARTNO" x="134.62" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="OPT" x="134.874" y="156.464" size="1.778" layer="96" align="center"/>
+<attribute name="SIZE" x="145.034" y="156.464" size="1.778" layer="96" align="center"/>
 </instance>
 <instance part="FB6" gate="G$1" x="134.62" y="144.78" smashed="yes">
 <attribute name="NAME" x="135.89" y="143.51" size="1.778" layer="95" rot="R180" align="center"/>
-<attribute name="VALUE" x="135.89" y="140.97" size="1.778" layer="96" rot="R180" align="center"/>
+<attribute name="VALUE" x="139.954" y="159.004" size="1.778" layer="96" rot="R180" align="center"/>
 <attribute name="PARTNO" x="134.62" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="OPT" x="134.874" y="156.464" size="1.778" layer="96" align="center"/>
+<attribute name="SIZE" x="145.034" y="156.464" size="1.778" layer="96" align="center"/>
 </instance>
 <instance part="FB3" gate="G$1" x="246.38" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="248.92" y="66.04" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="255.27" y="63.5" size="1.778" layer="96" align="center"/>
+<attribute name="VALUE" x="259.08" y="71.12" size="1.778" layer="96" align="center"/>
 <attribute name="PARTNO" x="246.38" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="OPT" x="254" y="68.58" size="1.778" layer="96" rot="R180" align="center"/>
+<attribute name="SIZE" x="264.16" y="68.58" size="1.778" layer="96" rot="R180" align="center"/>
 </instance>
 <instance part="FB1" gate="G$1" x="228.6" y="218.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="231.14" y="218.44" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="227.33" y="213.36" size="1.778" layer="96" align="center"/>
+<attribute name="VALUE" x="284.48" y="223.52" size="1.778" layer="96" align="center"/>
 <attribute name="PARTNO" x="228.6" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="OPT" x="279.4" y="220.98" size="1.778" layer="96" rot="R180" align="center"/>
+<attribute name="SIZE" x="289.56" y="220.98" size="1.778" layer="96" rot="R180" align="center"/>
 </instance>
 <instance part="FB7" gate="G$1" x="241.3" y="218.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="243.84" y="218.44" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="250.19" y="215.9" size="1.778" layer="96" align="center"/>
+<attribute name="VALUE" x="284.48" y="223.52" size="1.778" layer="96" align="center"/>
 <attribute name="PARTNO" x="241.3" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="OPT" x="279.4" y="220.98" size="1.778" layer="96" rot="R180" align="center"/>
+<attribute name="SIZE" x="289.56" y="220.98" size="1.778" layer="96" rot="R180" align="center"/>
 </instance>
 <instance part="FB2" gate="G$1" x="228.6" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="225.806" y="72.136" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="218.186" y="70.104" size="1.778" layer="96" align="center"/>
+<attribute name="VALUE" x="259.08" y="71.12" size="1.778" layer="96" align="center"/>
 <attribute name="PARTNO" x="228.6" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="OPT" x="254" y="68.58" size="1.778" layer="96" rot="R180" align="center"/>
+<attribute name="SIZE" x="264.16" y="68.58" size="1.778" layer="96" rot="R180" align="center"/>
 </instance>
 <instance part="J4" gate="G$1" x="226.06" y="55.88" smashed="yes" rot="R90">
 <attribute name="VALUE" x="225.425" y="48.26" size="1.778" layer="96" align="center"/>
@@ -5066,8 +5088,10 @@ All rights reserved.</text>
 <instance part="PORT9" gate="G$1" x="236.22" y="226.06" rot="R90"/>
 <instance part="FB4" gate="G$1" x="271.78" y="218.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="274.32" y="218.44" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="280.67" y="215.9" size="1.778" layer="96" align="center"/>
+<attribute name="VALUE" x="284.48" y="223.52" size="1.778" layer="96" align="center"/>
 <attribute name="PARTNO" x="271.78" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="OPT" x="279.4" y="220.98" size="1.778" layer="96" rot="R180" align="center"/>
+<attribute name="SIZE" x="289.56" y="220.98" size="1.778" layer="96" rot="R180" align="center"/>
 </instance>
 <instance part="SUPPLY26" gate="GND" x="271.78" y="210.82"/>
 <instance part="PORT14" gate="G$1" x="248.92" y="60.96" rot="R270"/>

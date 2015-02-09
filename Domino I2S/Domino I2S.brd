@@ -15,14 +15,14 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -44,7 +44,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -103,8 +103,8 @@
 <layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="no"/>
 <layer number="143" name="mvRestrict" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="yes" active="yes"/>
-<layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="no" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="no" active="yes"/>
 <layer number="147" name="Measures_X8" color="7" fill="1" visible="no" active="yes"/>
 <layer number="148" name="mDocument" color="7" fill="1" visible="no" active="no"/>
 <layer number="149" name="mReference" color="7" fill="1" visible="no" active="no"/>
@@ -4112,37 +4112,43 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0805" x="13.335" y="21.209" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="15.367" y="20.8915" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="11.303" y="23.749" size="0.8128" layer="27" rot="R270"/>
-<attribute name="PARTNO" value="HH-1T1005-121" x="13.335" y="21.209" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="HH-1T2012-601" x="13.335" y="21.209" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OPT" value="600R/2.5A" x="13.335" y="21.209" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="FB6" library="Domino" package="FB0805" value="HH-1T1005-121" x="13.335" y="14.859" smashed="yes" rot="R270">
 <attribute name="SIZE" value="0805" x="13.335" y="14.859" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="15.367" y="13.97" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="11.303" y="17.399" size="0.8128" layer="27" rot="R270"/>
-<attribute name="PARTNO" value="HH-1T1005-121" x="13.335" y="14.859" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="HH-1T2012-601" x="13.335" y="14.859" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OPT" value="600R/2.5A" x="13.335" y="14.859" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="FB3" library="Domino" package="FB0805" value="HH-1T1005-121" x="33.2105" y="8.255" smashed="yes" rot="R180">
 <attribute name="SIZE" value="0805" x="33.2105" y="8.255" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="32.3215" y="9.525" size="0.8128" layer="25" rot="SR0"/>
 <attribute name="VALUE" x="35.7505" y="10.287" size="0.8128" layer="27" rot="R180"/>
-<attribute name="PARTNO" value="HH-1T1005-121" x="33.2105" y="8.255" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="HH-1T2012-601" x="33.2105" y="8.255" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OPT" value="600R/2.5A" x="33.2105" y="8.255" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="FB1" library="Domino" package="FB0805" value="HH-1T1005-121" x="16.764" y="28.575" smashed="yes" rot="R180">
 <attribute name="SIZE" value="0805" x="16.764" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="15.875" y="26.67" size="0.8128" layer="25" rot="SR0"/>
 <attribute name="VALUE" x="19.304" y="30.607" size="0.8128" layer="27" rot="R180"/>
-<attribute name="PARTNO" value="HH-1T1005-121" x="16.764" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="HH-1T2012-601" x="16.764" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OPT" value="600R/2.5A" x="16.764" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="FB7" library="Domino" package="FB0805" value="HH-1T1005-121" x="22.479" y="28.702" smashed="yes" rot="R180">
 <attribute name="SIZE" value="0805" x="22.479" y="28.702" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="21.59" y="26.67" size="0.8128" layer="25" rot="SR0"/>
 <attribute name="VALUE" x="25.019" y="30.734" size="0.8128" layer="27" rot="R180"/>
-<attribute name="PARTNO" value="HH-1T1005-121" x="22.479" y="28.702" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="HH-1T2012-601" x="22.479" y="28.702" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OPT" value="600R/2.5A" x="22.479" y="28.702" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="FB2" library="Domino" package="FB0805" value="HH-1T1005-121" x="13.589" y="6.985" smashed="yes" rot="R90">
 <attribute name="SIZE" value="0805" x="13.589" y="6.985" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="12.573" y="2.794" size="0.8128" layer="25" rot="SR0"/>
 <attribute name="VALUE" x="15.621" y="4.445" size="0.8128" layer="27" rot="R90"/>
-<attribute name="PARTNO" value="HH-1T1005-121" x="13.589" y="6.985" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="HH-1T2012-601" x="13.589" y="6.985" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OPT" value="600R/2.5A" x="13.589" y="6.985" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J4" library="Domino" package="MH2-1-0.1" value="MH2-1" x="4.318" y="1.27" smashed="yes" rot="R180">
 <attribute name="NAME" x="2.3622" y="2.5273" size="0.8128" layer="25" ratio="10" rot="SR90" align="center-left"/>
@@ -4460,7 +4466,8 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0805" x="47.498" y="25.273" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="46.228" y="24.257" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="49.53" y="22.733" size="0.8128" layer="27" rot="R90"/>
-<attribute name="PARTNO" value="HH-1T1005-121" x="47.498" y="25.273" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="HH-1T2012-601" x="47.498" y="25.273" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OPT" value="600R/2.5A" x="47.498" y="25.273" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J7" library="Domino" package="MH2-1-0.1" value="MH2-1" x="44.704" y="12.8905" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.3042" y="18.5293" size="0.8128" layer="25" ratio="10" rot="R90" align="center-left"/>

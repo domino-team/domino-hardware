@@ -102,7 +102,7 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=16
+Layer=1
 
 [Win_3]
 Type="Control Panel"

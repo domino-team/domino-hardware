@@ -1,4 +1,4 @@
-BOM-EX v1.30 exported from /home/mstempin/eagle/Domino/Domino I2S/Domino I2S.sch at 07/02/15 19:02
+BOM-EX v1.30 exported from /home/mstempin/eagle/Domino/Domino I2S/Domino I2S.sch at 09/02/15 21:59
 
 Qty Value         Part Num                    Package       Parts                             Mfg Name               VID Vendor Part Num             Description                                              
 3   0R            R0402_0R_5%_62.5mW          R0402         R1(DNP), R2, R12, R17             ANY                    *   R0402_0R_5%_62.5mW          RES 0.0 OHM 1/16W JUMP 0402 SMD                          
@@ -16,7 +16,7 @@ Qty Value         Part Num                    Package       Parts               
 1   680R          R0402_680R_5%_62.5mW        R0402         R9                                ANY                    *   R0402_680R_5%_62.5mW        RES 680 OHM 1/16W 5% 0402 SMD                            
 2   CD54NP-220MC  CD54NP-220MC                CD54          L1, L2                            SUMIDA INC             *   CD54NP-220MC                FIXED IND 220UH 1.11A 190 MOHM                           
 1   DLT1120A      DLT1120A                    DLT1120A      J6                                AIXIN LTD              *   DLT1120A                    TRANSMITTER FIBER OPTIC 16MBPS                           
-7   HH-1T1005-121 HH-1T1005-121               FB0805        FB1, FB2, FB3, FB4, FB5, FB6, FB7 CERATECH               *   HH-1T1005-121               FERRITE CHIP 120 OHM 800MA 0805                          
+7   HH-1T1005-121 HH-1T2012-601               FB0805        FB1, FB2, FB3, FB4, FB5, FB6, FB7 CERATECH               *   HH-1T2012-601               FERRITE CHIP 600 OHM 2500MA 0805                         
 1   MH2-1         MH2-1-0.1                   MH2-1-0.1     J4(DNP), J5(DNP), J7              ANY                    *   MH2-1-0.1                   CONN HEADER VERT .100 1ROW 2POS 8.08 HEAD 3.05 TAIL 15AU 
 2   MH18-1        MH18-1-0.1                  MH18-1-0.1    J1, J2                            ANY                    *   MH18-1-0.1                  CONN HEADER VERT .100 1ROW 18POS 8.08 HEAD 3.05 TAIL 15AU
 0   MIC-45-22     MIC-45-22                   MIC-45-22     J3(DNP)                           ANY                    *   MIC-45-22                   MIC COND ANALOG OMNI                                     
