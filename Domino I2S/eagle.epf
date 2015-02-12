@@ -60,7 +60,7 @@ Sheet=1
 
 [Win_2]
 Type="Board Editor"
-Loc="-7 26 1909 1054"
+Loc="0 26 1916 1054"
 State=2
 Number=2
 File="Domino I2S.brd"
@@ -90,7 +90,7 @@ PolygonPour=0
 PolygonRank=1
 PolygonThermals=1
 PolygonOrphans=0
-TextRatio=8
+TextRatio=20
 DimensionUnit=1
 DimensionPrecision=2
 DimensionShowUnit=0
@@ -102,7 +102,7 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=1
+Layer=16
 
 [Win_3]
 Type="Control Panel"
