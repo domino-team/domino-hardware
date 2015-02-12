@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -124,10 +124,10 @@
 <text x="79.375" y="64.516" size="1.27" layer="48" ratio="16">DRILL CHART: TOP TO BOTTOM</text>
 <dimension x1="0" y1="33.02" x2="0" y2="0" x3="-2.54" y3="16.51" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="25.4" y1="33.02" x2="0" y2="33.02" x3="12.7" y3="35.56" textsize="1.778" layer="47" dtype="horizontal"/>
-<text x="3.81" y="29.21" size="0.8128" layer="22" rot="MR90" align="center">TDO</text>
-<text x="1.27" y="28.956" size="0.8128" layer="22" rot="MR90" align="center">+2V5</text>
-<text x="5.588" y="8.89" size="0.8128" layer="26" rot="MR0" align="center-left">&gt;DATE</text>
-<text x="5.715" y="10.16" size="0.8128" layer="26" rot="MR0" align="center-left">Rev.</text>
+<text x="3.81" y="29.337" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">TDO</text>
+<text x="1.27" y="28.956" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">+2V5</text>
+<text x="6.223" y="8.89" size="0.8128" layer="26" ratio="20" rot="MR0" align="center-left">&gt;DATE</text>
+<text x="6.223" y="10.16" size="0.8128" layer="26" ratio="20" rot="MR0" align="center-left">Rev.</text>
 <text x="1.27" y="34.29" size="1.27" layer="150" rot="R90" align="center-left">+2V5</text>
 <text x="3.81" y="34.29" size="1.27" layer="150" rot="R90" align="center-left">JTAG_TDO</text>
 <text x="6.35" y="34.29" size="1.27" layer="150" rot="R90" align="center-left">JTAG_TDI</text>
@@ -239,32 +239,32 @@ at any time, without notice.</text>
 All rights reserved.</text>
 <text x="115.57" y="-57.15" size="1.778" layer="48">Rev.</text>
 <text x="121.92" y="-57.15" size="1.778" layer="48">&gt;REV</text>
-<text x="6.35" y="29.21" size="0.8128" layer="22" rot="MR90" align="center">TDI</text>
-<text x="8.89" y="29.21" size="0.8128" layer="22" rot="MR90" align="center">TCK</text>
-<text x="11.43" y="29.21" size="0.8128" layer="22" rot="MR90" align="center">TMS</text>
-<text x="13.97" y="27.686" size="0.8128" layer="22" rot="MR270" align="center">!RESET_L</text>
-<text x="19.05" y="25.146" size="0.8128" layer="22" rot="MR90" align="center">FLASH_WP</text>
-<text x="24.13" y="29.21" size="0.8128" layer="22" rot="MR90" align="center">GND</text>
+<text x="6.35" y="29.464" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">TDI</text>
+<text x="8.89" y="29.337" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">TCK</text>
+<text x="11.43" y="29.337" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">TMS</text>
+<text x="13.97" y="27.686" size="0.8128" layer="22" ratio="20" rot="MR270" align="center">!RESET_L</text>
+<text x="19.05" y="25.4" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">FLASH_WP</text>
+<text x="24.13" y="29.337" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">GND</text>
 <text x="8.89" y="34.29" size="1.27" layer="150" rot="R90" align="center-left">JTAG_TCK</text>
 <text x="11.43" y="34.29" size="1.27" layer="150" rot="R90" align="center-left">JTAG_TMS</text>
 <text x="13.97" y="34.29" size="1.27" layer="150" rot="R90" align="center-left">!RESET_L</text>
 <text x="19.05" y="34.29" size="1.27" layer="150" rot="R90" align="center-left">FLASH_WP</text>
-<text x="16.383" y="26.162" size="0.8128" layer="22" rot="MR90" align="center">GPIO24</text>
+<text x="16.383" y="26.416" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">GPIO24</text>
 <text x="16.51" y="34.29" size="1.27" layer="150" rot="R90" align="center-left">GPIO24</text>
 <hole x="22.44" y="6" drill="3.2"/>
-<text x="12.319" y="17.526" size="1.778" layer="21" align="center">SPI</text>
-<text x="22.225" y="3.302" size="1.778" layer="21" rot="R180" align="center">JTAG</text>
-<text x="3.175" y="10.16" size="0.8128" layer="26" rot="MR0" align="center-left">&gt;REV</text>
-<text x="24.13" y="3.81" size="0.8128" layer="22" rot="MR90" align="center">GND</text>
-<text x="13.97" y="4.445" size="0.8128" layer="22" rot="MR90" align="center">GND</text>
-<text x="11.43" y="4.445" size="0.8128" layer="22" rot="MR90" align="center">MISO</text>
-<text x="8.89" y="3.175" size="0.8128" layer="22" rot="MR0" align="center">CS</text>
-<text x="6.35" y="3.175" size="0.8128" layer="22" rot="MR0" align="center">MOSI</text>
-<text x="3.81" y="4.445" size="0.8128" layer="22" rot="MR270" align="center">CLK</text>
-<text x="5.715" y="15.367" size="0.8128" layer="25" rot="R90" align="center-left">&gt;DATE</text>
-<text x="4.445" y="17.78" size="0.8128" layer="25" rot="R90" align="center-left">&gt;REV</text>
-<text x="4.445" y="15.24" size="0.8128" layer="25" rot="R90" align="center-left">Rev.</text>
-<text x="10.795" y="25.273" size="1.778" layer="21" align="center-left">FLASH
+<text x="12.192" y="17.653" size="1.778" layer="21" ratio="20" align="center">SPI</text>
+<text x="22.225" y="3.302" size="1.778" layer="21" ratio="20" rot="R180" align="center">JTAG</text>
+<text x="3.429" y="10.16" size="0.8128" layer="26" ratio="20" rot="MR0" align="center-left">&gt;REV</text>
+<text x="24.13" y="3.81" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">GND</text>
+<text x="13.97" y="3.81" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">GND</text>
+<text x="11.557" y="4.064" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">MISO</text>
+<text x="9.017" y="3.429" size="0.8128" layer="22" ratio="20" rot="MR270" align="center">CS</text>
+<text x="6.477" y="4.191" size="0.8128" layer="22" ratio="20" rot="MR270" align="center">MOSI</text>
+<text x="3.81" y="3.937" size="0.8128" layer="22" ratio="20" rot="MR270" align="center">CLK</text>
+<text x="5.715" y="15.24" size="0.8128" layer="25" ratio="20" rot="R90" align="center-left">&gt;DATE</text>
+<text x="4.445" y="17.78" size="0.8128" layer="25" ratio="20" rot="R90" align="center-left">&gt;REV</text>
+<text x="4.445" y="15.24" size="0.8128" layer="25" ratio="20" rot="R90" align="center-left">Rev.</text>
+<text x="10.795" y="25.273" size="1.778" layer="21" ratio="20" align="center-left">FLASH
 WP</text>
 <text x="24.13" y="-1.27" size="1.27" layer="150" rot="R270" align="center-left">GND</text>
 <text x="13.97" y="-1.27" size="1.27" layer="150" rot="R270" align="center-left">GND</text>
@@ -275,17 +275,17 @@ WP</text>
 <dimension x1="25.4" y1="6" x2="22.44" y2="6" x3="23.92" y3="-6.35" textsize="1.778" layer="47"/>
 <dimension x1="22.44" y1="0" x2="22.44" y2="6" x3="27.94" y3="3" textsize="1.778" layer="47"/>
 <dimension x1="23.537175" y1="7.164565625" x2="21.342825" y2="4.835434375" x3="21.342825" y3="4.835434375" textsize="1.778" layer="47" dtype="diameter"/>
-<text x="11.303" y="29.845" size="1.778" layer="21" rot="R180" align="center">RESET</text>
-<text x="1.778" y="10.795" size="0.8128" layer="21" rot="R180" align="center">SO</text>
-<text x="4.699" y="8.255" size="0.8128" layer="21" align="center">CLK</text>
-<text x="1.778" y="12.065" size="0.8128" layer="21" rot="R180" align="center">CS</text>
-<text x="4.699" y="12.065" size="0.8128" layer="21" align="center">+3.3V</text>
-<text x="4.699" y="5.715" size="0.8128" layer="21" align="center">SI</text>
-<text x="1.651" y="5.715" size="0.8128" layer="21" rot="R180" align="center">GND</text>
-<text x="1.651" y="8.255" size="0.8128" layer="21" rot="R180" align="center">WP</text>
-<text x="4.699" y="10.795" size="0.8128" layer="21" align="center">NC</text>
+<text x="11.303" y="29.845" size="1.778" layer="21" ratio="20" rot="R180" align="center">RESET</text>
+<text x="1.778" y="10.795" size="0.8128" layer="21" ratio="20" rot="R180" align="center">SO</text>
+<text x="4.699" y="8.255" size="0.8128" layer="21" ratio="20" align="center">CLK</text>
+<text x="1.778" y="12.065" size="0.8128" layer="21" ratio="20" rot="R180" align="center">CS</text>
+<text x="4.699" y="12.065" size="0.8128" layer="21" ratio="20" align="center">+3.3V</text>
+<text x="4.699" y="5.715" size="0.8128" layer="21" ratio="20" align="center">SI</text>
+<text x="1.651" y="5.715" size="0.8128" layer="21" ratio="20" rot="R180" align="center">GND</text>
+<text x="1.651" y="8.255" size="0.8128" layer="21" ratio="20" rot="R180" align="center">WP</text>
+<text x="4.699" y="10.795" size="0.8128" layer="21" ratio="20" align="center">NC</text>
 <text x="1.27" y="-1.27" size="1.27" layer="150" rot="R270" align="center-left">+3V3</text>
-<text x="1.27" y="4.445" size="0.8128" layer="22" rot="MR270" align="center">+3V3</text>
+<text x="1.27" y="4.191" size="0.8128" layer="22" ratio="20" rot="MR270" align="center">+3V3</text>
 <wire x1="0" y1="30.48" x2="12.065" y2="30.48" width="0.2032" layer="49"/>
 <wire x1="12.065" y1="30.48" x2="24.13" y2="30.48" width="0.2032" layer="49"/>
 <wire x1="24.13" y1="30.48" x2="24.13" y2="16.51" width="0.2032" layer="49"/>
@@ -3309,9 +3309,9 @@ WP</text>
 </library>
 </libraries>
 <attributes>
-<attribute name="DATE" value="20141230"/>
+<attribute name="DATE" value="20150212"/>
 <attribute name="DRAWN" value="M.STEMPIN"/>
-<attribute name="REV" value="C"/>
+<attribute name="REV" value="D"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -3557,7 +3557,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0402" x="19.304" y="24.13" size="1.27" layer="27" display="off"/>
 <attribute name="PARTNO" value="R0402_10k_5%_62.5mW" x="19.304" y="24.13" size="1.27" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="19.304" y="24.13" size="1.27" layer="27" display="off"/>
-<attribute name="NAME" x="20.066" y="25.654" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="20.066" y="25.654" size="0.8128" layer="25" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="18.034" y="22.225" size="0.8128" layer="27"/>
 </element>
 <element name="C3" library="Domino" package="C0402" value="100n" x="19.304" y="11.303" smashed="yes" rot="R180">
@@ -3567,11 +3567,11 @@ Your Eurocircuits Team
 <attribute name="PARTNO" value="C0402_100n_X7R_10%_CER_50V" x="19.304" y="11.303" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="TYPE" value="CER" x="19.304" y="11.303" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="±10%" x="19.304" y="11.303" size="1.27" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="18.415" y="11.684" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="18.288" y="11.684" size="0.8128" layer="25" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="20.574" y="13.208" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="J6" library="Domino" package="MHRA7-2-0.1" value="MHRA7-2-0.1" x="22.86" y="16.51" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.098" y="29.464" size="0.8128" layer="25" ratio="10"/>
+<attribute name="NAME" x="22.098" y="29.464" size="0.8128" layer="25" ratio="20"/>
 <attribute name="VALUE" x="13.97" y="19.685" size="0.8128" layer="27" ratio="10"/>
 <attribute name="PARTNO" value="MHRA7-2-0.1" x="22.86" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -3581,7 +3581,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0603" x="19.05" y="19.05" size="1.27" layer="27" display="off"/>
 <attribute name="PARTNO" value="R0603_0R_5%_125mW" x="19.05" y="19.05" size="1.27" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="19.05" y="19.05" size="1.27" layer="27" display="off"/>
-<attribute name="NAME" x="17.907" y="20.066" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="17.78" y="20.066" size="0.8128" layer="25" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="17.78" y="17.145" size="0.8128" layer="27"/>
 </element>
 <element name="R5" library="Domino" package="R0402" value="10k" x="19.304" y="20.447" smashed="yes" rot="R180">
@@ -3589,7 +3589,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0402" x="19.304" y="20.447" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="R0402_10k_5%_62.5mW" x="19.304" y="20.447" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="5%" x="19.304" y="20.447" size="1.27" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="20.574" y="20.066" size="0.8128" layer="25"/>
+<attribute name="NAME" x="20.574" y="20.066" size="0.8128" layer="25" ratio="20"/>
 <attribute name="VALUE" x="20.574" y="22.352" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="R7" library="Domino" package="R0402" value="10k" x="19.304" y="16.383" smashed="yes" rot="R180">
@@ -3597,7 +3597,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0402" x="19.304" y="16.383" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="R0402_10k_5%_62.5mW" x="19.304" y="16.383" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="5%" x="19.304" y="16.383" size="1.27" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="18.415" y="16.637" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="18.415" y="16.637" size="0.8128" layer="25" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="20.574" y="18.288" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="R8" library="Domino" package="R0402" value="10k" x="19.304" y="15.113" smashed="yes" rot="R180">
@@ -3605,7 +3605,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0402" x="19.304" y="15.113" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="R0402_10k_5%_62.5mW" x="19.304" y="15.113" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="5%" x="19.304" y="15.113" size="1.27" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="18.415" y="15.621" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="20.574" y="14.732" size="0.8128" layer="25" ratio="20"/>
 <attribute name="VALUE" x="20.574" y="17.018" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="R9" library="Domino" package="R0603" value="0R" x="8.636" y="26.416" smashed="yes" rot="R270">
@@ -3614,7 +3614,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0603" x="8.636" y="26.416" size="1.27" layer="27" rot="R270" display="off"/>
 <attribute name="PARTNO" value="R0603_0R_5%_125mW" x="8.636" y="26.416" size="1.27" layer="27" rot="R270" display="off"/>
 <attribute name="TOL" value="5%" x="8.636" y="26.416" size="1.27" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="9.525" y="26.035" size="0.8128" layer="25"/>
+<attribute name="NAME" x="9.525" y="26.035" size="0.8128" layer="25" ratio="20"/>
 <attribute name="VALUE" x="6.731" y="27.686" size="0.8128" layer="27" rot="R270"/>
 </element>
 <element name="R10" library="Domino" package="R0603" value="0R" x="19.05" y="22.987" smashed="yes" rot="R180">
@@ -3623,17 +3623,17 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0603" x="19.05" y="22.987" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="R0603_0R_5%_125mW" x="19.05" y="22.987" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="5%" x="19.05" y="22.987" size="1.27" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="20.574" y="22.606" size="0.8128" layer="25"/>
+<attribute name="NAME" x="20.574" y="22.606" size="0.8128" layer="25" ratio="20"/>
 <attribute name="VALUE" x="20.32" y="24.892" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="SW1" library="Domino" package="IT-1124SMD" value="IT-1124SMD" x="3.81" y="27.178" smashed="yes" rot="R180">
-<attribute name="NAME" x="5.2578" y="29.718" size="0.8128" layer="25" rot="R180" align="center-left"/>
+<attribute name="NAME" x="5.2578" y="29.718" size="0.8128" layer="25" ratio="20" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="6.985" y="29.718" size="0.8128" layer="27" rot="R180" align="center-left"/>
 <attribute name="PARTNO" value="IT-1124SMD" x="3.81" y="27.178" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J2" library="Domino" package="MH10-1-0.1" value="MH10-1" x="1.27" y="31.75" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="MH10-1-0.1" x="1.27" y="31.75" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="0.6858" y="29.7942" size="0.8128" layer="26" ratio="10" rot="MR180" align="center-left"/>
+<attribute name="NAME" x="1.8288" y="29.9212" size="0.8128" layer="26" ratio="20" rot="MR180" align="center-left"/>
 <attribute name="VALUE" x="0" y="34.29" size="0.8128" layer="28" rot="MR180" align="center-left"/>
 </element>
 <element name="R3" library="Domino" package="R0402" value="10k" x="7.493" y="25.781" smashed="yes" rot="R270">
@@ -3641,7 +3641,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0402" x="7.493" y="25.781" size="1.27" layer="27" rot="R270" display="off"/>
 <attribute name="PARTNO" value="R0402_10k_5%_62.5mW" x="7.493" y="25.781" size="1.27" layer="27" rot="R270" display="off"/>
 <attribute name="TOL" value="5%" x="7.493" y="25.781" size="1.27" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="5.461" y="24.257" size="0.8128" layer="25"/>
+<attribute name="NAME" x="5.461" y="24.257" size="0.8128" layer="25" ratio="20"/>
 <attribute name="VALUE" x="5.588" y="27.051" size="0.8128" layer="27" rot="R270"/>
 </element>
 <element name="C2" library="Domino" package="C0402" value="10n" x="7.493" y="27.813" smashed="yes" rot="R90">
@@ -3651,17 +3651,17 @@ Your Eurocircuits Team
 <attribute name="PARTNO" value="C0402_10n_X7R_10%_CER_50V" x="7.493" y="27.813" size="1.27" layer="27" rot="R90" display="off"/>
 <attribute name="TYPE" value="CER" x="7.493" y="27.813" size="1.27" layer="27" rot="R90" display="off"/>
 <attribute name="TOL" value="±10%" x="7.493" y="27.813" size="1.27" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="8.128" y="27.94" size="0.8128" layer="25"/>
+<attribute name="NAME" x="8.128" y="27.94" size="0.8128" layer="25" ratio="20"/>
 <attribute name="VALUE" x="9.398" y="26.543" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="J4" library="Domino" package="MH2-1-0.1" value="MH2-1" x="19.05" y="29.21" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="MH2-1-0.1" x="19.05" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="15.3162" y="28.2702" size="0.8128" layer="25" ratio="10" rot="R180" align="center-left"/>
+<attribute name="NAME" x="15.3162" y="28.2702" size="0.8128" layer="25" ratio="20" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="20.32" y="31.75" size="0.8128" layer="27" rot="R180" align="center-left"/>
 </element>
 <element name="J3" library="Domino" package="MH10-1-0.1" value="MH10-1" x="1.27" y="1.27" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="MH10-1-0.1" x="1.27" y="1.27" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="0.5588" y="3.2512" size="0.8128" layer="26" ratio="10" rot="MR180" align="center-left"/>
+<attribute name="NAME" x="1.7018" y="3.2512" size="0.8128" layer="26" ratio="20" rot="MR180" align="center-left"/>
 <attribute name="VALUE" x="0" y="3.81" size="0.8128" layer="28" rot="MR180" align="center-left"/>
 </element>
 <element name="U$6" library="Domino" package="ROHS_LOGO" value="" x="20.447" y="9.525" rot="MR0"/>
@@ -3672,7 +3672,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0603" x="19.05" y="21.59" size="0.8128" layer="27" display="off"/>
 <attribute name="PARTNO" value="R0603_0R_5%_125mW" x="19.05" y="21.59" size="0.8128" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="19.05" y="21.59" size="0.8128" layer="27" display="off"/>
-<attribute name="NAME" x="18.288" y="22.606" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="18.288" y="22.606" size="0.8128" layer="25" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="17.78" y="19.685" size="0.8128" layer="27"/>
 </element>
 <element name="R12" library="Domino" package="R0603" value="0R" x="19.05" y="17.526" smashed="yes">
@@ -3680,7 +3680,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0603" x="19.05" y="17.526" size="0.8128" layer="27" display="off"/>
 <attribute name="PARTNO" value="R0603_0R_5%_125mW" x="19.05" y="17.526" size="0.8128" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="19.05" y="17.526" size="0.8128" layer="27" display="off"/>
-<attribute name="NAME" x="20.574" y="17.272" size="0.8128" layer="25"/>
+<attribute name="NAME" x="20.574" y="17.272" size="0.8128" layer="25" ratio="20"/>
 <attribute name="VALUE" x="17.78" y="15.621" size="0.8128" layer="27"/>
 </element>
 <element name="R13" library="Domino" package="R0603" value="0R" x="19.05" y="13.97" smashed="yes">
@@ -3688,7 +3688,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0603" x="19.05" y="13.97" size="0.8128" layer="27" display="off"/>
 <attribute name="PARTNO" value="R0603_0R_5%_125mW" x="19.05" y="13.97" size="0.8128" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="19.05" y="13.97" size="0.8128" layer="27" display="off"/>
-<attribute name="NAME" x="20.574" y="14.605" size="0.8128" layer="25"/>
+<attribute name="NAME" x="16.002" y="14.097" size="0.8128" layer="25" ratio="20"/>
 <attribute name="VALUE" x="17.78" y="12.065" size="0.8128" layer="27"/>
 </element>
 <element name="R14" library="Domino" package="R0603" value="0R" x="19.05" y="12.446" smashed="yes" rot="R180">
@@ -3696,7 +3696,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0603" x="19.05" y="12.446" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="R0603_0R_5%_125mW" x="19.05" y="12.446" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="5%" x="19.05" y="12.446" size="0.8128" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="20.574" y="12.065" size="0.8128" layer="25"/>
+<attribute name="NAME" x="20.574" y="12.065" size="0.8128" layer="25" ratio="20"/>
 <attribute name="VALUE" x="20.32" y="14.351" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="R15" library="Domino" package="R0603" value="0R" x="19.05" y="10.16" smashed="yes" rot="R180">
@@ -3705,21 +3705,21 @@ Your Eurocircuits Team
 <attribute name="PARTNO" value="R0603_0R_5%_125mW" x="19.05" y="10.16" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="5%" x="19.05" y="10.16" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="DNP" value="T" x="19.05" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="20.447" y="9.779" size="0.8128" layer="25"/>
+<attribute name="NAME" x="20.574" y="9.779" size="0.8128" layer="25" ratio="20"/>
 <attribute name="VALUE" x="20.32" y="12.065" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="J5" library="Domino" package="MH8-1-0.1" value="MH8-1" x="15.875" y="23.495" smashed="yes" rot="R270">
-<attribute name="NAME" x="15.2908" y="3.7338" size="0.8128" layer="25" ratio="10" align="center-left"/>
+<attribute name="NAME" x="15.2908" y="3.8608" size="0.8128" layer="25" ratio="20" align="center-left"/>
 <attribute name="VALUE" x="13.335" y="24.765" size="0.8128" layer="27" rot="R270" align="center-left"/>
 <attribute name="PARTNO" value="MH8-1-0.1" x="15.875" y="23.495" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J1" library="Domino" package="MH8-1-0.1" value="MH8-1" x="8.255" y="23.495" smashed="yes" rot="R270">
-<attribute name="NAME" x="7.7978" y="3.7338" size="0.8128" layer="25" ratio="10" align="center-left"/>
+<attribute name="NAME" x="7.6708" y="3.8608" size="0.8128" layer="25" ratio="20" align="center-left"/>
 <attribute name="VALUE" x="5.715" y="24.765" size="0.8128" layer="27" rot="R270" align="center-left"/>
 <attribute name="PARTNO" value="MH8-1-0.1" x="8.255" y="23.495" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U1" library="Domino" package="SOIC-8" value="SPI_FLASH" x="12.065" y="9.525" smashed="yes" rot="R180">
-<attribute name="NAME" x="10.1346" y="13.6398" size="0.8128" layer="25"/>
+<attribute name="NAME" x="9.7536" y="13.6398" size="0.8128" layer="25" ratio="20"/>
 <attribute name="VALUE" x="8.255" y="11.43" size="0.8128" layer="27" rot="R270"/>
 <attribute name="DNP" value="T" x="12.065" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="SPI_FLASH" x="12.065" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3731,7 +3731,7 @@ Your Eurocircuits Team
 <attribute name="PARTNO" value="C0402_100n_X7R_10%_CER_50V" x="13.589" y="4.572" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="TYPE" value="CER" x="13.589" y="4.572" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="±10%" x="13.589" y="4.572" size="1.27" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.478" y="3.81" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="14.478" y="3.81" size="0.8128" layer="25" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="14.859" y="6.477" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="R2" library="Domino" package="R0402" value="10k" x="11.557" y="4.572" smashed="yes" rot="R180">
@@ -3739,7 +3739,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0402" x="11.557" y="4.572" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="R0402_10k_5%_62.5mW" x="11.557" y="4.572" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="5%" x="11.557" y="4.572" size="1.27" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="12.446" y="3.81" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="12.319" y="3.81" size="0.8128" layer="25" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="12.827" y="6.477" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="R1" library="Domino" package="R0402" value="0R" x="13.081" y="14.6558" smashed="yes">
@@ -3747,7 +3747,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0402" x="13.081" y="14.6558" size="1.27" layer="27" display="off"/>
 <attribute name="PARTNO" value="R0402_0R_5%_62.5mW" x="13.081" y="14.6558" size="1.27" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="13.081" y="14.6558" size="1.27" layer="27" display="off"/>
-<attribute name="NAME" x="10.16" y="14.6558" size="0.8128" layer="25"/>
+<attribute name="NAME" x="10.541" y="14.6558" size="0.8128" layer="25" ratio="20"/>
 <attribute name="VALUE" x="11.811" y="12.7508" size="0.8128" layer="27"/>
 </element>
 <element name="R16" library="Domino" package="R0402" value="10k" x="13.081" y="15.6718" smashed="yes" rot="R180">
@@ -3755,7 +3755,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0402" x="13.081" y="15.6718" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="R0402_10k_5%_62.5mW" x="13.081" y="15.6718" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="5%" x="13.081" y="15.6718" size="1.27" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="12.065" y="16.4338" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="12.065" y="16.4338" size="0.8128" layer="25" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="14.351" y="17.5768" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="DRILEGEND" library="drilegend" package="DRILEGEND" value="" x="81.534" y="59.944"/>
@@ -3915,18 +3915,13 @@ Your Eurocircuits Team
 <contactref element="J2" pad="5"/>
 <contactref element="R12" pad="1"/>
 <wire x1="11.43" y1="31.75" x2="17.907" y2="25.273" width="0.2032" layer="16"/>
-<wire x1="17.907" y1="25.273" x2="17.907" y2="17.468003125" width="0.2032" layer="16"/>
+<wire x1="17.907" y1="25.273" x2="17.907" y2="17.018" width="0.2032" layer="16"/>
 <via x="17.907" y="17.018" extent="1-16" drill="0.3"/>
-<wire x1="17.907" y1="17.468003125" x2="17.907" y2="17.018" width="0.2032" layer="16"/>
 <wire x1="17.907" y1="17.018" x2="18.2252" y2="17.3362" width="0.2032" layer="1"/>
 <wire x1="18.2252" y1="17.3362" x2="18.415" y2="17.526" width="0.2032" layer="1"/>
 <wire x1="17.907" y1="17.018" x2="18.2252" y2="16.6998" width="0.2032" layer="1"/>
 <wire x1="18.2252" y1="16.6998" x2="18.542" y2="16.383" width="0.2032" layer="1"/>
 <wire x1="18.542" y1="16.383" x2="18.923" y2="16.383" width="0.2032" layer="1"/>
-<wire x1="17.907" y1="17.468003125" x2="17.7669" y2="17.066940625" width="0.2032" layer="16"/>
-<wire x1="17.907" y1="17.018" x2="17.7669" y2="17.066940625" width="0.2032" layer="16"/>
-<wire x1="17.907" y1="17.468003125" x2="18.047096875" y2="17.066940625" width="0.2032" layer="16"/>
-<wire x1="17.907" y1="17.018" x2="18.047096875" y2="17.066940625" width="0.2032" layer="16"/>
 <wire x1="18.2252" y1="17.3362" x2="17.842540625" y2="17.15166875" width="0.2032" layer="1"/>
 <wire x1="17.907" y1="17.018" x2="17.842540625" y2="17.15166875" width="0.2032" layer="1"/>
 <wire x1="18.2252" y1="17.3362" x2="18.04066875" y2="16.953540625" width="0.2032" layer="1"/>
