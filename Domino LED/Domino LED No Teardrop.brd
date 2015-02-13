@@ -8,21 +8,21 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -44,12 +44,12 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -79,7 +79,7 @@
 <layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="no"/>
 <layer number="143" name="mvRestrict" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="no" active="yes"/>
 <layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="no" active="yes"/>
 <layer number="147" name="mMeasures" color="7" fill="1" visible="no" active="no"/>
 <layer number="148" name="mDocument" color="7" fill="1" visible="no" active="no"/>
@@ -95,7 +95,7 @@
 <layer number="200" name="Component_side" color="7" fill="1" visible="no" active="yes"/>
 <layer number="201" name="Solder_side" color="7" fill="1" visible="no" active="yes"/>
 <layer number="202" name="Silk_screen_CMP" color="7" fill="1" visible="no" active="yes"/>
-<layer number="203" name="Silk_screen_SOL" color="7" fill="1" visible="no" active="yes"/>
+<layer number="203" name="Silk_screen_SOL" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="204" name="Solder_stop_mask_CMP" color="7" fill="1" visible="no" active="yes"/>
 <layer number="205" name="Solder_stop_mask_SOL" color="7" fill="1" visible="no" active="yes"/>
 <layer number="206" name="Cream_frame_CMP" color="7" fill="1" visible="no" active="yes"/>
@@ -124,10 +124,10 @@
 <text x="79.375" y="64.516" size="1.27" layer="48" ratio="16">DRILL CHART: TOP TO BOTTOM</text>
 <dimension x1="0" y1="7.62" x2="0" y2="0" x3="-2.54" y3="3.81" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="27.94" y1="7.62" x2="0" y2="7.62" x3="13.97" y3="17.78" textsize="1.778" layer="47" dtype="horizontal"/>
-<text x="3.81" y="4.445" size="0.8128" layer="22" rot="MR90" align="center">LED0</text>
-<text x="1.27" y="4.191" size="0.8128" layer="22" rot="MR90" align="center">+3V3</text>
-<text x="3.175" y="0.762" size="0.8128" layer="26" rot="MR0" align="center">&gt;DATE</text>
-<text x="25.527" y="0.762" size="0.8128" layer="26" rot="MR0" align="center">Rev.  </text>
+<text x="3.81" y="4.445" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">LED0</text>
+<text x="1.27" y="4.191" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">+3V3</text>
+<text x="3.175" y="0.762" size="0.8128" layer="26" ratio="20" rot="MR0" align="center">&gt;DATE</text>
+<text x="25.527" y="0.762" size="0.8128" layer="26" ratio="20" rot="MR0" align="center">Rev.  </text>
 <text x="1.27" y="8.89" size="1.27" layer="150" rot="R90" align="center-left">+3V3</text>
 <text x="3.81" y="8.89" size="1.27" layer="150" rot="R90" align="center-left">LED0</text>
 <text x="6.35" y="8.89" size="1.27" layer="150" rot="R90" align="center-left">LED1</text>
@@ -235,36 +235,36 @@ regarding this product, including but not limited to, any implied warranties of
 merchantibility or fitness for any particular application.</text>
 <text x="34.29" y="-55.753" size="0.8128" layer="48" ratio="20">The Domino Team may make changes to specifications and product descriptions
 at any time, without notice.</text>
-<text x="74.93" y="-41.91" size="1.27" layer="48" ratio="20">© 2014, The Domino Team.
+<text x="74.93" y="-41.91" size="1.27" layer="48" ratio="20">© 2014-2015, The Domino Team.
 All rights reserved.</text>
 <text x="115.57" y="-57.15" size="1.778" layer="48">Rev.</text>
 <text x="121.92" y="-57.15" size="1.778" layer="48">&gt;REV</text>
-<text x="6.35" y="4.445" size="0.8128" layer="22" rot="MR90" align="center">LED1</text>
-<text x="8.89" y="4.445" size="0.8128" layer="22" rot="MR90" align="center">LED2</text>
-<text x="11.43" y="4.445" size="0.8128" layer="22" rot="MR90" align="center">LED3</text>
-<text x="26.67" y="4.445" size="0.8128" layer="22" rot="MR90" align="center">GND</text>
+<text x="6.35" y="4.445" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">LED1</text>
+<text x="8.89" y="4.445" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">LED2</text>
+<text x="11.43" y="4.445" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">LED3</text>
+<text x="26.67" y="4.445" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">GND</text>
 <text x="8.89" y="8.89" size="1.27" layer="150" rot="R90" align="center-left">ELD2</text>
 <text x="11.43" y="8.89" size="1.27" layer="150" rot="R90" align="center-left">LED3</text>
 <text x="13.97" y="8.89" size="1.27" layer="150" rot="R90" align="center-left">LED4</text>
 <text x="19.05" y="8.89" size="1.27" layer="150" rot="R90" align="center-left">LED6</text>
 <text x="21.59" y="8.89" size="1.27" layer="150" rot="R90" align="center-left">LED7</text>
 <text x="16.51" y="8.89" size="1.27" layer="150" rot="R90" align="center-left">LED5</text>
-<text x="13.97" y="4.445" size="0.8128" layer="22" rot="MR90" align="center">LED4</text>
-<text x="16.51" y="4.445" size="0.8128" layer="22" rot="MR90" align="center">LED5</text>
-<text x="19.05" y="4.445" size="0.8128" layer="22" rot="MR90" align="center">LED6</text>
-<text x="21.59" y="4.445" size="0.8128" layer="22" rot="MR90" align="center">LED7</text>
-<text x="24.13" y="4.445" size="0.8128" layer="22" rot="MR90" align="center">LED8</text>
-<text x="3.175" y="0.635" size="0.8128" layer="21" rot="R180" align="center">WLAN</text>
-<text x="6.35" y="0.635" size="0.8128" layer="21" rot="R180" align="center">USB</text>
-<text x="8.89" y="0.635" size="0.8128" layer="21" align="center">LAN1</text>
-<text x="11.43" y="0.635" size="0.8128" layer="21" align="center">2</text>
-<text x="13.97" y="0.635" size="0.8128" layer="21" align="center">3</text>
-<text x="16.51" y="0.635" size="0.8128" layer="21" align="center">4</text>
-<text x="19.05" y="0.635" size="0.8128" layer="21" align="center">WAN</text>
-<text x="21.59" y="0.635" size="0.8128" layer="21" align="center">SYS</text>
-<text x="24.13" y="0.635" size="0.8128" layer="21" align="center">WPS</text>
+<text x="13.97" y="4.445" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">LED4</text>
+<text x="16.51" y="4.445" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">LED5</text>
+<text x="19.05" y="4.445" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">LED6</text>
+<text x="21.59" y="4.445" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">LED7</text>
+<text x="24.13" y="4.445" size="0.8128" layer="22" ratio="20" rot="MR90" align="center">LED8</text>
+<text x="3.175" y="0.635" size="0.8128" layer="21" ratio="20" rot="R180" align="center">WLAN</text>
+<text x="6.35" y="0.635" size="0.8128" layer="21" ratio="20" rot="R180" align="center">USB</text>
+<text x="8.89" y="0.635" size="0.8128" layer="21" ratio="20" align="center">LAN1</text>
+<text x="11.43" y="0.635" size="0.8128" layer="21" ratio="20" align="center">2</text>
+<text x="13.97" y="0.635" size="0.8128" layer="21" ratio="20" align="center">3</text>
+<text x="16.51" y="0.635" size="0.8128" layer="21" ratio="20" align="center">4</text>
+<text x="19.05" y="0.635" size="0.8128" layer="21" ratio="20" align="center">WAN</text>
+<text x="21.59" y="0.635" size="0.8128" layer="21" ratio="20" align="center">SYS</text>
+<text x="24.13" y="0.635" size="0.8128" layer="21" ratio="20" align="center">WPS</text>
 <text x="24.13" y="8.89" size="1.27" layer="150" rot="R90" align="center-left">LED8</text>
-<text x="24.257" y="0.762" size="0.8128" layer="26" rot="MR0" align="center">&gt;REV</text>
+<text x="24.257" y="0.762" size="0.8128" layer="26" ratio="20" rot="MR0" align="center">&gt;REV</text>
 <text x="62.865" y="59.944" size="1.778" layer="144">LAYER-STACK</text>
 <text x="72.644" y="57.0103" size="1.778" layer="145">01-16</text>
 <wire x1="25.4" y1="3.048" x2="25.4" y2="2.032" width="0.1016" layer="145"/>
@@ -1605,9 +1605,9 @@ All rights reserved.</text>
 </library>
 </libraries>
 <attributes>
-<attribute name="DATE" value="20141230"/>
+<attribute name="DATE" value="20150213"/>
 <attribute name="DRAWN" value="M.STEMPIN"/>
-<attribute name="REV" value="C"/>
+<attribute name="REV" value="D"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -1850,46 +1850,46 @@ Your Eurocircuits Team
 </element>
 <element name="J1" library="Domino" package="MH11-1-0.1" value="MH11-1" x="1.27" y="7.62" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="MH11-1-0.1" x="1.27" y="7.62" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="3.2512" y="5.6388" size="0.8128" layer="26" ratio="10" rot="MR0" align="center-left"/>
+<attribute name="NAME" x="3.2512" y="5.6388" size="0.8128" layer="26" ratio="20" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="0" y="10.16" size="0.8128" layer="28" rot="MR180" align="center-left"/>
 </element>
 <element name="D1" library="Domino" package="LED0603" value="BLUE" x="3.81" y="3.429" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.699" y="3.302" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="4.699" y="3.302" size="0.8128" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="5.715" y="1.524" size="0.8128" layer="27" rot="R90"/>
 <attribute name="PARTNO" value="LED0603-BLUE" x="3.81" y="3.429" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D2" library="Domino" package="LED0603" value="WHITE" x="6.35" y="3.429" smashed="yes" rot="R90">
-<attribute name="NAME" x="7.239" y="3.302" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="7.239" y="3.302" size="0.8128" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="8.255" y="1.524" size="0.8128" layer="27" rot="R90"/>
 <attribute name="PARTNO" value="LED0603-WHITE" x="6.35" y="3.429" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D3" library="Domino" package="LED0603" value="GREEN" x="8.89" y="3.429" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.779" y="3.302" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="9.779" y="3.302" size="0.8128" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="10.795" y="1.524" size="0.8128" layer="27" rot="R90"/>
 <attribute name="PARTNO" value="LED0603-GREEN" x="8.89" y="3.429" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D4" library="Domino" package="LED0603" value="GREEN" x="11.43" y="3.429" smashed="yes" rot="R90">
-<attribute name="NAME" x="12.319" y="3.302" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="12.319" y="3.302" size="0.8128" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="13.335" y="1.524" size="0.8128" layer="27" rot="R90"/>
 <attribute name="PARTNO" value="LED0603-GREEN" x="11.43" y="3.429" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D5" library="Domino" package="LED0603" value="GREEN" x="13.97" y="3.429" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.859" y="3.302" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="14.859" y="3.302" size="0.8128" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="15.875" y="1.524" size="0.8128" layer="27" rot="R90"/>
 <attribute name="PARTNO" value="LED0603-GREEN" x="13.97" y="3.429" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D7" library="Domino" package="LED0603" value="RED" x="19.05" y="3.429" smashed="yes" rot="R270">
-<attribute name="NAME" x="19.939" y="3.302" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="19.939" y="3.302" size="0.8128" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="17.145" y="5.334" size="0.8128" layer="27" rot="R270"/>
 <attribute name="PARTNO" value="LED0603-RED" x="19.05" y="3.429" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="D8" library="Domino" package="LED0603" value="ORANGE" x="21.717" y="3.429" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.606" y="3.302" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="22.606" y="3.302" size="0.8128" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="19.812" y="5.334" size="0.8128" layer="27" rot="R270"/>
 <attribute name="PARTNO" value="LED0603-ORANGE" x="21.717" y="3.429" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="D9" library="Domino" package="LED0603" value="YELLOW" x="24.13" y="3.429" smashed="yes" rot="R270">
-<attribute name="NAME" x="25.146" y="3.302" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="25.146" y="3.302" size="0.8128" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="22.225" y="5.334" size="0.8128" layer="27" rot="R270"/>
 <attribute name="PARTNO" value="LED0603-YELLOW" x="24.13" y="3.429" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -1898,7 +1898,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0603" x="3.81" y="5.715" size="0.8128" layer="27" display="off"/>
 <attribute name="PARTNO" value="R0603_270R_5%_125mW" x="3.81" y="5.715" size="0.8128" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="3.81" y="5.715" size="0.8128" layer="27" display="off"/>
-<attribute name="NAME" x="4.699" y="4.953" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="4.699" y="4.953" size="0.8128" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="2.54" y="3.81" size="0.8128" layer="27"/>
 </element>
 <element name="R2" library="Domino" package="R0603" value="270R" x="6.35" y="5.715" smashed="yes">
@@ -1906,7 +1906,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0603" x="6.35" y="5.715" size="0.8128" layer="27" display="off"/>
 <attribute name="PARTNO" value="R0603_270R_5%_125mW" x="6.35" y="5.715" size="0.8128" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="6.35" y="5.715" size="0.8128" layer="27" display="off"/>
-<attribute name="NAME" x="7.239" y="4.953" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="7.239" y="4.953" size="0.8128" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="5.08" y="3.81" size="0.8128" layer="27"/>
 </element>
 <element name="R3" library="Domino" package="R0603" value="270R" x="8.89" y="5.715" smashed="yes">
@@ -1914,7 +1914,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0603" x="8.89" y="5.715" size="0.8128" layer="27" display="off"/>
 <attribute name="PARTNO" value="R0603_270R_5%_125mW" x="8.89" y="5.715" size="0.8128" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="8.89" y="5.715" size="0.8128" layer="27" display="off"/>
-<attribute name="NAME" x="9.779" y="4.953" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="9.779" y="4.953" size="0.8128" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="7.62" y="3.81" size="0.8128" layer="27"/>
 </element>
 <element name="R4" library="Domino" package="R0603" value="270R" x="11.43" y="5.715" smashed="yes">
@@ -1922,7 +1922,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0603" x="11.43" y="5.715" size="0.8128" layer="27" display="off"/>
 <attribute name="PARTNO" value="R0603_270R_5%_125mW" x="11.43" y="5.715" size="0.8128" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="11.43" y="5.715" size="0.8128" layer="27" display="off"/>
-<attribute name="NAME" x="12.319" y="4.953" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="12.319" y="4.953" size="0.8128" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="10.16" y="3.81" size="0.8128" layer="27"/>
 </element>
 <element name="R5" library="Domino" package="R0603" value="270R" x="13.97" y="5.715" smashed="yes">
@@ -1930,7 +1930,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0603" x="13.97" y="5.715" size="0.8128" layer="27" display="off"/>
 <attribute name="PARTNO" value="R0603_270R_5%_125mW" x="13.97" y="5.715" size="0.8128" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="13.97" y="5.715" size="0.8128" layer="27" display="off"/>
-<attribute name="NAME" x="14.859" y="4.953" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="14.859" y="4.953" size="0.8128" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="12.7" y="3.81" size="0.8128" layer="27"/>
 </element>
 <element name="R7" library="Domino" package="R0603" value="330R" x="19.05" y="5.715" smashed="yes">
@@ -1938,7 +1938,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0603" x="19.05" y="5.715" size="0.8128" layer="27" display="off"/>
 <attribute name="PARTNO" value="R0603_330R_5%_125mW" x="19.05" y="5.715" size="0.8128" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="19.05" y="5.715" size="0.8128" layer="27" display="off"/>
-<attribute name="NAME" x="19.939" y="4.953" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="19.939" y="4.953" size="0.8128" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="17.78" y="3.81" size="0.8128" layer="27"/>
 </element>
 <element name="R8" library="Domino" package="R0603" value="330R" x="21.59" y="5.715" smashed="yes">
@@ -1946,7 +1946,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0603" x="21.59" y="5.715" size="0.8128" layer="27" display="off"/>
 <attribute name="PARTNO" value="R0603_330R_5%_125mW" x="21.59" y="5.715" size="0.8128" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="21.59" y="5.715" size="0.8128" layer="27" display="off"/>
-<attribute name="NAME" x="22.606" y="4.953" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="22.606" y="4.953" size="0.8128" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="20.32" y="3.81" size="0.8128" layer="27"/>
 </element>
 <element name="R9" library="Domino" package="R0603" value="330R" x="24.13" y="5.715" smashed="yes">
@@ -1954,11 +1954,11 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0603" x="24.13" y="5.715" size="0.8128" layer="27" display="off"/>
 <attribute name="PARTNO" value="R0603_330R_5%_125mW" x="24.13" y="5.715" size="0.8128" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="24.13" y="5.715" size="0.8128" layer="27" display="off"/>
-<attribute name="NAME" x="25.146" y="4.953" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="25.146" y="4.953" size="0.8128" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="22.86" y="3.81" size="0.8128" layer="27"/>
 </element>
 <element name="D6" library="Domino" package="LED0603" value="GREEN" x="16.51" y="3.429" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.399" y="3.302" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="17.399" y="3.302" size="0.8128" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="18.415" y="1.524" size="0.8128" layer="27" rot="R90"/>
 <attribute name="PARTNO" value="LED0603-GREEN" x="16.51" y="3.429" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -1967,7 +1967,7 @@ Your Eurocircuits Team
 <attribute name="SIZE" value="0603" x="16.51" y="1.905" size="0.8128" layer="27" display="off"/>
 <attribute name="PARTNO" value="R0603_270R_5%_125mW" x="16.51" y="1.905" size="0.8128" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="16.51" y="1.905" size="0.8128" layer="27" display="off"/>
-<attribute name="NAME" x="17.399" y="4.953" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="17.399" y="4.953" size="0.8128" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="15.24" y="3.81" size="0.8128" layer="27"/>
 </element>
 <element name="DRILEGEND" library="drilegend" package="DRILEGEND" value="" x="81.534" y="59.944"/>
