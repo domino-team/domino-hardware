@@ -3985,7 +3985,7 @@ DIN A3, landscape with location and doc. field</description>
 <text x="302.26" y="11.43" size="0.8128" layer="94">Global Marine Networks disclaims all other warranties express or implied, </text>
 <text x="302.26" y="8.89" size="0.8128" layer="94">merchantibility or fitness for any particular application.</text>
 <text x="302.26" y="5.08" size="0.8128" layer="94">descriptions at any time, without notice.</text>
-<text x="345.44" y="20.32" size="1.27" layer="94">© 2014, The Domino Team
+<text x="345.44" y="20.32" size="1.27" layer="94">© 2014-2015, The Domino Team
 All rights reserved.</text>
 <text x="379.222" y="5.334" size="1.778" layer="94">&gt;REV</text>
 <text x="374.142" y="5.334" size="1.778" layer="94">Rev.</text>
