@@ -1,5 +1,5 @@
 [Eagle]
-Version="07 02 00"
+Version="06 05 00"
 Platform="Linux"
 Serial="62191E841E-LSR-WLM-1EL"
 Globals="Globals"
@@ -56,7 +56,7 @@ AddLevel=2
 PadsSameType=0
 Layer=91
 Views=" 1: -8.27116 -5.73116 395.413 265.873"
-Sheet="1"
+Sheet=1
 
 [Win_2]
 Type="Board Editor"
@@ -64,7 +64,7 @@ Loc="0 0 599 399"
 State=1
 Number=1
 File="Domino Pi.brd"
-View="50.4632 16.7592 68.4909 29.849"
+View="-45.3653 -64.6693 147.519 75.3833"
 WireWidths=" 0 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1016 0.3683 0.254 0.2032"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -90,7 +90,7 @@ PolygonPour=0
 PolygonRank=1
 PolygonThermals=1
 PolygonOrphans=0
-TextRatio=8
+TextRatio=20
 DimensionUnit=1
 DimensionPrecision=2
 DimensionShowUnit=0
@@ -106,7 +106,7 @@ Layer=16
 
 [Win_3]
 Type="Control Panel"
-Loc="43 22 642 421"
+Loc="0 0 599 399"
 State=1
 Number=0
 
