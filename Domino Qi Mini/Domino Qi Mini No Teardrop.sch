@@ -6500,7 +6500,7 @@ DIN A3, landscape with location and doc. field</description>
 <attributes>
 <attribute name="DATABASE" value="./../Common/BOM/Domino_DB.txt"/>
 <attribute name="DRAWN" value="M.STEMPIN"/>
-<attribute name="REV" value="B"/>
+<attribute name="REV" value="C"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -6806,8 +6806,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="U4" library="Domino" deviceset="NTB0104" device="GU12">
 <attribute name="PARTNO" value="NTB0104GU12"/>
 </part>
-<part name="U5" library="Domino" deviceset="NTB0102" device="GU">
-<attribute name="PARTNO" value="NTB0102GU"/>
+<part name="U5" library="Domino" deviceset="NTB0102" device="GF" value="NTB0102GF">
+<attribute name="PARTNO" value="NTB0102GF"/>
 </part>
 <part name="U6" library="Domino" deviceset="MAX3375E" device="EKA+T">
 <attribute name="PARTNO" value="MAX3375EEKA+T"/>
