@@ -1,5 +1,5 @@
 OPEN '/home/mstempin/eagle/Domino/Domino Qi Mini/drilegend.lbr';
-Rename drilegend.pac dl25682143.pac
+Rename drilegend.pac dl26714916.pac
 Edit drilegend.pac
 LAYER 144 DrillLegend;
 Display none;
@@ -85,7 +85,7 @@ Text '0.30' R0 (726 -93);
 Wire 4 (690 -115) (1000 -115) (1000 115);
 Text '12' R0 (476 -93);
 Wire 4 (380 -115) (690 -115) (690 115);
-Text '329' R0 (1026 -93);
+Text '330' R0 (1026 -93);
 Wire 4 (1000 -115) (1230 -115) (1230 115);
 Text 'YES' R0 (1371 -93);
 Wire 4 (1230 -115) (1690 -115) (1690 115);
@@ -1100,16 +1100,19 @@ Wire 4 (R-20 0) (R20 0);
 MARK (750.0000 935.0000);
 Wire 4 (R0 20) (R0 -20);
 Wire 4 (R-20 0) (R20 0);
-MARK (975.0000 755.0000);
+MARK (980.0000 760.0000);
 Wire 4 (R0 20) (R0 -20);
 Wire 4 (R-20 0) (R20 0);
-MARK (976.0000 727.0000);
+MARK (981.0000 732.0000);
 Wire 4 (R0 20) (R0 -20);
 Wire 4 (R-20 0) (R20 0);
 MARK (1400.0000 890.0000);
 Wire 4 (R0 20) (R0 -20);
 Wire 4 (R-20 0) (R20 0);
-MARK (975.0000 695.0000);
+MARK (980.0000 700.0000);
+Wire 4 (R0 20) (R0 -20);
+Wire 4 (R-20 0) (R20 0);
+MARK (950.0000 775.0000);
 Wire 4 (R0 20) (R0 -20);
 Wire 4 (R-20 0) (R20 0);
 MARK (1270.0000 885.0000);

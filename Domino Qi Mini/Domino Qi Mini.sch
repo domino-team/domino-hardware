@@ -6500,7 +6500,7 @@ DIN A3, landscape with location and doc. field</description>
 <attributes>
 <attribute name="DATABASE" value="./../Common/BOM/Domino_DB.txt"/>
 <attribute name="DRAWN" value="M.STEMPIN"/>
-<attribute name="REV" value="C"/>
+<attribute name="REV" value="D"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -9148,9 +9148,8 @@ Reset</text>
 </net>
 <net name="SS" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="(SS/PCINT0)PB0"/>
-<wire x1="121.92" y1="154.94" x2="149.86" y2="154.94" width="0.1524" layer="91"/>
-<label x="144.78" y="154.94" size="1.778" layer="95"/>
+<wire x1="142.24" y1="154.94" x2="149.86" y2="154.94" width="0.1524" layer="91"/>
+<label x="142.24" y="154.94" size="1.778" layer="95"/>
 <pinref part="U4" gate="G$1" pin="B1"/>
 </segment>
 <segment>
@@ -9158,44 +9157,44 @@ Reset</text>
 <label x="294.64" y="45.72" size="1.778" layer="95" rot="R90"/>
 <pinref part="J2" gate="G$1" pin="16"/>
 </segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="(SS/PCINT0)PB0"/>
+<wire x1="121.92" y1="154.94" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
+<label x="134.62" y="154.94" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="(SCLK/PCINT1)PB1"/>
-<wire x1="149.86" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
-<label x="144.78" y="152.4" size="1.778" layer="95"/>
-<pinref part="U4" gate="G$1" pin="B2"/>
+<wire x1="149.86" y1="147.32" x2="142.24" y2="147.32" width="0.1524" layer="91"/>
+<label x="142.24" y="147.32" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="B4"/>
 </segment>
 <segment>
 <wire x1="289.56" y1="55.88" x2="289.56" y2="45.72" width="0.1524" layer="91"/>
 <label x="289.56" y="45.72" size="1.778" layer="95" rot="R90"/>
 <pinref part="J2" gate="G$1" pin="14"/>
 </segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="(SCLK/PCINT1)PB1"/>
+<wire x1="134.62" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
+<label x="134.62" y="152.4" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="(PDI/MOSI/PCINT2)PB2"/>
-<wire x1="121.92" y1="149.86" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
-<label x="144.78" y="149.86" size="1.778" layer="95"/>
-<pinref part="U4" gate="G$1" pin="B3"/>
+<wire x1="142.24" y1="152.4" x2="149.86" y2="152.4" width="0.1524" layer="91"/>
+<label x="142.24" y="152.4" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="B2"/>
 </segment>
 <segment>
 <wire x1="292.1" y1="45.72" x2="292.1" y2="55.88" width="0.1524" layer="91"/>
 <label x="292.1" y="45.72" size="1.778" layer="95" rot="R90"/>
 <pinref part="J2" gate="G$1" pin="15"/>
 </segment>
-</net>
-<net name="MISO" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="(PD0/MISO/PCINT3)PB3"/>
-<wire x1="149.86" y1="147.32" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
-<label x="144.78" y="147.32" size="1.778" layer="95"/>
-<pinref part="U4" gate="G$1" pin="B4"/>
-</segment>
-<segment>
-<wire x1="297.18" y1="45.72" x2="297.18" y2="55.88" width="0.1524" layer="91"/>
-<label x="297.18" y="45.72" size="1.778" layer="95" rot="R90"/>
-<pinref part="J2" gate="G$1" pin="17"/>
+<pinref part="U2" gate="G$1" pin="(PDI/MOSI/PCINT2)PB2"/>
+<wire x1="121.92" y1="149.86" x2="134.62" y2="149.86" width="0.1524" layer="91"/>
+<label x="134.62" y="149.86" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="HANDSHAKE" class="0">
@@ -9515,6 +9514,23 @@ Reset</text>
 <pinref part="U1" gate="G$1" pin="EN"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="241.3" x2="33.02" y2="241.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MISO" class="0">
+<segment>
+<wire x1="149.86" y1="149.86" x2="142.24" y2="149.86" width="0.1524" layer="91"/>
+<label x="142.24" y="149.86" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="B3"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="(PD0/MISO/PCINT3)PB3"/>
+<wire x1="134.62" y1="147.32" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
+<label x="134.62" y="147.32" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<wire x1="297.18" y1="45.72" x2="297.18" y2="55.88" width="0.1524" layer="91"/>
+<label x="297.18" y="45.72" size="1.778" layer="95" rot="R90"/>
+<pinref part="J2" gate="G$1" pin="17"/>
 </segment>
 </net>
 </nets>
