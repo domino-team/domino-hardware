@@ -1,0 +1,29 @@
+BOM-EX v1.30 exported from /home/mstempin/eagle/Domino/Domino Di/Domino Di.sch at 20/04/15 00:38
+
+Qty Value             Part Num                   Package       Parts              Mfg Name                    VID Vendor Part Num            Description                                             
+2   0R                R0402_0R_5%_62.5mW         R0402         R7, R9             ANY                         *   R0402_0R_5%_62.5mW         RES 0.0 OHM 1/16W JUMP 0402 SMD                         
+2   0R                R0603_0R_5%_125mW          R0603         R2, R5             ANY                         *   R0603_0R_5%_125mW          RES 0.0 OHM 1/8W JUMP SMD 0603                          
+1   1k                R0402_1k_5%_62.5mW         R0402         R10                ANY                         *   R0402_1k_5%_62.5mW         RES 1K OHM 1/16W 5% 0402 SMD                            
+1   1n                C1206_1n_X7R_10%_CER_500V  C1206         C1                 ANY                         *   C1206_1n_X7R_10%_CER_500V  CAP CER 1000PF 500V 10% X7R 1206                        
+0   2k                R0402_2k_5%_62.5mW         R0402         R1(DNP)            ANY                         *   R0402_2k_5%_62.5mW         RES 2K OHM 1/16W 5% 0402 SMD                            
+0   4u7               C0805_4u7_X5R_10%_CER_16V  C0805         C5(DNP), C9(DNP)   ANY                         *   C0805_4u7_X5R_10%_CER_16V  CAP CER 4.7UF 16V 10% X5R 0805                          
+1   10k               R0402_10k_5%_62.5mW        R0402         R8                 ANY                         *   R0402_10k_5%_62.5mW        RES 10K OHM 1/16W 5% 0402 SMD                           
+2   10n               C0402_10n_X7R_10%_CER_50V  C0402         C2, C11            ANY                         *   C0402_10n_X7R_10%_CER_50V  CAP CER 10000PF 50V 10% X7R 0402                        
+2   10p               C0402_10p_NP0_5%_CER_50V   C0402         C4, C8             ANY                         *   C0402_10p_NP0_5%_CER_50V   CAP CER 10PF 50V 5% NP0 0402                            
+2   22u               C0805_22u_X5R_20%_CER_6V3  C0805         C3, C7             ANY                         *   C0805_22u_X5R_20%_CER_6V3  CAP CER 22UF 6.3V 20% X5R 0805                          
+2   100n              C0402_100n_X7R_10%_CER_50V C0402         C6, C10            ANY                         *   C0402_100n_X7R_10%_CER_50V CAP CER 0.1UF 50V 10% X7R 0402                          
+1   270R              R0402_270R_5%_62.5mW       R0402         R4                 ANY                         *   R0402_270R_5%_62.5mW       RES 270 OHM 1/16W 5% 0402 SMD                           
+1   270R              R0603_270R_5%_125mW        R0603         R6                 ANY                         *   R0603_270R_5%_125mW        RES 270 OHM 1/8W 5% 0603 SMD                            
+0   330R              R0402_330R_5%_62.5mW       R0402         R3(DNP)            ANY                         *   R0402_330R_5%_62.5mW       RES 330 OHM 1/16W 5% 0402 SMD                           
+1   AMS1117-3.3       AMS1117-3.3                SOT223        U1                 ADVANCED MONOLITHIC SYSTEMS *   AMS1117-3.3                IC REG LDO 3.3V 0.8A SOT223                             
+1   BLM31PG601SN1L    BLM31PG601SN1L             FB1206        L1                 MURATA                      *   BLM31PG601SN1L             FERRITE CHIP 600 OHM 1500MA 1206                        
+1   BLUE              LED0402-BLUE               LED0402       D3                 ANY                         *   LED0402-BLUE               LED BLUE CLEAR 0402 SMD                                 
+0   DNP               C0402_DNP                  C0402         C12(DNP), C13(DNP) NONE                        *   C0402_DNP                  CAP DNP 0402                                            
+1   DOMINO            DOMINO-CORE                DOMINO        M1                 GL-CONNECT                  *   DOMINO-CORE                MOD AR9331 WIFI                                         
+0   GREEN             LED0402-GREEN              LED0402       D1(DNP)            ANY                         *   LED0402-GREEN              LED GREEN CLEAR 0402 SMD                                
+1   IT-1210           IT-1210                    IT-1210       SW1                SZJUSTWELL ELECTRONICS      *   IT-1210                    SWITCH TACTILE SPST-NO 0.05A 12V                        
+1   LiPo Battery      S2B-PH-SM4-TB              S2B-PH-SM4-TB J1                 JST                         *   S2B-PH-SM4-TB              CONN HEADER PH SIDE 2POS 2MM SMD                        
+0   MCP73831T-2ACI/OT MCP73831T-2ACI/OT          SOT23-5       U2(DNP)            MICROCHIP                   *   MCP73831T-2ACI/OT          IC CONTROLLR LI-ION 4.2V SOT23-5                        
+2   MH28-1            MH28-1-0.1                 MH28-1-0.1    J2, J3             ANY                         *   MH28-1-0.1                 CONN HEADER VERT .100 1ROW 28POS 10.5 TAIL 8.5 BODY 15AU
+1   RED               LED0402-RED                LED0402       D2                 ANY                         *   LED0402-RED                LED RED CLEAR 0402 SMD                                  
+1   USB_MR5-001       USB MR5-001                USB-MR5-001   S1                 SZJUSTWELL ELECTRONICS      *   USB MR5-001                CONN USB MICRO B RECPT SMT R/A                          
