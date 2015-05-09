@@ -6500,21 +6500,21 @@ DIN A3, landscape with location and doc. field</description>
 <attributes>
 <attribute name="DATABASE" value="./../Common/BOM/Domino_DB.txt"/>
 <attribute name="DRAWN" value="M.STEMPIN"/>
-<attribute name="REV" value="D"/>
+<attribute name="REV" value="E"/>
 </attributes>
 <variantdefs>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="USB" width="0.3683" drill="0">
+<class number="1" name="USB" width="0.2794" drill="0">
 <clearance class="0" value="0.1524"/>
 <clearance class="1" value="0.1524"/>
 </class>
-<class number="2" name="RF" width="0.6604" drill="0">
+<class number="2" name="RF" width="0.3556" drill="0">
 <clearance class="2" value="0.1524"/>
 </class>
-<class number="3" name="Ethernet" width="0.254" drill="0">
+<class number="3" name="Ethernet" width="0.2032" drill="0">
 <clearance class="0" value="0.1524"/>
 <clearance class="1" value="0.1524"/>
 <clearance class="2" value="0.1524"/>
@@ -9098,7 +9098,7 @@ Reset</text>
 <pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="A2" class="0">
+<net name="A2" class="3">
 <segment>
 <pinref part="U2" gate="G$1" pin="(ADC5/TMS)PF5"/>
 <wire x1="45.72" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
@@ -9427,7 +9427,7 @@ Reset</text>
 <wire x1="246.38" y1="172.72" x2="266.7" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="P4_TX-" class="0">
+<net name="P4_TX-" class="3">
 <segment>
 <wire x1="271.78" y1="45.72" x2="271.78" y2="55.88" width="0.1524" layer="91"/>
 <label x="271.78" y="45.72" size="1.778" layer="95" rot="R90"/>
@@ -9439,7 +9439,7 @@ Reset</text>
 <label x="271.78" y="88.9" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="P4_TX+" class="0">
+<net name="P4_TX+" class="3">
 <segment>
 <wire x1="269.24" y1="55.88" x2="269.24" y2="45.72" width="0.1524" layer="91"/>
 <label x="269.24" y="45.72" size="1.778" layer="95" rot="R90"/>
@@ -9451,7 +9451,7 @@ Reset</text>
 <label x="269.24" y="88.9" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="P4_RX-" class="0">
+<net name="P4_RX-" class="3">
 <segment>
 <wire x1="266.7" y1="45.72" x2="266.7" y2="55.88" width="0.1524" layer="91"/>
 <label x="266.7" y="45.72" size="1.778" layer="95" rot="R90"/>
@@ -9463,7 +9463,7 @@ Reset</text>
 <label x="266.7" y="88.9" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="P4_RX+" class="0">
+<net name="P4_RX+" class="3">
 <segment>
 <wire x1="264.16" y1="55.88" x2="264.16" y2="45.72" width="0.1524" layer="91"/>
 <label x="264.16" y="45.72" size="1.778" layer="95" rot="R90"/>
